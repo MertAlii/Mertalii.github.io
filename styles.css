@@ -1,106 +1,93 @@
-/* --- Temel Ayarlar --- */
-body, html {
+/* Genel sayfa ayarları */
+body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    font-family: 'Raleway', sans-serif;
-    background-color: #000; /* Video yüklenemezse siyah arka plan */
+    background-color: #1a1a1a; /* Koyu bir arka plan rengi */
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Sayfada kaydırma çubuklarının görünmesini engeller */
 }
 
-/* --- Arka Plan Videosu --- */
-.video-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
+/* Akan yazıların bulunduğu ana konteyner */
+.scrolling-text-container {
+    position: relative;
+    width: 100vw; /* Ekran genişliğinin %100'ü */
+    height: 100vh; /* Ekran yüksekliğinin %100'ü */
 }
 
-#bg-video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover; /* Videonun ekranı tamamen kaplamasını sağlar */
-    position: fixed;
-    top: 0;
-    left: 0;
+/* Her bir akan yazı metni için stil */
+.text {
+    position: absolute;
+    color: #00ff7f; /* Parlak yeşil renk (Matrix efekti gibi) */
+    font-size: 2rem; /* Yazı boyutu */
+    font-weight: bold;
+    white-space: nowrap; /* Yazıların alt satıra geçmesini engeller */
+    
+    /* Animasyon tanımı */
+    animation-name: scroll-down; /* Kullanılacak animasyonun adı */
+    animation-timing-function: linear; /* Animasyonun hızı sabit kalır */
+    animation-iteration-count: infinite; /* Animasyon sonsuz döngüde çalışır */
 }
 
-/* --- Karartma Efekti (Overlay) --- */
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(18, 18, 29, 0.6); /* Hafif lacivert-siyah bir karartma */
-    z-index: -1;
+/* Farklı yazılar için farklı başlangıç konumları ve animasyon süreleri */
+.text:nth-child(1) {
+    left: 10%; /* Soldan uzaklık */
+    animation-duration: 10s; /* Animasyonun tamamlanma süresi */
+    animation-delay: 0s; /* Animasyonun başlama gecikmesi */
 }
 
-/* --- Ana İçerik Alanı --- */
-.welcome-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    color: #fff;
+.text:nth-child(2) {
+    left: 25%;
+    font-size: 1.5rem; /* Farklı bir boyut */
+    animation-duration: 12s;
+    animation-delay: -5s; /* 5 saniye önce başlamış gibi davranır */
 }
 
-.welcome-text {
-    /* Yazıların animasyonlu girişi için */
-    animation: fadeInText 3s ease-in-out forwards;
-    opacity: 0;
+.text:nth-child(3) {
+    left: 45%;
+    animation-duration: 8s;
+    animation-delay: -2s;
 }
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 7rem; /* Büyük ekranlar için yazı boyutu */
-    font-weight: 700;
-    margin: 0;
-    letter-spacing: 2px;
-    /* Parlama efekti için animasyon */
-    animation: glow 4s ease-in-out infinite;
+.text:nth-child(4) {
+    left: 60%;
+    animation-duration: 15s;
+    animation-delay: -10s;
 }
 
-p {
-    font-size: 2rem; /* Büyük ekranlar için yazı boyutu */
-    font-weight: 300;
-    margin-top: 10px;
-    letter-spacing: 5px;
-    text-transform: uppercase; /* Harfleri büyük yapar */
+.text:nth-child(5) {
+    left: 75%;
+    font-size: 2.2rem;
+    animation-duration: 9s;
+    animation-delay: -7s;
 }
 
-/* --- Animasyonlar --- */
-@keyframes fadeInText {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
+.text:nth-child(6) {
+    left: 85%;
+    animation-duration: 11s;
+    animation-delay: -3s;
+}
+
+.text:nth-child(7) {
+    left: 5%;
+    animation-duration: 13s;
+    animation-delay: -8s;
+}
+
+.text:nth-child(8) {
+    left: 90%;
+    animation-duration: 7s;
+    animation-delay: -4s;
+}
+
+
+/* Aşağı doğru kayma animasyonu */
+@keyframes scroll-down {
+    0% {
+        /* Animasyonun başlangıcında ekranın %10 üstünde */
+        transform: translateY(-10vh);
     }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes glow {
-    0%, 100% {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d1b0ff, 0 0 40px #d1b0ff;
-    }
-    50% {
-        text-shadow: 0 0 20px #fff, 0 0 30px #c3a1f7, 0 0 40px #c3a1f7, 0 0 50px #c3a1f7;
-    }
-}
-
-/* --- Mobil Cihazlar İçin Ayarlar (Responsive Tasarım) --- */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 4rem;
-    }
-    p {
-        font-size: 1.2rem;
-        letter-spacing: 3px;
+    100% {
+        /* Animasyonun sonunda ekranın %10 altına iner */
+        transform: translateY(110vh);
     }
 }
