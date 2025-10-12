@@ -1,12 +1,106 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #333;
-    text-align: center;
+/* --- Temel Ayarlar --- */
+body, html {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000; /* Video yüklenemezse siyah arka plan */
+}
+
+/* --- Arka Plan Videosu --- */
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+#bg-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Videonun ekranı tamamen kaplamasını sağlar */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* --- Karartma Efekti (Overlay) --- */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 18, 29, 0.6); /* Hafif lacivert-siyah bir karartma */
+    z-index: -1;
+}
+
+/* --- Ana İçerik Alanı --- */
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+.welcome-text {
+    /* Yazıların animasyonlu girişi için */
+    animation: fadeInText 3s ease-in-out forwards;
+    opacity: 0;
 }
 
 h1 {
-    color: #cf6679;
+    font-family: 'Playfair Display', serif;
+    font-size: 7rem; /* Büyük ekranlar için yazı boyutu */
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 2px;
+    /* Parlama efekti için animasyon */
+    animation: glow 4s ease-in-out infinite;
+}
+
+p {
+    font-size: 2rem; /* Büyük ekranlar için yazı boyutu */
+    font-weight: 300;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase; /* Harfleri büyük yapar */
+}
+
+/* --- Animasyonlar --- */
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d1b0ff, 0 0 40px #d1b0ff;
+    }
+    50% {
+        text-shadow: 0 0 20px #fff, 0 0 30px #c3a1f7, 0 0 40px #c3a1f7, 0 0 50px #c3a1f7;
+    }
+}
+
+/* --- Mobil Cihazlar İçin Ayarlar (Responsive Tasarım) --- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+    p {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
 }
