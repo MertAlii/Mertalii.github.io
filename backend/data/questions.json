@@ -1,0 +1,8402 @@
+[
+  {
+    "id": 1,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Ohm Kanunu'na göre, 5V gerilim ve 1kΩ dirençle akım kaç mA'dır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0.5 mA"
+      },
+      {
+        "harf": "B",
+        "metin": "5 mA"
+      },
+      {
+        "harf": "C",
+        "metin": "50 mA"
+      },
+      {
+        "harf": "D",
+        "metin": "500 mA"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tip": "coktan-secmeli",
+    "soruMetni": "LED’in anot ucu hangi polariteye bağlanır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Negatif"
+      },
+      {
+        "harf": "B",
+        "metin": "Pozitif"
+      },
+      {
+        "harf": "C",
+        "metin": "Her ikisi"
+      },
+      {
+        "harf": "D",
+        "metin": "Hiçbiri"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino Uno’nun mantık seviyesi kaç volttur?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "3.3V"
+      },
+      {
+        "harf": "B",
+        "metin": "5V"
+      },
+      {
+        "harf": "C",
+        "metin": "12V"
+      },
+      {
+        "harf": "D",
+        "metin": "24V"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PWM pinleri Arduino kartında hangi sembolle işaretlenir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "#"
+      },
+      {
+        "harf": "B",
+        "metin": "~"
+      },
+      {
+        "harf": "C",
+        "metin": "*"
+      },
+      {
+        "harf": "D",
+        "metin": "@"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "tip": "coktan-secmeli",
+    "soruMetni": "analogRead(A0) kaç farklı değer döndürebilir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0–255"
+      },
+      {
+        "harf": "B",
+        "metin": "0–1023"
+      },
+      {
+        "harf": "C",
+        "metin": "0–4095"
+      },
+      {
+        "harf": "D",
+        "metin": "0–500"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Serial.begin(9600) ne yapar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "9600 Hz PWM üretir"
+      },
+      {
+        "harf": "B",
+        "metin": "Seri iletişimi 9600 baud ile başlatır"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin 9’u 9600’e ayarlar"
+      },
+      {
+        "harf": "D",
+        "metin": "9600 ms gecikme yapar"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Servo motor kontrolü için hangi kütüphane kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Wire.h"
+      },
+      {
+        "harf": "B",
+        "metin": "SPI.h"
+      },
+      {
+        "harf": "C",
+        "metin": "Servo.h"
+      },
+      {
+        "harf": "D",
+        "metin": "LiquidCrystal.h"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "tip": "coktan-secmeli",
+    "soruMetni": "digitalWrite(13, HIGH) komutu ne yapar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Pin 13’ü giriş yapar"
+      },
+      {
+        "harf": "B",
+        "metin": "Pin 13’ü 5V yapar"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin 13’ü 0V yapar"
+      },
+      {
+        "harf": "D",
+        "metin": "Pin 13’ü PWM yapar"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "tip": "coktan-secmeli",
+    "soruMetni": "delay(1000) kaç saniye bekler?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "1 saniye"
+      },
+      {
+        "harf": "B",
+        "metin": "1000 saniye"
+      },
+      {
+        "harf": "C",
+        "metin": "1 dakika"
+      },
+      {
+        "harf": "D",
+        "metin": "0.1 saniye"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "tip": "coktan-secmeli",
+    "soruMetni": "pinMode(7, OUTPUT) komutu ne yapar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Pin 7’yi giriş yapar"
+      },
+      {
+        "harf": "B",
+        "metin": "Pin 7’yi çıkış yapar"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin 7’yi analog yapar"
+      },
+      {
+        "harf": "D",
+        "metin": "Pin 7’yi PWM yapar"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "tip": "coktan-secmeli",
+    "soruMetni": "analogWrite(9, 128) LED’i ne kadar parlaklıkta yakar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "%25"
+      },
+      {
+        "harf": "B",
+        "metin": "%50"
+      },
+      {
+        "harf": "C",
+        "metin": "%75"
+      },
+      {
+        "harf": "D",
+        "metin": "%100"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "tip": "coktan-secmeli",
+    "soruMetni": "map(512, 0, 1023, 0, 255) kaç döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "128"
+      },
+      {
+        "harf": "B",
+        "metin": "255"
+      },
+      {
+        "harf": "C",
+        "metin": "512"
+      },
+      {
+        "harf": "D",
+        "metin": "0"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "tip": "coktan-secmeli",
+    "soruMetni": "L298N motor sürücüde IN1=HIGH, IN2=LOW ise motor ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Saat yönünde döner"
+      },
+      {
+        "harf": "B",
+        "metin": "Saat tersine döner"
+      },
+      {
+        "harf": "C",
+        "metin": "Durur"
+      },
+      {
+        "harf": "D",
+        "metin": "Titreşir"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Servo motor 90° pozisyona gelmesi için hangi komut?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "servo.write(90)"
+      },
+      {
+        "harf": "B",
+        "metin": "servo.attach(90)"
+      },
+      {
+        "harf": "C",
+        "metin": "servo.read(90)"
+      },
+      {
+        "harf": "D",
+        "metin": "servo.pulse(90)"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "tip": "coktan-secmeli",
+    "soruMetni": "millis() fonksiyonu ne döndürür?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "CPU frekansı"
+      },
+      {
+        "harf": "B",
+        "metin": "Programın başlangıcından beri geçen milisaniye"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin durumu"
+      },
+      {
+        "harf": "D",
+        "metin": "Rastgele sayı"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Breadboard’da güç rayları genellikle hangi renklerle işaretlenir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Kırmızı ve mavi"
+      },
+      {
+        "harf": "B",
+        "metin": "Kırmızı ve siyah"
+      },
+      {
+        "harf": "C",
+        "metin": "Yeşil ve sarı"
+      },
+      {
+        "harf": "D",
+        "metin": "Beyaz ve gri"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "tip": "coktan-secmeli",
+    "soruMetni": "220Ω direnç ile 5V’ta LED yakmak güvenli midir?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Evet"
+      },
+      {
+        "harf": "B",
+        "metin": "Hayır, çok yüksek akım"
+      },
+      {
+        "harf": "C",
+        "metin": "Hayır, çok düşük akım"
+      },
+      {
+        "harf": "D",
+        "metin": "Sadece 3.3V için"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "tip": "coktan-secmeli",
+    "soruMetni": "digitalRead(2) butonun durumunu okumak için kullanılır. Pull-up direnci varsa basılı iken ne döner?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "HIGH"
+      },
+      {
+        "harf": "B",
+        "metin": "LOW"
+      },
+      {
+        "harf": "C",
+        "metin": "1023"
+      },
+      {
+        "harf": "D",
+        "metin": "255"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Hangi fonksiyon pin yönünü ayarlar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "digitalWrite()"
+      },
+      {
+        "harf": "B",
+        "metin": "analogRead()"
+      },
+      {
+        "harf": "C",
+        "metin": "pinMode()"
+      },
+      {
+        "harf": "D",
+        "metin": "Serial.print()"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Serial.available() ne kontrol eder?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Seri portta veri var mı"
+      },
+      {
+        "harf": "B",
+        "metin": "Baud rate"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin durumu"
+      },
+      {
+        "harf": "D",
+        "metin": "Gecikme"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "tip": "coktan-secmeli",
+    "soruMetni": "void setup() kaç kez çalışır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "1 kez"
+      },
+      {
+        "harf": "B",
+        "metin": "Sürekli"
+      },
+      {
+        "harf": "C",
+        "metin": "Hiç"
+      },
+      {
+        "harf": "D",
+        "metin": "2 kez"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "tip": "coktan-secmeli",
+    "soruMetni": "void loop() ne kadar çalışır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "1 kez"
+      },
+      {
+        "harf": "B",
+        "metin": "Sürekli"
+      },
+      {
+        "harf": "C",
+        "metin": "Sadece setup’tan sonra"
+      },
+      {
+        "harf": "D",
+        "metin": "Hiç"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "tip": "coktan-secmeli",
+    "soruMetni": "#define LED 13 ne yapar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Değişken tanımlar"
+      },
+      {
+        "harf": "B",
+        "metin": "Fonksiyon tanımlar"
+      },
+      {
+        "harf": "C",
+        "metin": "Sabit tanımlar"
+      },
+      {
+        "harf": "D",
+        "metin": "Kütüphane ekler"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "tip": "coktan-secmeli",
+    "soruMetni": "const int led = 13; ile tanımlanan değişken değiştirilebilir mi?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Evet"
+      },
+      {
+        "harf": "B",
+        "metin": "Hayır"
+      },
+      {
+        "harf": "C",
+        "metin": "Sadece setup’ta"
+      },
+      {
+        "harf": "D",
+        "metin": "Sadece loop’ta"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "tip": "coktan-secmeli",
+    "soruMetni": "for(int i=0; i<5; i++) döngüsü kaç kez çalışır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "5 kez"
+      },
+      {
+        "harf": "B",
+        "metin": "4 kez"
+      },
+      {
+        "harf": "C",
+        "metin": "6 kez"
+      },
+      {
+        "harf": "D",
+        "metin": "0 kez"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino Uno’da PWM frekansı (pin 5,6) yaklaşık kaç Hz’dir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "100 Hz"
+      },
+      {
+        "harf": "B",
+        "metin": "490 Hz"
+      },
+      {
+        "harf": "C",
+        "metin": "1000 Hz"
+      },
+      {
+        "harf": "D",
+        "metin": "16000 Hz"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "tip": "coktan-secmeli",
+    "soruMetni": "attachInterrupt() hangi olayda çalışır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Gecikme"
+      },
+      {
+        "harf": "B",
+        "metin": "Analog okuma"
+      },
+      {
+        "harf": "C",
+        "metin": "Kesme (interrupt)"
+      },
+      {
+        "harf": "D",
+        "metin": "Seri veri"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "tip": "coktan-secmeli",
+    "soruMetni": "LDR ile ışık azaldıkça analog değer ne yapar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Azalır"
+      },
+      {
+        "harf": "B",
+        "metin": "Artar"
+      },
+      {
+        "harf": "C",
+        "metin": "Sabit kalır"
+      },
+      {
+        "harf": "D",
+        "metin": "Rastgele"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "tip": "coktan-secmeli",
+    "soruMetni": "analogWrite(3, 0) motoru ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Durdurur"
+      },
+      {
+        "harf": "B",
+        "metin": "Tam hızda çalıştırır"
+      },
+      {
+        "harf": "C",
+        "metin": "Yavaşlatır"
+      },
+      {
+        "harf": "D",
+        "metin": "Ters yöne çevirir"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "tip": "coktan-secmeli",
+    "soruMetni": "servo.detach() ne yapar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Servo’yu 0° yapar"
+      },
+      {
+        "harf": "B",
+        "metin": "Servo’yu 90° yapar"
+      },
+      {
+        "harf": "C",
+        "metin": "Servo kontrolünü keser"
+      },
+      {
+        "harf": "D",
+        "metin": "Servo’yu başlatır"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Serial.println(\"Merhaba\") ne yapar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Ekrana yazar"
+      },
+      {
+        "harf": "B",
+        "metin": "Seri porta yazar ve satır atlar"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin 0’a yazar"
+      },
+      {
+        "harf": "D",
+        "metin": "Gecikme yapar"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "tip": "coktan-secmeli",
+    "soruMetni": "tone(8, 1000) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "8. pinde 1000 Hz ses üretir"
+      },
+      {
+        "harf": "B",
+        "metin": "1000 ms bekler"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin 8’i HIGH yapar"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM üretir"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "tip": "coktan-secmeli",
+    "soruMetni": "noTone(8) ne yapar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Ses üretir"
+      },
+      {
+        "harf": "B",
+        "metin": "Sesi durdurur"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin 8’i LOW yapar"
+      },
+      {
+        "harf": "D",
+        "metin": "Gecikme yapar"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "tip": "coktan-secmeli",
+    "soruMetni": "random(1, 7) kaç döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "1-6 arası"
+      },
+      {
+        "harf": "B",
+        "metin": "1-7 arası"
+      },
+      {
+        "harf": "C",
+        "metin": "0-6 arası"
+      },
+      {
+        "harf": "D",
+        "metin": "0-7 arası"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "tip": "coktan-secmeli",
+    "soruMetni": "if (x > 500) bloğu ne zaman çalışır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "x ≤ 500"
+      },
+      {
+        "harf": "B",
+        "metin": "x > 500"
+      },
+      {
+        "harf": "C",
+        "metin": "x == 500"
+      },
+      {
+        "harf": "D",
+        "metin": "x < 0"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "tip": "coktan-secmeli",
+    "soruMetni": "else ne zaman çalışır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "if doğruysa"
+      },
+      {
+        "harf": "B",
+        "metin": "if yanlışsa"
+      },
+      {
+        "harf": "C",
+        "metin": "Her zaman"
+      },
+      {
+        "harf": "D",
+        "metin": "Hiçbir zaman"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "tip": "coktan-secmeli",
+    "soruMetni": "while(digitalRead(2) == HIGH) ne zaman çıkar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Buton basılı"
+      },
+      {
+        "harf": "B",
+        "metin": "Buton bırakıldığında"
+      },
+      {
+        "harf": "C",
+        "metin": "Her zaman"
+      },
+      {
+        "harf": "D",
+        "metin": "Hiç"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "tip": "coktan-secmeli",
+    "soruMetni": "analogWrite(9, 255) LED’i ne yapar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Söndürür"
+      },
+      {
+        "harf": "B",
+        "metin": "%50 yapar"
+      },
+      {
+        "harf": "C",
+        "metin": "Tam parlak yapar"
+      },
+      {
+        "harf": "D",
+        "metin": "Titreştirir"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "tip": "coktan-secmeli",
+    "soruMetni": "servo.write(180) servo’yu nereye çevirir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0°"
+      },
+      {
+        "harf": "B",
+        "metin": "90°"
+      },
+      {
+        "harf": "C",
+        "metin": "180°"
+      },
+      {
+        "harf": "D",
+        "metin": "270°"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "tip": "coktan-secmeli",
+    "soruMetni": "digitalWrite(IN1, HIGH); digitalWrite(IN2, HIGH); motor ne yapar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "İleri"
+      },
+      {
+        "harf": "B",
+        "metin": "Geri"
+      },
+      {
+        "harf": "C",
+        "metin": "Durur (fren)"
+      },
+      {
+        "harf": "D",
+        "metin": "Serbest"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "tip": "coktan-secmeli",
+    "soruMetni": "analogWrite(ENA, 128) motoru ne kadar hızda çalıştırır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "%25"
+      },
+      {
+        "harf": "B",
+        "metin": "%50"
+      },
+      {
+        "harf": "C",
+        "metin": "%75"
+      },
+      {
+        "harf": "D",
+        "metin": "%100"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Serial.read() ne döner?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Tam sayı"
+      },
+      {
+        "harf": "B",
+        "metin": "Karakter (char)"
+      },
+      {
+        "harf": "C",
+        "metin": "Metin"
+      },
+      {
+        "harf": "D",
+        "metin": "Sayı"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Serial.parseInt() ne yapar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Karakter okur"
+      },
+      {
+        "harf": "B",
+        "metin": "Sayı okur"
+      },
+      {
+        "harf": "C",
+        "metin": "Satır okur"
+      },
+      {
+        "harf": "D",
+        "metin": "Gecikme yapar"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "tip": "coktan-secmeli",
+    "soruMetni": "pinMode(2, INPUT_PULLUP) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Dahili pull-up direnci etkinleştirir"
+      },
+      {
+        "harf": "B",
+        "metin": "Pull-down yapar"
+      },
+      {
+        "harf": "C",
+        "metin": "Analog yapar"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM yapar"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "tip": "coktan-secmeli",
+    "soruMetni": "delay() kullanmanın dezavantajı nedir?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Programı tamamen durdurur"
+      },
+      {
+        "harf": "B",
+        "metin": "Hızlı çalışır"
+      },
+      {
+        "harf": "C",
+        "metin": "Bellek kullanmaz"
+      },
+      {
+        "harf": "D",
+        "metin": "Kesme engellemez"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "tip": "coktan-secmeli",
+    "soruMetni": "millis() ile non-blocking delay nasıl yapılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "delay() yerine"
+      },
+      {
+        "harf": "B",
+        "metin": "millis() ile zaman kontrolü"
+      },
+      {
+        "harf": "C",
+        "metin": "while döngüsü"
+      },
+      {
+        "harf": "D",
+        "metin": "for döngüsü"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "tip": "coktan-secmeli",
+    "soruMetni": "interrupt hangi pinlerde çalışır (Uno)?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "2 ve 3"
+      },
+      {
+        "harf": "B",
+        "metin": "0 ve 1"
+      },
+      {
+        "harf": "C",
+        "metin": "A0 ve A1"
+      },
+      {
+        "harf": "D",
+        "metin": "13 ve 12"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "tip": "coktan-secmeli",
+    "soruMetni": "attachInterrupt(digitalPinToInterrupt(2), fonk, RISING) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Yükselen kenarda fonk çalışır"
+      },
+      {
+        "harf": "B",
+        "metin": "Düşen kenarda"
+      },
+      {
+        "harf": "C",
+        "metin": "Her zaman"
+      },
+      {
+        "harf": "D",
+        "metin": "Hiç"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "tip": "coktan-secmeli",
+    "soruMetni": "debounce ne için kullanılır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Buton titremesini önlemek"
+      },
+      {
+        "harf": "B",
+        "metin": "Hız artırmak"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM değiştirmek"
+      },
+      {
+        "harf": "D",
+        "metin": "Ses çıkarmak"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "tip": "coktan-secmeli",
+    "soruMetni": "fade efekti için ne kullanılır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "for döngüsü + analogWrite"
+      },
+      {
+        "harf": "B",
+        "metin": "digitalWrite"
+      },
+      {
+        "harf": "C",
+        "metin": "delay(1000)"
+      },
+      {
+        "harf": "D",
+        "metin": "Serial.begin"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "tip": "coktan-secmeli",
+    "soruMetni": "TCCR1B = TCCR1B & 0b11111000 | 0x01; ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "PWM frekansını artırır"
+      },
+      {
+        "harf": "B",
+        "metin": "PWM frekansını düşürür"
+      },
+      {
+        "harf": "C",
+        "metin": "Servo kontrolü"
+      },
+      {
+        "harf": "D",
+        "metin": "Kesme kapatır"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "tip": "coktan-secmeli",
+    "soruMetni": "servo.writeMicroseconds(1500) neye karşılık gelir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0°"
+      },
+      {
+        "harf": "B",
+        "metin": "90°"
+      },
+      {
+        "harf": "C",
+        "metin": "180°"
+      },
+      {
+        "harf": "D",
+        "metin": "270°"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "tip": "coktan-secmeli",
+    "soruMetni": "3.3V sensör Arduino 5V’ye doğrudan bağlanabilir mi?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Evet"
+      },
+      {
+        "harf": "B",
+        "metin": "Hayır, voltaj bölücü gerekir"
+      },
+      {
+        "harf": "C",
+        "metin": "Sadece analog"
+      },
+      {
+        "harf": "D",
+        "metin": "Sadece dijital"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "tip": "coktan-secmeli",
+    "soruMetni": "analogReference(INTERNAL) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "1.1V referans"
+      },
+      {
+        "harf": "B",
+        "metin": "5V referans"
+      },
+      {
+        "harf": "C",
+        "metin": "3.3V referans"
+      },
+      {
+        "harf": "D",
+        "metin": "Harici"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "tip": "coktan-secmeli",
+    "soruMetni": "EEPROM.write(0, 100) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0. adrese 100 yazar"
+      },
+      {
+        "harf": "B",
+        "metin": "Okur"
+      },
+      {
+        "harf": "C",
+        "metin": "Silir"
+      },
+      {
+        "harf": "D",
+        "metin": "Formatlar"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "tip": "coktan-secmeli",
+    "soruMetni": "randomSeed(analogRead(A0)) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Rastgelelik artırır"
+      },
+      {
+        "harf": "B",
+        "metin": "Sabit sayı üretir"
+      },
+      {
+        "harf": "C",
+        "metin": "Hata verir"
+      },
+      {
+        "harf": "D",
+        "metin": "Gecikme yapar"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "tip": "coktan-secmeli",
+    "soruMetni": "sizeof(int) kaç byte?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "1"
+      },
+      {
+        "harf": "B",
+        "metin": "2"
+      },
+      {
+        "harf": "C",
+        "metin": "4"
+      },
+      {
+        "harf": "D",
+        "metin": "8"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "tip": "coktan-secmeli",
+    "soruMetni": "int aralığı?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "-128..127"
+      },
+      {
+        "harf": "B",
+        "metin": "-32768..32767"
+      },
+      {
+        "harf": "C",
+        "metin": "0..255"
+      },
+      {
+        "harf": "D",
+        "metin": "0..1023"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "tip": "coktan-secmeli",
+    "soruMetni": "byte aralığı?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0-255"
+      },
+      {
+        "harf": "B",
+        "metin": "0-1023"
+      },
+      {
+        "harf": "C",
+        "metin": "-128..127"
+      },
+      {
+        "harf": "D",
+        "metin": "-32768..32767"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "tip": "coktan-secmeli",
+    "soruMetni": "float kaç byte?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "2"
+      },
+      {
+        "harf": "B",
+        "metin": "4"
+      },
+      {
+        "harf": "C",
+        "metin": "8"
+      },
+      {
+        "harf": "D",
+        "metin": "1"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "tip": "coktan-secmeli",
+    "soruMetni": "digitalWrite(13, !digitalRead(13)) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LED’i ters çevirir"
+      },
+      {
+        "harf": "B",
+        "metin": "Söndürür"
+      },
+      {
+        "harf": "C",
+        "metin": "Yakır"
+      },
+      {
+        "harf": "D",
+        "metin": "Hata verir"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "tip": "coktan-secmeli",
+    "soruMetni": "switch-case ne için kullanılır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Çoklu koşul"
+      },
+      {
+        "harf": "B",
+        "metin": "Döngü"
+      },
+      {
+        "harf": "C",
+        "metin": "Gecikme"
+      },
+      {
+        "harf": "D",
+        "metin": "Seri"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "tip": "coktan-secmeli",
+    "soruMetni": "break ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Döngüyü bitirir"
+      },
+      {
+        "harf": "B",
+        "metin": "Devam ettirir"
+      },
+      {
+        "harf": "C",
+        "metin": "Atlar"
+      },
+      {
+        "harf": "D",
+        "metin": "Hata verir"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "tip": "coktan-secmeli",
+    "soruMetni": "continue ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Döngü adımını atlar"
+      },
+      {
+        "harf": "B",
+        "metin": "Bitirir"
+      },
+      {
+        "harf": "C",
+        "metin": "Durur"
+      },
+      {
+        "harf": "D",
+        "metin": "Başlatır"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "tip": "coktan-secmeli",
+    "soruMetni": "return ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Fonksiyondan çıkar"
+      },
+      {
+        "harf": "B",
+        "metin": "Döngüye girer"
+      },
+      {
+        "harf": "C",
+        "metin": "Gecikme yapar"
+      },
+      {
+        "harf": "D",
+        "metin": "Seri yazar"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "tip": "coktan-secmeli",
+    "soruMetni": "void fonk() ne döner?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "int"
+      },
+      {
+        "harf": "B",
+        "metin": "float"
+      },
+      {
+        "harf": "C",
+        "metin": "Hiçbir şey"
+      },
+      {
+        "harf": "D",
+        "metin": "char"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "tip": "coktan-secmeli",
+    "soruMetni": "int fonk() ne döner?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Hiçbir şey"
+      },
+      {
+        "harf": "B",
+        "metin": "int"
+      },
+      {
+        "harf": "C",
+        "metin": "float"
+      },
+      {
+        "harf": "D",
+        "metin": "char"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "tip": "coktan-secmeli",
+    "soruMetni": "array[5] kaç elemanlıdır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "5"
+      },
+      {
+        "harf": "B",
+        "metin": "6"
+      },
+      {
+        "harf": "C",
+        "metin": "4"
+      },
+      {
+        "harf": "D",
+        "metin": "0"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "tip": "coktan-secmeli",
+    "soruMetni": "String ile char[] farkı?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "String nesne, char[] dizi"
+      },
+      {
+        "harf": "B",
+        "metin": "Aynı"
+      },
+      {
+        "harf": "C",
+        "metin": "String daha hızlı"
+      },
+      {
+        "harf": "D",
+        "metin": "char[] daha hızlı"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "tip": "coktan-secmeli",
+    "soruMetni": "str.length() ne döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Karakter sayısı"
+      },
+      {
+        "harf": "B",
+        "metin": "Bellek"
+      },
+      {
+        "harf": "C",
+        "metin": "Hata"
+      },
+      {
+        "harf": "D",
+        "metin": "0"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "tip": "coktan-secmeli",
+    "soruMetni": "str.toInt() ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Metni sayıya çevirir"
+      },
+      {
+        "harf": "B",
+        "metin": "Sayıyı metne"
+      },
+      {
+        "harf": "C",
+        "metin": "Uzunluk"
+      },
+      {
+        "harf": "D",
+        "metin": "Karşılaştırır"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "tip": "coktan-secmeli",
+    "soruMetni": "if (Serial.available() > 0) ne kontrol eder?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Gelen veri var mı"
+      },
+      {
+        "harf": "B",
+        "metin": "Baud rate"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin"
+      },
+      {
+        "harf": "D",
+        "metin": "Gecikme"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Serial.flush() ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Gönderim tamponunu temizler"
+      },
+      {
+        "harf": "B",
+        "metin": "Alım tamponunu temizler"
+      },
+      {
+        "harf": "C",
+        "metin": "Baud değiştirir"
+      },
+      {
+        "harf": "D",
+        "metin": "Kapatır"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Serial.end() ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Seri iletişimi kapatır"
+      },
+      {
+        "harf": "B",
+        "metin": "Başlatır"
+      },
+      {
+        "harf": "C",
+        "metin": "Veri okur"
+      },
+      {
+        "harf": "D",
+        "metin": "Yazdırır"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "tip": "coktan-secmeli",
+    "soruMetni": "SPI.begin() ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "SPI iletişimi başlatır"
+      },
+      {
+        "harf": "B",
+        "metin": "I2C"
+      },
+      {
+        "harf": "C",
+        "metin": "Seri"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Wire.begin() ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "I2C başlatır"
+      },
+      {
+        "harf": "B",
+        "metin": "SPI"
+      },
+      {
+        "harf": "C",
+        "metin": "Seri"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "tip": "coktan-secmeli",
+    "soruMetni": "LCD için hangi kütüphane?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LiquidCrystal"
+      },
+      {
+        "harf": "B",
+        "metin": "Servo"
+      },
+      {
+        "harf": "C",
+        "metin": "Wire"
+      },
+      {
+        "harf": "D",
+        "metin": "SPI"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "tip": "coktan-secmeli",
+    "soruMetni": "lcd.print(\"Merhaba\") ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Ekrana yazar"
+      },
+      {
+        "harf": "B",
+        "metin": "Seri porta"
+      },
+      {
+        "harf": "C",
+        "metin": "LED yakar"
+      },
+      {
+        "harf": "D",
+        "metin": "Motor döndürür"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "tip": "coktan-secmeli",
+    "soruMetni": "pulseIn() ne ölçer?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Darbe genişliği"
+      },
+      {
+        "harf": "B",
+        "metin": "Frekans"
+      },
+      {
+        "harf": "C",
+        "metin": "Gerilim"
+      },
+      {
+        "harf": "D",
+        "metin": "Akım"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "tip": "coktan-secmeli",
+    "soruMetni": "constrain(x, 0, 255) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "x’i 0-255 aralığına sıkıştırır"
+      },
+      {
+        "harf": "B",
+        "metin": "Yuvarlar"
+      },
+      {
+        "harf": "C",
+        "metin": "Çarpar"
+      },
+      {
+        "harf": "D",
+        "metin": "Böler"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "tip": "coktan-secmeli",
+    "soruMetni": "abs(-5) ne döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "5"
+      },
+      {
+        "harf": "B",
+        "metin": "-5"
+      },
+      {
+        "harf": "C",
+        "metin": "0"
+      },
+      {
+        "harf": "D",
+        "metin": "Hata"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "tip": "coktan-secmeli",
+    "soruMetni": "pow(2, 3) ne döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "8"
+      },
+      {
+        "harf": "B",
+        "metin": "6"
+      },
+      {
+        "harf": "C",
+        "metin": "9"
+      },
+      {
+        "harf": "D",
+        "metin": "5"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "tip": "coktan-secmeli",
+    "soruMetni": "sqrt(16) ne döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "4"
+      },
+      {
+        "harf": "B",
+        "metin": "2"
+      },
+      {
+        "harf": "C",
+        "metin": "8"
+      },
+      {
+        "harf": "D",
+        "metin": "16"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "tip": "coktan-secmeli",
+    "soruMetni": "sin(PI/2) ne döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "1.0"
+      },
+      {
+        "harf": "B",
+        "metin": "0.0"
+      },
+      {
+        "harf": "C",
+        "metin": "-1.0"
+      },
+      {
+        "harf": "D",
+        "metin": "Hata"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PI sabiti nereden gelir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Math.h"
+      },
+      {
+        "harf": "B",
+        "metin": "Arduino.h"
+      },
+      {
+        "harf": "C",
+        "metin": "Servo.h"
+      },
+      {
+        "harf": "D",
+        "metin": "Wire.h"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "tip": "coktan-secmeli",
+    "soruMetni": "bitSet(x, 3) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "x’in 3. bitini 1 yapar"
+      },
+      {
+        "harf": "B",
+        "metin": "0 yapar"
+      },
+      {
+        "harf": "C",
+        "metin": "Okur"
+      },
+      {
+        "harf": "D",
+        "metin": "Silir"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "tip": "coktan-secmeli",
+    "soruMetni": "bitClear(x, 3) ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "3. biti 0 yapar"
+      },
+      {
+        "harf": "B",
+        "metin": "1 yapar"
+      },
+      {
+        "harf": "C",
+        "metin": "Okur"
+      },
+      {
+        "harf": "D",
+        "metin": "Ters çevirir"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "tip": "coktan-secmeli",
+    "soruMetni": "bitRead(x, 3) ne döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "3. bitin değeri"
+      },
+      {
+        "harf": "B",
+        "metin": "Tüm x"
+      },
+      {
+        "harf": "C",
+        "metin": "Hata"
+      },
+      {
+        "harf": "D",
+        "metin": "0"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "tip": "coktan-secmeli",
+    "soruMetni": "lowByte(512) ne döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0"
+      },
+      {
+        "harf": "B",
+        "metin": "2"
+      },
+      {
+        "harf": "C",
+        "metin": "256"
+      },
+      {
+        "harf": "D",
+        "metin": "512"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "tip": "coktan-secmeli",
+    "soruMetni": "highByte(512) ne döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "2"
+      },
+      {
+        "harf": "B",
+        "metin": "0"
+      },
+      {
+        "harf": "C",
+        "metin": "256"
+      },
+      {
+        "harf": "D",
+        "metin": "512"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "tip": "coktan-secmeli",
+    "soruMetni": "bit(3) ne döner?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "8"
+      },
+      {
+        "harf": "B",
+        "metin": "1"
+      },
+      {
+        "harf": "C",
+        "metin": "0"
+      },
+      {
+        "harf": "D",
+        "metin": "3"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PROGMEM ne için?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Flash bellekte saklama"
+      },
+      {
+        "harf": "B",
+        "metin": "RAM"
+      },
+      {
+        "harf": "C",
+        "metin": "EEPROM"
+      },
+      {
+        "harf": "D",
+        "metin": "SD kart"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "tip": "coktan-secmeli",
+    "soruMetni": "F(\"Metin\") ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Flash’te saklar"
+      },
+      {
+        "harf": "B",
+        "metin": "RAM’de"
+      },
+      {
+        "harf": "C",
+        "metin": "EEPROM’da"
+      },
+      {
+        "harf": "D",
+        "metin": "SD’de"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "tip": "coktan-secmeli",
+    "soruMetni": "yield() ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Watchdog sıfırlar"
+      },
+      {
+        "harf": "B",
+        "metin": "Kesme engeller"
+      },
+      {
+        "harf": "C",
+        "metin": "Hata verir"
+      },
+      {
+        "harf": "D",
+        "metin": "Gecikme yapar"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP8266 ile Arduino farkı?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "WiFi var"
+      },
+      {
+        "harf": "B",
+        "metin": "Daha yavaş"
+      },
+      {
+        "harf": "C",
+        "metin": "Daha az pin"
+      },
+      {
+        "harf": "D",
+        "metin": "Aynı"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "tip": "coktan-secmeli",
+    "soruMetni": "NodeMCU kaç voltla çalışır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "3.3V"
+      },
+      {
+        "harf": "B",
+        "metin": "5V"
+      },
+      {
+        "harf": "C",
+        "metin": "12V"
+      },
+      {
+        "harf": "D",
+        "metin": "24V"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "tip": "coktan-secmeli",
+    "soruMetni": "TB6612 motor sürücü avantajı?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Daha verimli"
+      },
+      {
+        "harf": "B",
+        "metin": "Daha yavaş"
+      },
+      {
+        "harf": "C",
+        "metin": "Daha pahalı"
+      },
+      {
+        "harf": "D",
+        "metin": "Daha büyük"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "tip": "coktan-secmeli",
+    "soruMetni": "stepper motor için hangi kütüphane?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Stepper.h"
+      },
+      {
+        "harf": "B",
+        "metin": "Servo.h"
+      },
+      {
+        "harf": "C",
+        "metin": "Wire.h"
+      },
+      {
+        "harf": "D",
+        "metin": "SPI.h"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "tip": "coktan-secmeli",
+    "soruMetni": "encoder ne ölçer?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Dönme miktarı"
+      },
+      {
+        "harf": "B",
+        "metin": "Hız"
+      },
+      {
+        "harf": "C",
+        "metin": "Akım"
+      },
+      {
+        "harf": "D",
+        "metin": "Gerilim"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "tip": "coktan-secmeli",
+    "soruMetni": "interrupt ile buton sayacı yapmak için ne kullanılır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "attachInterrupt + değişken artırma"
+      },
+      {
+        "harf": "B",
+        "metin": "delay"
+      },
+      {
+        "harf": "C",
+        "metin": "analogRead"
+      },
+      {
+        "harf": "D",
+        "metin": "Serial.print"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "LED’in uzun bacağı __________ ucudur.",
+    "dogruCevap": "anot"
+  },
+  {
+    "id": 102,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da __________ fonksiyonu ile pin çıkışı yapılır.",
+    "dogruCevap": "pinMode(pin, OUTPUT)"
+  },
+  {
+    "id": 103,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "digitalWrite(13, _________) ile LED yakılır.",
+    "dogruCevap": "HIGH"
+  },
+  {
+    "id": 104,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ fonksiyonu 1 saniye bekletir.",
+    "dogruCevap": "delay(1000)"
+  },
+  {
+    "id": 105,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "analogRead(A0) 0 ile __________ arasında değer döner.",
+    "dogruCevap": "1023"
+  },
+  {
+    "id": 106,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Seri iletişim başlatmak için Serial.__________(9600) kullanılır.",
+    "dogruCevap": "begin"
+  },
+  {
+    "id": 107,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Servo kütüphanesi #include <__________.h> ile eklenir.",
+    "dogruCevap": "Servo"
+  },
+  {
+    "id": 108,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Servo motorun açısını ayarlamak için servo.__________(90) kullanılır.",
+    "dogruCevap": "write"
+  },
+  {
+    "id": 109,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "DC motor hızı analogWrite(ena, _________) ile 0-255 arası ayarlanır.",
+    "dogruCevap": "0-255"
+  },
+  {
+    "id": 110,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "L298N’de motor ileri dönmesi için IN1=__________, IN2=LOW olmalıdır.",
+    "dogruCevap": "HIGH"
+  },
+  {
+    "id": 111,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Programın başlangıcından beri geçen milisaniye __________ ile alınır.",
+    "dogruCevap": "millis()"
+  },
+  {
+    "id": 112,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Breadboard’da kırmızı ray genellikle __________ voltajı taşır.",
+    "dogruCevap": "+5V (veya +VCC)"
+  },
+  {
+    "id": 113,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Ohm Kanunu: I = __________/R",
+    "dogruCevap": "V"
+  },
+  {
+    "id": 114,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "10kΩ potansiometre ile 5V’ta maksimum analog değer __________ olur.",
+    "dogruCevap": "1023"
+  },
+  {
+    "id": 115,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ fonksiyonu seri porttan gelen veriyi okur.",
+    "dogruCevap": "Serial.read()"
+  },
+  {
+    "id": 116,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ fonksiyonu pin durumunu okur.",
+    "dogruCevap": "digitalRead"
+  },
+  {
+    "id": 117,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile pin giriş çekmeli (pull-up) yapılır.",
+    "dogruCevap": "INPUT_PULLUP"
+  },
+  {
+    "id": 118,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile 10-bit değer 8-bit’e çevrilir.",
+    "dogruCevap": "map"
+  },
+  {
+    "id": 119,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile servo kontrolü başlatılır.",
+    "dogruCevap": "servo.attach(pin)"
+  },
+  {
+    "id": 120,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile motor durdurulur.",
+    "dogruCevap": "analogWrite(ena, 0)"
+  },
+  {
+    "id": 121,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile kesme tanımlanır.",
+    "dogruCevap": "attachInterrupt"
+  },
+  {
+    "id": 122,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile gecikmesiz blink yapılabilir.",
+    "dogruCevap": "millis()"
+  },
+  {
+    "id": 123,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile veri seri porta yazılır ve satır atlar.",
+    "dogruCevap": "Serial.println"
+  },
+  {
+    "id": 124,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile PWM frekansı değiştirilebilir (TCCR).",
+    "dogruCevap": "TCCR1B (veya TCCR2B)"
+  },
+  {
+    "id": 125,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile buton titremesi (debounce) önlenir.",
+    "dogruCevap": "delay veya millis kontrolü"
+  },
+  {
+    "id": 126,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile servo kontrolü kesilir.",
+    "dogruCevap": "servo.detach()"
+  },
+  {
+    "id": 127,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile rastgele sayı üretilir.",
+    "dogruCevap": "random"
+  },
+  {
+    "id": 128,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile rastgelelik tohumu ekilir.",
+    "dogruCevap": "randomSeed"
+  },
+  {
+    "id": 129,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile pin durumu ters çevrilir.",
+    "dogruCevap": "!digitalRead(pin)"
+  },
+  {
+    "id": 130,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile çoklu koşul kontrol edilir.",
+    "dogruCevap": "switch-case"
+  },
+  {
+    "id": 131,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile döngüden çıkılır.",
+    "dogruCevap": "break"
+  },
+  {
+    "id": 132,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile döngü adımı atlanır.",
+    "dogruCevap": "continue"
+  },
+  {
+    "id": 133,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile fonksiyondan değer döndürülür.",
+    "dogruCevap": "return"
+  },
+  {
+    "id": 134,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ tipi hiçbir şey döndürmez.",
+    "dogruCevap": "void"
+  },
+  {
+    "id": 135,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ tipi 0-255 arası saklar.",
+    "dogruCevap": "byte"
+  },
+  {
+    "id": 136,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ tipi -32768..32767 arası saklar.",
+    "dogruCevap": "int"
+  },
+  {
+    "id": 137,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ tipi ondalıklı sayı saklar.",
+    "dogruCevap": "float"
+  },
+  {
+    "id": 138,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile dizi uzunluğu alınır.",
+    "dogruCevap": "sizeof"
+  },
+  {
+    "id": 139,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile metin uzunluğu alınır.",
+    "dogruCevap": "length()"
+  },
+  {
+    "id": 140,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile metin sayıya çevrilir.",
+    "dogruCevap": "toInt()"
+  },
+  {
+    "id": 141,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile seri portta veri var mı kontrol edilir.",
+    "dogruCevap": "Serial.available()"
+  },
+  {
+    "id": 142,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile tampon temizlenir.",
+    "dogruCevap": "Serial.flush()"
+  },
+  {
+    "id": 143,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile seri iletişim kapatılır.",
+    "dogruCevap": "Serial.end()"
+  },
+  {
+    "id": 144,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile SPI başlatılır.",
+    "dogruCevap": "SPI.begin()"
+  },
+  {
+    "id": 145,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile I2C başlatılır.",
+    "dogruCevap": "Wire.begin()"
+  },
+  {
+    "id": 146,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ kütüphanesi LCD için kullanılır.",
+    "dogruCevap": "LiquidCrystal"
+  },
+  {
+    "id": 147,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile LCD’ye yazı yazılır.",
+    "dogruCevap": "lcd.print()"
+  },
+  {
+    "id": 148,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile darbe genişliği ölçülür.",
+    "dogruCevap": "pulseIn"
+  },
+  {
+    "id": 149,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile değer aralığa sıkıştırılır.",
+    "dogruCevap": "constrain"
+  },
+  {
+    "id": 150,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile mutlak değer alınır.",
+    "dogruCevap": "abs"
+  },
+  {
+    "id": 151,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile üs alınır.",
+    "dogruCevap": "pow"
+  },
+  {
+    "id": 152,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile karekök alınır.",
+    "dogruCevap": "sqrt"
+  },
+  {
+    "id": 153,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ sabiti ≈3.14159’dur.",
+    "dogruCevap": "PI"
+  },
+  {
+    "id": 154,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile bit ayarlanır.",
+    "dogruCevap": "bitSet"
+  },
+  {
+    "id": 155,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile bit sıfırlanır.",
+    "dogruCevap": "bitClear"
+  },
+  {
+    "id": 156,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile bit okunur.",
+    "dogruCevap": "bitRead"
+  },
+  {
+    "id": 157,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile düşük byte alınır.",
+    "dogruCevap": "lowByte"
+  },
+  {
+    "id": 158,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile yüksek byte alınır.",
+    "dogruCevap": "highByte"
+  },
+  {
+    "id": 159,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile bit değeri (2^n) alınır.",
+    "dogruCevap": "bit(n)"
+  },
+  {
+    "id": 160,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile veri flash’te saklanır.",
+    "dogruCevap": "PROGMEM"
+  },
+  {
+    "id": 161,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile flash metin tanımlanır.",
+    "dogruCevap": "F(\"metin\")"
+  },
+  {
+    "id": 162,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile watchdog sıfırlanır.",
+    "dogruCevap": "yield()"
+  },
+  {
+    "id": 163,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile adım motoru kontrol edilir.",
+    "dogruCevap": "Stepper.h"
+  },
+  {
+    "id": 164,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile encoder okunur.",
+    "dogruCevap": "interrupt + sayaç"
+  },
+  {
+    "id": 165,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile buton basılma sayısı sayılır.",
+    "dogruCevap": "interrupt değişkeni"
+  },
+  {
+    "id": 166,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile LED fade efekti yapılır.",
+    "dogruCevap": "for + analogWrite"
+  },
+  {
+    "id": 167,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile trafik lambası simülasyonu yapılır.",
+    "dogruCevap": "delay + digitalWrite"
+  },
+  {
+    "id": 168,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile pot ile motor hızı ayarlanır.",
+    "dogruCevap": "analogRead + analogWrite"
+  },
+  {
+    "id": 169,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile LDR ile otomatik lamba yapılır.",
+    "dogruCevap": "analogRead + map + analogWrite"
+  },
+  {
+    "id": 170,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile seri komutla LED yakılır.",
+    "dogruCevap": "Serial.read() + if"
+  },
+  {
+    "id": 171,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile buton basılı kalma süresi ölçülür.",
+    "dogruCevap": "millis()"
+  },
+  {
+    "id": 172,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile servo 0-180° tarama yapılır.",
+    "dogruCevap": "for döngüsü + write"
+  },
+  {
+    "id": 173,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile DC motor ileri-geri döner.",
+    "dogruCevap": "digitalWrite(IN1/IN2)"
+  },
+  {
+    "id": 174,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile motor freni yapılır.",
+    "dogruCevap": "IN1=HIGH, IN2=HIGH"
+  },
+  {
+    "id": 175,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile motor serbest bırakılır.",
+    "dogruCevap": "IN1=LOW, IN2=LOW"
+  },
+  {
+    "id": 176,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile PWM sinyal darbe genişliği ayarlanır.",
+    "dogruCevap": "analogWrite"
+  },
+  {
+    "id": 177,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile servo darbe genişliği (µs) verilir.",
+    "dogruCevap": "writeMicroseconds"
+  },
+  {
+    "id": 178,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile 1.1V analog referans ayarlanır.",
+    "dogruCevap": "analogReference(INTERNAL)"
+  },
+  {
+    "id": 179,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile EEPROM’a yazılır.",
+    "dogruCevap": "EEPROM.write"
+  },
+  {
+    "id": 180,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile EEPROM’dan okunur.",
+    "dogruCevap": "EEPROM.read"
+  },
+  {
+    "id": 181,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile buzzer ses çıkarılır.",
+    "dogruCevap": "tone"
+  },
+  {
+    "id": 182,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile buzzer susturulur.",
+    "dogruCevap": "noTone"
+  },
+  {
+    "id": 183,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile 7-segment display sürülebilir.",
+    "dogruCevap": "digitalWrite veya shiftOut"
+  },
+  {
+    "id": 184,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile ultrasonik mesafe ölçülür.",
+    "dogruCevap": "pulseIn"
+  },
+  {
+    "id": 185,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile sıcaklık sensörü (LM35) okunur.",
+    "dogruCevap": "analogRead"
+  },
+  {
+    "id": 186,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile nem sensörü (DHT11) okunur.",
+    "dogruCevap": "DHT kütüphanesi"
+  },
+  {
+    "id": 187,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile SD karta yazılır.",
+    "dogruCevap": "SD.h"
+  },
+  {
+    "id": 188,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile Bluetooth iletişim kurulur.",
+    "dogruCevap": "SoftwareSerial"
+  },
+  {
+    "id": 189,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile WiFi bağlanılır (ESP8266).",
+    "dogruCevap": "ESP8266WiFi.h"
+  },
+  {
+    "id": 190,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile web sunucu oluşturulur.",
+    "dogruCevap": "WiFiServer"
+  },
+  {
+    "id": 191,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile IR kumanda okunur.",
+    "dogruCevap": "IRremote.h"
+  },
+  {
+    "id": 192,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile RFID okunur.",
+    "dogruCevap": "MFRC522.h"
+  },
+  {
+    "id": 193,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile OLED ekran kullanılır.",
+    "dogruCevap": "Adafruit_SSD1306"
+  },
+  {
+    "id": 194,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile joystick okunur.",
+    "dogruCevap": "analogRead(X,Y)"
+  },
+  {
+    "id": 195,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile dokunmatik sensör okunur.",
+    "dogruCevap": "digitalRead veya capSense"
+  },
+  {
+    "id": 196,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile adım motoru tam tur döner.",
+    "dogruCevap": "200 adım (1.8°)"
+  },
+  {
+    "id": 197,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile DC motor encoder ile hız ölçülür.",
+    "dogruCevap": "interrupt sayacı"
+  },
+  {
+    "id": 198,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile PID kontrol yapılır.",
+    "dogruCevap": "hata + oran + türev"
+  },
+  {
+    "id": 199,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile kalman filtresi uygulanır.",
+    "dogruCevap": "gürültü azaltma"
+  },
+  {
+    "id": 200,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "__________ ile robotik projede güvenlik için kullanılır.",
+    "dogruCevap": "limit switch veya acil stop"
+  },
+  {
+    "id": 201,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino programlarında ana döngü sürekli olarak __________ fonksiyonu içerisinde çalışır.",
+    "dogruCevap": "loop"
+  },
+  {
+    "id": 202,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32, __________ bitlik bir mikrodenetleyici çekirdeğine sahiptir.",
+    "dogruCevap": "32"
+  },
+  {
+    "id": 203,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Dijital pinler sadece iki değer alabilir: __________ ve __________.",
+    "dogruCevap": "HIGH, LOW"
+  },
+  {
+    "id": 204,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`analogRead()` fonksiyonu sadece __________ pinlerde çalışır.",
+    "dogruCevap": "analog"
+  },
+  {
+    "id": 205,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`delay(1000);` komutu programı __________ milisaniye duraklatır.",
+    "dogruCevap": "1000"
+  },
+  {
+    "id": 206,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Servo motorlar genellikle __________ derecelik açıyla döner.",
+    "dogruCevap": "180"
+  },
+  {
+    "id": 207,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32 WiFi bağlantısı için kullanılan başlıca kütüphane __________’dir.",
+    "dogruCevap": "WiFi.h"
+  },
+  {
+    "id": 208,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino'da dış bir kütüphane yüklemek için __________ menüsünü kullanırız.",
+    "dogruCevap": "Sketch → Include Library"
+  },
+  {
+    "id": 209,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`Serial.begin(9600);` komutu, __________ iletişimini başlatır.",
+    "dogruCevap": "seri"
+  },
+  {
+    "id": 210,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Bir LDR sensörü ışık seviyesini __________ sinyali olarak gönderir.",
+    "dogruCevap": "analog"
+  },
+  {
+    "id": 211,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32'nin Bluetooth özelliği, __________ teknolojisini destekler.",
+    "dogruCevap": "BLE"
+  },
+  {
+    "id": 212,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`digitalWrite(13, HIGH);` komutu pin 13’ü __________ duruma getirir.",
+    "dogruCevap": "aktif"
+  },
+  {
+    "id": 213,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "DC motorların yönünü değiştirmek için genellikle __________ devresi kullanılır.",
+    "dogruCevap": "H-köprüsü"
+  },
+  {
+    "id": 214,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino Uno'nun mikrokontrolcüsü __________’dir.",
+    "dogruCevap": "ATmega328P"
+  },
+  {
+    "id": 215,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32'de GPIO pinleri hem giriş hem de __________ olarak kullanılabilir.",
+    "dogruCevap": "çıkış"
+  },
+  {
+    "id": 216,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`millis()` fonksiyonu, Arduino’nun çalışmaya başlamasından itibaren geçen zamanı __________ cinsinden verir.",
+    "dogruCevap": "milisaniye"
+  },
+  {
+    "id": 217,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32'nin çalışması için minimum __________ volt gereklidir.",
+    "dogruCevap": "3.3"
+  },
+  {
+    "id": 218,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Bir röle ile yüksek akım kontrol edilebilir çünkü içinde bir __________ vardır.",
+    "dogruCevap": "elektromıknatıs"
+  },
+  {
+    "id": 219,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`pinMode(LED_BUILTIN, OUTPUT);` komutu pinin __________ olacağını belirtir.",
+    "dogruCevap": "çıkış"
+  },
+  {
+    "id": 220,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "I2C haberleşmesinde iki ana hat vardır: __________ ve __________.",
+    "dogruCevap": "SDA, SCL"
+  },
+  {
+    "id": 221,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`map()` fonksiyonu bir değeri bir aralıktan başka bir aralığa __________ için kullanılır.",
+    "dogruCevap": "dönüştürmek"
+  },
+  {
+    "id": 222,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da 0 ve 1 numaralı pinler __________ haberleşme için kullanılır.",
+    "dogruCevap": "seri"
+  },
+  {
+    "id": 223,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "PWM sinyali ile LED’in __________ kontrol edilebilir.",
+    "dogruCevap": "parlaklığı"
+  },
+  {
+    "id": 224,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "HC-SR04 sensörü __________ ölçmek için kullanılır.",
+    "dogruCevap": "mesafe"
+  },
+  {
+    "id": 225,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`tone(pin, frequency);` komutu pin üzerinden bir __________ sinyali gönderir.",
+    "dogruCevap": "ses"
+  },
+  {
+    "id": 226,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "10K potansiyometre, genellikle __________ girişi için kullanılır.",
+    "dogruCevap": "analog"
+  },
+  {
+    "id": 227,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32 ile bulut verisi paylaşmak için sıklıkla __________ gibi MQTT tabanlı platformlar kullanılır.",
+    "dogruCevap": "Thingspeak"
+  },
+  {
+    "id": 228,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "IMU sensörleri genellikle __________ ve __________ ölçer.",
+    "dogruCevap": "ivme, yön"
+  },
+  {
+    "id": 229,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino kodları .ino uzantılı __________ dosyalarıdır.",
+    "dogruCevap": "kaynak"
+  },
+  {
+    "id": 230,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`if`, `else`, `while` gibi ifadeler programda __________ yapılar oluşturur.",
+    "dogruCevap": "kontrol"
+  },
+  {
+    "id": 231,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "GPS modülleri genellikle __________ haberleşme protokolüyle bağlanır.",
+    "dogruCevap": "UART"
+  },
+  {
+    "id": 232,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Robot kollarında genellikle __________ motorlar tercih edilir.",
+    "dogruCevap": "servo"
+  },
+  {
+    "id": 233,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32 için Arduino IDE’de önce __________ eklenmelidir.",
+    "dogruCevap": "board paketi"
+  },
+  {
+    "id": 234,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "PID kontrol algoritmasında \"P\", __________ anlamına gelir.",
+    "dogruCevap": "orantısal"
+  },
+  {
+    "id": 235,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Bir servo motorun dönüş açısı __________ sinyali ile belirlenir.",
+    "dogruCevap": "PWM"
+  },
+  {
+    "id": 236,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "RFID sistemlerinde kullanılan kartlar __________ frekansında çalışır.",
+    "dogruCevap": "13.56 MHz"
+  },
+  {
+    "id": 237,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "I2C cihazların adresleri genellikle __________ sayı sisteminde ifade edilir.",
+    "dogruCevap": "onaltılık"
+  },
+  {
+    "id": 238,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`Serial.println()` komutu, veriyi seri porta __________ yollar.",
+    "dogruCevap": "yeni satırla"
+  },
+  {
+    "id": 239,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "IR alıcılar genellikle TV kumandası gibi cihazlardan __________ alır.",
+    "dogruCevap": "kızılötesi sinyal"
+  },
+  {
+    "id": 240,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "DHT11 sensörü __________ ve __________ ölçmek için kullanılır.",
+    "dogruCevap": "sıcaklık, nem"
+  },
+  {
+    "id": 241,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da `setup()` fonksiyonu yalnızca __________ kez çalışır.",
+    "dogruCevap": "bir"
+  },
+  {
+    "id": 242,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32'nin çift çekirdeği vardır: biri WiFi diğeri __________ içindir.",
+    "dogruCevap": "uygulama işlemleri"
+  },
+  {
+    "id": 243,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Tekrarlı çalışan görevler için __________ döngüsü kullanılır.",
+    "dogruCevap": "loop"
+  },
+  {
+    "id": 244,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`attachInterrupt()` fonksiyonu, bir pin değişiminde __________ çağırmak için kullanılır.",
+    "dogruCevap": "fonksiyon"
+  },
+  {
+    "id": 245,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "LCD ekranlar genellikle __________ kütüphanesiyle kullanılır.",
+    "dogruCevap": "LiquidCrystal"
+  },
+  {
+    "id": 246,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32, Arduino’ya kıyasla daha __________ bir işlemcidir.",
+    "dogruCevap": "hızlı"
+  },
+  {
+    "id": 247,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Elektronik devrede diyotun görevi __________ geçişi engellemektir.",
+    "dogruCevap": "ters"
+  },
+  {
+    "id": 248,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Step motorlar __________ adımlarla döner.",
+    "dogruCevap": "sabit"
+  },
+  {
+    "id": 249,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Prototipleme için kullanılan delikli devre kartına __________ denir.",
+    "dogruCevap": "breadboard"
+  },
+  {
+    "id": 250,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Robotik uygulamalarda mesafe ölçümünde en yaygın sensör __________’dir.",
+    "dogruCevap": "ultrasonik"
+  },
+  {
+    "id": 251,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki pinlerden hangisi Arduino Uno’da PWM çıkışı sağlar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "A0"
+      },
+      {
+        "harf": "B",
+        "metin": "D2"
+      },
+      {
+        "harf": "C",
+        "metin": "D3"
+      },
+      {
+        "harf": "D",
+        "metin": "GND"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 ile internete bağlanmak için öncelikle hangi başlık eklenmelidir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Ethernet.h"
+      },
+      {
+        "harf": "B",
+        "metin": "ESP8266WiFi.h"
+      },
+      {
+        "harf": "C",
+        "metin": "WiFi.h"
+      },
+      {
+        "harf": "D",
+        "metin": "Net.h"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "tip": "coktan-secmeli",
+    "soruMetni": "`digitalRead(2);` fonksiyonu ne işe yarar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Pin 2’ye veri yazar"
+      },
+      {
+        "harf": "B",
+        "metin": "Pin 2’nin durumunu okur"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin 2’yi HIGH yapar"
+      },
+      {
+        "harf": "D",
+        "metin": "Pin 2’den analog veri alır"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino IDE’de hangi uzantılı dosyalar yazılımı içerir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": ".hex"
+      },
+      {
+        "harf": "B",
+        "metin": ".bin"
+      },
+      {
+        "harf": "C",
+        "metin": ".ino"
+      },
+      {
+        "harf": "D",
+        "metin": ".txt"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki sensörlerden hangisi sıcaklık ölçemez?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "DHT11"
+      },
+      {
+        "harf": "B",
+        "metin": "LM35"
+      },
+      {
+        "harf": "C",
+        "metin": "HC-SR04"
+      },
+      {
+        "harf": "D",
+        "metin": "DS18B20"
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'de GPIO kaç adettir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "10"
+      },
+      {
+        "harf": "B",
+        "metin": "20"
+      },
+      {
+        "harf": "C",
+        "metin": "30"
+      },
+      {
+        "harf": "D",
+        "metin": "40"
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino Uno'da kaç adet dijital pin vardır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "6"
+      },
+      {
+        "harf": "B",
+        "metin": "10"
+      },
+      {
+        "harf": "C",
+        "metin": "14"
+      },
+      {
+        "harf": "D",
+        "metin": "20"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "tip": "coktan-secmeli",
+    "soruMetni": "`analogWrite()` fonksiyonu ne işe yarar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Analog veri okur"
+      },
+      {
+        "harf": "B",
+        "metin": "PWM sinyali gönderir"
+      },
+      {
+        "harf": "C",
+        "metin": "Dijital sinyali okur"
+      },
+      {
+        "harf": "D",
+        "metin": "UART başlatır"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "tip": "coktan-secmeli",
+    "soruMetni": "I2C haberleşmesinde SDA ve SCL hatları ne için kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Güç ve toprak"
+      },
+      {
+        "harf": "B",
+        "metin": "Analog sinyal"
+      },
+      {
+        "harf": "C",
+        "metin": "Seri veri ve saat"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM kontrol"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Servo motoru kontrol etmek için hangi kütüphane gereklidir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Motor.h"
+      },
+      {
+        "harf": "B",
+        "metin": "Servo.h"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM.h"
+      },
+      {
+        "harf": "D",
+        "metin": "Rotate.h"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Bluetooth üzerinden haberleşmek için ESP32’de hangi protokol tercih edilir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "TCP"
+      },
+      {
+        "harf": "B",
+        "metin": "BLE"
+      },
+      {
+        "harf": "C",
+        "metin": "WiFi"
+      },
+      {
+        "harf": "D",
+        "metin": "MQTT"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32’nin çalışma voltajı kaçtır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "5V"
+      },
+      {
+        "harf": "B",
+        "metin": "3.3V"
+      },
+      {
+        "harf": "C",
+        "metin": "12V"
+      },
+      {
+        "harf": "D",
+        "metin": "9V"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PID kontrol algoritmasında \"D\" harfi neyi ifade eder?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Dinamik"
+      },
+      {
+        "harf": "B",
+        "metin": "Derivative"
+      },
+      {
+        "harf": "C",
+        "metin": "Delay"
+      },
+      {
+        "harf": "D",
+        "metin": "Drive"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "tip": "coktan-secmeli",
+    "soruMetni": "DHT11 sensörünün dezavantajı nedir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Yüksek doğruluk"
+      },
+      {
+        "harf": "B",
+        "metin": "Hızlı ölçüm"
+      },
+      {
+        "harf": "C",
+        "metin": "Düşük maliyet"
+      },
+      {
+        "harf": "D",
+        "metin": "Düşük hassasiyet"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Step motorların avantajı nedir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sürekli dönüş"
+      },
+      {
+        "harf": "B",
+        "metin": "Yüksek tork"
+      },
+      {
+        "harf": "C",
+        "metin": "Kesin konumlama"
+      },
+      {
+        "harf": "D",
+        "metin": "Düşük maliyet"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'nin çift çekirdekli yapısı ne sağlar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "WiFi’ye bağlanamaz"
+      },
+      {
+        "harf": "B",
+        "metin": "Daha düşük hız"
+      },
+      {
+        "harf": "C",
+        "metin": "Paralel işlem"
+      },
+      {
+        "harf": "D",
+        "metin": "Daha az bellek"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino IDE hangi programlama diline dayanır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Python"
+      },
+      {
+        "harf": "B",
+        "metin": "C/C++"
+      },
+      {
+        "harf": "C",
+        "metin": "Java"
+      },
+      {
+        "harf": "D",
+        "metin": "Assembly"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PWM neyin kısaltmasıdır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Power With Modem"
+      },
+      {
+        "harf": "B",
+        "metin": "Pulse Width Modulation"
+      },
+      {
+        "harf": "C",
+        "metin": "Protocol With Measurement"
+      },
+      {
+        "harf": "D",
+        "metin": "Pin Wave Motor"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 ile çalışırken 5V yerine 3.3V kullanmak neden önemlidir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Daha hızlı çalışır"
+      },
+      {
+        "harf": "B",
+        "metin": "ESP32 zarar görmesin diye"
+      },
+      {
+        "harf": "C",
+        "metin": "Daha düşük akım sağlar"
+      },
+      {
+        "harf": "D",
+        "metin": "Kod daha kısa olur"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "tip": "coktan-secmeli",
+    "soruMetni": "HC-SR04 sensöründe TRIG pini ne işe yarar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Mesafe ölçer"
+      },
+      {
+        "harf": "B",
+        "metin": "Sinyal gönderir"
+      },
+      {
+        "harf": "C",
+        "metin": "Sinyal alır"
+      },
+      {
+        "harf": "D",
+        "metin": "Enerji verir"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino Uno’nun mikrodenetleyicisi nedir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "ESP8266"
+      },
+      {
+        "harf": "B",
+        "metin": "ATmega328P"
+      },
+      {
+        "harf": "C",
+        "metin": "STM32"
+      },
+      {
+        "harf": "D",
+        "metin": "ATtiny85"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "tip": "coktan-secmeli",
+    "soruMetni": "L298N modülü genellikle ne için kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LCD kontrolü"
+      },
+      {
+        "harf": "B",
+        "metin": "LED kontrolü"
+      },
+      {
+        "harf": "C",
+        "metin": "Motor sürme"
+      },
+      {
+        "harf": "D",
+        "metin": "Ses çıkışı"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "tip": "coktan-secmeli",
+    "soruMetni": "`Serial.begin(9600);` komutu ne işe yarar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "PWM başlatır"
+      },
+      {
+        "harf": "B",
+        "metin": "UART haberleşmesini başlatır"
+      },
+      {
+        "harf": "C",
+        "metin": "Delay fonksiyonu"
+      },
+      {
+        "harf": "D",
+        "metin": "Analog pin tanımlar"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Hangi sensör manyetik alanı algılar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LDR"
+      },
+      {
+        "harf": "B",
+        "metin": "DHT11"
+      },
+      {
+        "harf": "C",
+        "metin": "Hall"
+      },
+      {
+        "harf": "D",
+        "metin": "Ultrasonik"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi bir analog sensördür?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "HC-SR04"
+      },
+      {
+        "harf": "B",
+        "metin": "LDR"
+      },
+      {
+        "harf": "C",
+        "metin": "PIR"
+      },
+      {
+        "harf": "D",
+        "metin": "RFID"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi bir dijital sensördür?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LM35"
+      },
+      {
+        "harf": "B",
+        "metin": "Potansiyometre"
+      },
+      {
+        "harf": "C",
+        "metin": "PIR"
+      },
+      {
+        "harf": "D",
+        "metin": "LDR"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'da bir fonksiyonu belirli aralıklarla çalıştırmak için en iyi yöntem hangisidir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "delay()"
+      },
+      {
+        "harf": "B",
+        "metin": "millis()"
+      },
+      {
+        "harf": "C",
+        "metin": "micros()"
+      },
+      {
+        "harf": "D",
+        "metin": "while"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'de dahili olarak bulunmayan özellik hangisidir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "WiFi"
+      },
+      {
+        "harf": "B",
+        "metin": "Bluetooth"
+      },
+      {
+        "harf": "C",
+        "metin": "Ethernet portu"
+      },
+      {
+        "harf": "D",
+        "metin": "Hall sensörü"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki motor tiplerinden hangisi en yüksek hassasiyete sahiptir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "DC motor"
+      },
+      {
+        "harf": "B",
+        "metin": "Step motor"
+      },
+      {
+        "harf": "C",
+        "metin": "Servo motor"
+      },
+      {
+        "harf": "D",
+        "metin": "Fırçasız motor"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PID kontrolcüsünde integral teriminin görevi nedir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Anlık hatayı düzeltmek"
+      },
+      {
+        "harf": "B",
+        "metin": "Geçmiş hataları toplamak"
+      },
+      {
+        "harf": "C",
+        "metin": "Gelecek hatayı tahmin etmek"
+      },
+      {
+        "harf": "D",
+        "metin": "Çıkışı sınırlamak"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'da kesme (interrupt) hangi pinlerde kullanılabilir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Tüm dijital pinler"
+      },
+      {
+        "harf": "B",
+        "metin": "Sadece analog pinler"
+      },
+      {
+        "harf": "C",
+        "metin": "Belirli dijital pinler"
+      },
+      {
+        "harf": "D",
+        "metin": "Sadece PWM pinleri"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki haberleşme protokollerinden hangisi en yüksek hıza sahiptir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "I2C"
+      },
+      {
+        "harf": "B",
+        "metin": "SPI"
+      },
+      {
+        "harf": "C",
+        "metin": "UART"
+      },
+      {
+        "harf": "D",
+        "metin": "1-Wire"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "tip": "coktan-secmeli",
+    "soruMetni": "DHT22 sensörü DHT11'e göre hangi avantaja sahiptir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Daha ucuz"
+      },
+      {
+        "harf": "B",
+        "metin": "Daha geniş ölçüm aralığı"
+      },
+      {
+        "harf": "C",
+        "metin": "Daha küçük boyut"
+      },
+      {
+        "harf": "D",
+        "metin": "Daha az güç tüketir"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi bir mikrodenetleyici değildir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "ATmega328P"
+      },
+      {
+        "harf": "B",
+        "metin": "ESP32"
+      },
+      {
+        "harf": "C",
+        "metin": "STM32"
+      },
+      {
+        "harf": "D",
+        "metin": "L298N"
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "tip": "coktan-secmeli",
+    "soruMetni": "RFID sistemlerinde pasif etiketler nasıl çalışır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Pil ile"
+      },
+      {
+        "harf": "B",
+        "metin": "Radyo sinyallerinden enerji toplayarak"
+      },
+      {
+        "harf": "C",
+        "metin": "Güneş enerjisi ile"
+      },
+      {
+        "harf": "D",
+        "metin": "Kablolu bağlantı ile"
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'da bir değişkenin değerini seri portta görüntülemek için hangi komut kullanılır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Serial.print()"
+      },
+      {
+        "harf": "B",
+        "metin": "Serial.read()"
+      },
+      {
+        "harf": "C",
+        "metin": "Serial.available()"
+      },
+      {
+        "harf": "D",
+        "metin": "Serial.end()"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki sensörlerden hangisi temas gerektirmez?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Termistör"
+      },
+      {
+        "harf": "B",
+        "metin": "Ultrasonik sensör"
+      },
+      {
+        "harf": "C",
+        "metin": "Strain gauge"
+      },
+      {
+        "harf": "D",
+        "metin": "Load cell"
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'nin derin uyku (deep sleep) modundan uyanması için hangi yöntem kullanılabilir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Timer"
+      },
+      {
+        "harf": "B",
+        "metin": "Dokunma sensörü"
+      },
+      {
+        "harf": "C",
+        "metin": "Harici kesme"
+      },
+      {
+        "harf": "D",
+        "metin": "Hepsi"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki devre elemanlarından hangisi akımı tek yönde geçirir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Direnç"
+      },
+      {
+        "harf": "B",
+        "metin": "Kondansatör"
+      },
+      {
+        "harf": "C",
+        "metin": "Diyot"
+      },
+      {
+        "harf": "D",
+        "metin": "Transistör"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PWM sinyalinin görev döngüsü (duty cycle) neyi ifade eder?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Frekansını"
+      },
+      {
+        "harf": "B",
+        "metin": "Yüksek seviyede kalma süresinin yüzdesini"
+      },
+      {
+        "harf": "C",
+        "metin": "Voltaj seviyesini"
+      },
+      {
+        "harf": "D",
+        "metin": "Akım miktarını"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki platformlardan hangisi IoT projeleri için MQTT broker olarak kullanılabilir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Thingspeak"
+      },
+      {
+        "harf": "B",
+        "metin": "Firebase"
+      },
+      {
+        "harf": "C",
+        "metin": "Adafruit IO"
+      },
+      {
+        "harf": "D",
+        "metin": "Hepsi"
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'da bir dizi (array) boyutu nasıl belirlenir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "malloc() ile"
+      },
+      {
+        "harf": "B",
+        "metin": "Köşeli parantezler içinde"
+      },
+      {
+        "harf": "C",
+        "metin": "sizeof() ile"
+      },
+      {
+        "harf": "D",
+        "metin": "pointer ile"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi bir gömülü sistem işletim sistemi değildir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "FreeRTOS"
+      },
+      {
+        "harf": "B",
+        "metin": "Zephyr"
+      },
+      {
+        "harf": "C",
+        "metin": "Linux"
+      },
+      {
+        "harf": "D",
+        "metin": "Arduino IDE"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "tip": "coktan-secmeli",
+    "soruMetni": "I2C protokolünde her cihazın neye sahip olması gerekir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "MAC adresi"
+      },
+      {
+        "harf": "B",
+        "metin": "IP adresi"
+      },
+      {
+        "harf": "C",
+        "metin": "Benzersiz adres"
+      },
+      {
+        "harf": "D",
+        "metin": "Seri numara"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki motor kontrol yöntemlerinden hangisi en az gürültü üretir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "PWM"
+      },
+      {
+        "harf": "B",
+        "metin": "H-köprüsü"
+      },
+      {
+        "harf": "C",
+        "metin": "Sinüs sürüş"
+      },
+      {
+        "harf": "D",
+        "metin": "Doğrudan anahtarlama"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'nin flash belleği hangi amaçla kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Program depolama"
+      },
+      {
+        "harf": "B",
+        "metin": "Veri depolama"
+      },
+      {
+        "harf": "C",
+        "metin": "Her ikisi de"
+      },
+      {
+        "harf": "D",
+        "metin": "Hiçbiri"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki sensörlerden hangisi mutlak basınç ölçebilir?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "BMP180"
+      },
+      {
+        "harf": "B",
+        "metin": "MPU6050"
+      },
+      {
+        "harf": "C",
+        "metin": "Ultrasonik"
+      },
+      {
+        "harf": "D",
+        "metin": "PIR"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'da bir fonksiyondan değer döndürmek için hangi anahtar kelime kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "void"
+      },
+      {
+        "harf": "B",
+        "metin": "return"
+      },
+      {
+        "harf": "C",
+        "metin": "int"
+      },
+      {
+        "harf": "D",
+        "metin": "break"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki bileşenlerden hangisi bir güç regülatörüdür?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LM317"
+      },
+      {
+        "harf": "B",
+        "metin": "L293D"
+      },
+      {
+        "harf": "C",
+        "metin": "ULN2003"
+      },
+      {
+        "harf": "D",
+        "metin": "MAX7219"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'de Wi-Fi ile birlikte aynı anda kullanılabilen özellik hangisidir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Bluetooth Classic"
+      },
+      {
+        "harf": "B",
+        "metin": "Bluetooth Low Energy"
+      },
+      {
+        "harf": "C",
+        "metin": "Ethernet"
+      },
+      {
+        "harf": "D",
+        "metin": "Hepsi"
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 hangi tür bellekleri içerir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sadece RAM"
+      },
+      {
+        "harf": "B",
+        "metin": "Sadece ROM"
+      },
+      {
+        "harf": "C",
+        "metin": "RAM ve Flash"
+      },
+      {
+        "harf": "D",
+        "metin": "SRAM ve EEPROM"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "tip": "coktan-secmeli",
+    "soruMetni": "I2C ile aynı anda birden fazla cihaz bağlanabilmesinin sebebi nedir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Voltaj farkı olması"
+      },
+      {
+        "harf": "B",
+        "metin": "Hızlı olması"
+      },
+      {
+        "harf": "C",
+        "metin": "Adresleme yapılabilmesi"
+      },
+      {
+        "harf": "D",
+        "metin": "Analog çalışması"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "tip": "coktan-secmeli",
+    "soruMetni": "LCD ekranlarda karakter konumu hangi iki parametreyle belirtilir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "X ve Y"
+      },
+      {
+        "harf": "B",
+        "metin": "Satır ve sütun"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin ve port"
+      },
+      {
+        "harf": "D",
+        "metin": "Bit ve byte"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 ile MQTT protokolünü kullanmak için en çok kullanılan kütüphane hangisidir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Ethernet.h"
+      },
+      {
+        "harf": "B",
+        "metin": "PubSubClient"
+      },
+      {
+        "harf": "C",
+        "metin": "HTTPClient"
+      },
+      {
+        "harf": "D",
+        "metin": "MQTThandler"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi PWM sinyali üretilebilecek bir fonksiyondur?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "digitalWrite()"
+      },
+      {
+        "harf": "B",
+        "metin": "analogRead()"
+      },
+      {
+        "harf": "C",
+        "metin": "analogWrite()"
+      },
+      {
+        "harf": "D",
+        "metin": "pulseIn()"
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki cihazlardan hangisi dijital veri üretir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Potansiyometre"
+      },
+      {
+        "harf": "B",
+        "metin": "LDR"
+      },
+      {
+        "harf": "C",
+        "metin": "DHT11"
+      },
+      {
+        "harf": "D",
+        "metin": "LM35"
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32, aşağıdaki protokollerden hangisini desteklemez?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "I2C"
+      },
+      {
+        "harf": "B",
+        "metin": "UART"
+      },
+      {
+        "harf": "C",
+        "metin": "LoRa"
+      },
+      {
+        "harf": "D",
+        "metin": "ZigBee"
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'da millis() fonksiyonu ne işe yarar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LED kontrolü"
+      },
+      {
+        "harf": "B",
+        "metin": "Zaman ölçümü"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM oluşturma"
+      },
+      {
+        "harf": "D",
+        "metin": "Ses üretme"
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Bir servo motorun orta konumu genellikle hangi derecedir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0°"
+      },
+      {
+        "harf": "B",
+        "metin": "45°"
+      },
+      {
+        "harf": "C",
+        "metin": "90°"
+      },
+      {
+        "harf": "D",
+        "metin": "180°"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "tip": "coktan-secmeli",
+    "soruMetni": "DHT11 sensörünün sıcaklık ölçüm hassasiyeti yaklaşık olarak nedir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "±0.1°C"
+      },
+      {
+        "harf": "B",
+        "metin": "±0.5°C"
+      },
+      {
+        "harf": "C",
+        "metin": "±1°C"
+      },
+      {
+        "harf": "D",
+        "metin": "±2°C"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "tip": "coktan-secmeli",
+    "soruMetni": "WiFi sinyal gücünü ölçmek için ESP32’de hangi fonksiyon kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "getRSSI()"
+      },
+      {
+        "harf": "B",
+        "metin": "WiFi.signal()"
+      },
+      {
+        "harf": "C",
+        "metin": "WiFi.RSSI()"
+      },
+      {
+        "harf": "D",
+        "metin": "signalStrength()"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Step motorlar neden tercih edilir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sürekli hareket için"
+      },
+      {
+        "harf": "B",
+        "metin": "Yavaş dönüş için"
+      },
+      {
+        "harf": "C",
+        "metin": "Doğrusal hareket için"
+      },
+      {
+        "harf": "D",
+        "metin": "Hassas pozisyon kontrolü için"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino’da kaç farklı PWM pin çıkışı vardır (Uno modeli)?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "2"
+      },
+      {
+        "harf": "B",
+        "metin": "4"
+      },
+      {
+        "harf": "C",
+        "metin": "6"
+      },
+      {
+        "harf": "D",
+        "metin": "10"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32’nin ADC çözünürlüğü varsayılan olarak kaç bittir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "8"
+      },
+      {
+        "harf": "B",
+        "metin": "10"
+      },
+      {
+        "harf": "C",
+        "metin": "12"
+      },
+      {
+        "harf": "D",
+        "metin": "14"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Robot kol kontrolünde kullanılan \"inverse kinematics\" kavramı neyle ilgilidir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Hız kontrolü"
+      },
+      {
+        "harf": "B",
+        "metin": "Açı hesaplama"
+      },
+      {
+        "harf": "C",
+        "metin": "Mesafe ölçümü"
+      },
+      {
+        "harf": "D",
+        "metin": "Geri bildirim"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Röle modülünde hangi bileşen yüksek akımı keser veya açar?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Transistör"
+      },
+      {
+        "harf": "B",
+        "metin": "Diyot"
+      },
+      {
+        "harf": "C",
+        "metin": "Bobin"
+      },
+      {
+        "harf": "D",
+        "metin": "Kontak"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 ile yapılabilecek uygulamalardan biri değildir:",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "WiFi bağlantısı"
+      },
+      {
+        "harf": "B",
+        "metin": "Ses sentezi"
+      },
+      {
+        "harf": "C",
+        "metin": "RF yayın"
+      },
+      {
+        "harf": "D",
+        "metin": "Mesafe ölçümü"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino IDE'de kod yükleme için kullanılan port tipi nedir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Ethernet"
+      },
+      {
+        "harf": "B",
+        "metin": "Serial (COM)"
+      },
+      {
+        "harf": "C",
+        "metin": "GPIO"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "tip": "coktan-secmeli",
+    "soruMetni": "I2C haberleşmesinde cihaz adresi kaç bitten oluşur?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "4"
+      },
+      {
+        "harf": "B",
+        "metin": "6"
+      },
+      {
+        "harf": "C",
+        "metin": "7"
+      },
+      {
+        "harf": "D",
+        "metin": "10"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "tip": "coktan-secmeli",
+    "soruMetni": "`pinMode(pin, INPUT);` ne işe yarar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Pini çıkış yapar"
+      },
+      {
+        "harf": "B",
+        "metin": "Pini giriş olarak ayarlar"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM üretir"
+      },
+      {
+        "harf": "D",
+        "metin": "Analog okuma yapar"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Breadboard üzerindeki \"+\" ve \"−\" hatları genellikle ne içindir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "PWM sinyali"
+      },
+      {
+        "harf": "B",
+        "metin": "Sinyal verisi"
+      },
+      {
+        "harf": "C",
+        "metin": "Güç dağıtımı"
+      },
+      {
+        "harf": "D",
+        "metin": "UART haberleşmesi"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 ile kullanılan BME280 sensörü hangi üç veriyi sağlar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Nem, sıcaklık, basınç"
+      },
+      {
+        "harf": "B",
+        "metin": "Hız, ivme, sıcaklık"
+      },
+      {
+        "harf": "C",
+        "metin": "Nem, manyetik alan, ışık"
+      },
+      {
+        "harf": "D",
+        "metin": "Sıcaklık, gaz, ses"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PIR sensörü hangi algılama için kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Işık"
+      },
+      {
+        "harf": "B",
+        "metin": "Hareket"
+      },
+      {
+        "harf": "C",
+        "metin": "Isı"
+      },
+      {
+        "harf": "D",
+        "metin": "Gaz"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "tip": "coktan-secmeli",
+    "soruMetni": "`noTone(pin);` komutu ne yapar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "PWM başlatır"
+      },
+      {
+        "harf": "B",
+        "metin": "Ses üretir"
+      },
+      {
+        "harf": "C",
+        "metin": "Ses durdurur"
+      },
+      {
+        "harf": "D",
+        "metin": "Pin'i HIGH yapar"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 projelerinde enerji tasarrufu için hangi mod kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Performance mode"
+      },
+      {
+        "harf": "B",
+        "metin": "Idle mode"
+      },
+      {
+        "harf": "C",
+        "metin": "Sleep mode"
+      },
+      {
+        "harf": "D",
+        "metin": "Safe mode"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino'nun dijital pinleri hem giriş hem de __________ olarak kullanılabilir.",
+    "dogruCevap": "çıkış"
+  },
+  {
+    "id": 327,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32, Arduino'dan farklı olarak __________ ve __________ bağlantısını destekler.",
+    "dogruCevap": "Wi-Fi, Bluetooth"
+  },
+  {
+    "id": 328,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Servo motorlar __________ sinyali ile kontrol edilir.",
+    "dogruCevap": "PWM"
+  },
+  {
+    "id": 329,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "HC-SR04 sensörü __________ ölçmek için kullanılır.",
+    "dogruCevap": "mesafe"
+  },
+  {
+    "id": 330,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "I2C protokolünde cihazlar __________ ve __________ olarak çalışabilir.",
+    "dogruCevap": "master, slave"
+  },
+  {
+    "id": 331,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino IDE'de kodlar __________ diline benzer şekilde yazılır.",
+    "dogruCevap": "C/C++"
+  },
+  {
+    "id": 332,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "5V motorların korunması için __________ veya __________ modülü kullanılır.",
+    "dogruCevap": "röle, MOSFET"
+  },
+  {
+    "id": 333,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Breadboard, geçici __________ kurmak için kullanılır.",
+    "dogruCevap": "devre"
+  },
+  {
+    "id": 334,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "\"analogWrite()\" fonksiyonu sadece __________ pinlerinde çalışır.",
+    "dogruCevap": "PWM"
+  },
+  {
+    "id": 335,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Bir LED'i yakmak için pinin __________ seviyesine çekilmesi gerekir.",
+    "dogruCevap": "HIGH"
+  },
+  {
+    "id": 336,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "DHT11 sensörü __________ (±2°C) ve __________ (%5 hassasiyet) ölçümü yapar.",
+    "dogruCevap": "sıcaklık, nem"
+  },
+  {
+    "id": 337,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Potansiyometre bir __________ giriş elemanıdır.",
+    "dogruCevap": "analog"
+  },
+  {
+    "id": 338,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "LDR sensörü __________ şiddetini ölçer.",
+    "dogruCevap": "ışık"
+  },
+  {
+    "id": 339,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino'da __________ fonksiyonu sürekli çalışır.",
+    "dogruCevap": "loop()"
+  },
+  {
+    "id": 340,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32 üzerinde __________ özelliği mevcuttur.",
+    "dogruCevap": "Bluetooth Low Energy (BLE)"
+  },
+  {
+    "id": 341,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Standart servo motorlar genellikle __________ derece dönebilir.",
+    "dogruCevap": "180"
+  },
+  {
+    "id": 342,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Buzzer modülü __________ üretmek için kullanılır.",
+    "dogruCevap": "ses"
+  },
+  {
+    "id": 343,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "\"delay()\" komutu zaman gecikmesi için __________ cinsinden değer alır.",
+    "dogruCevap": "milisaniye"
+  },
+  {
+    "id": 344,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Step motorlar __________ adım döner.",
+    "dogruCevap": "adım"
+  },
+  {
+    "id": 345,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino Uno'da analog pinler __________ ile __________ arasında numaralandırılır.",
+    "dogruCevap": "A0, A5"
+  },
+  {
+    "id": 346,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Dijital pinler sadece __________ (1) ya da __________ (0) değerlerini alır.",
+    "dogruCevap": "HIGH, LOW"
+  },
+  {
+    "id": 347,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "\"digitalRead()\" komutu pinin __________ durumunu okur.",
+    "dogruCevap": "dijital"
+  },
+  {
+    "id": 348,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32 ile web sunucusu yapmak için __________ kütüphanesi kullanılabilir.",
+    "dogruCevap": "ESPAsyncWebServer"
+  },
+  {
+    "id": 349,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "LCD ekranlar genellikle __________ modülle bağlanır.",
+    "dogruCevap": "I2C"
+  },
+  {
+    "id": 350,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "RGB LED'ler üç farklı __________ içerir: kırmızı, yeşil, mavi.",
+    "dogruCevap": "renk"
+  },
+  {
+    "id": 351,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "IR sensörleri __________ (38kHz) algılama yapar.",
+    "dogruCevap": "kızılötesi"
+  },
+  {
+    "id": 352,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Röle modülü yüksek voltajlı (220V AC) cihazları __________ etmeye yarar.",
+    "dogruCevap": "kontrol"
+  },
+  {
+    "id": 353,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Servo motorlar belirli bir __________ya (0-180°) döndürülerek pozisyonlanabilir.",
+    "dogruCevap": "açı"
+  },
+  {
+    "id": 354,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "PWM sinyali bir tür __________ sinyaldir.",
+    "dogruCevap": "dijital"
+  },
+  {
+    "id": 355,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "PIR sensörleri __________ algılar.",
+    "dogruCevap": "hareket"
+  },
+  {
+    "id": 356,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino UNO'nun mikrodenetleyicisi __________'dir.",
+    "dogruCevap": "ATmega328P"
+  },
+  {
+    "id": 357,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Serial haberleşme __________ (transmit) ve __________ (receive) pinleriyle yapılır.",
+    "dogruCevap": "TX, RX"
+  },
+  {
+    "id": 358,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "\"Serial.begin(9600)\" komutu seri iletişimi __________.",
+    "dogruCevap": "başlatır"
+  },
+  {
+    "id": 359,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "MPU6050 sensörü __________ (accelerometer) ve __________ (jiroskop) verisi üretir.",
+    "dogruCevap": "ivme, gyro"
+  },
+  {
+    "id": 360,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino kartları USB ile __________.",
+    "dogruCevap": "beslenebilir"
+  },
+  {
+    "id": 361,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Pushbutton tipi butonlar __________ temas sağlar.",
+    "dogruCevap": "geçici"
+  },
+  {
+    "id": 362,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Breadboard üzerindeki kırmızı (+) ve mavi (-) çizgili hatlar __________ rail'leridir.",
+    "dogruCevap": "besleme"
+  },
+  {
+    "id": 363,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32'nin ADC çözünürlüğü __________'tir.",
+    "dogruCevap": "12 bit"
+  },
+  {
+    "id": 364,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "\"millis()\" fonksiyonu __________ (milisaniye) verir.",
+    "dogruCevap": "geçen süreyi"
+  },
+  {
+    "id": 365,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Step motorlarda her adım belirli bir __________ (step angle) ile döner.",
+    "dogruCevap": "derece"
+  },
+  {
+    "id": 366,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "\"analogRead()\" fonksiyonu analog değerleri __________ arasında döndürür.",
+    "dogruCevap": "0-1023"
+  },
+  {
+    "id": 367,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino'da PWM sinyali oluşturmak için __________ fonksiyonu kullanılır.",
+    "dogruCevap": "analogWrite()"
+  },
+  {
+    "id": 368,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "\"if\" deyimi __________ yapıları ifade eder.",
+    "dogruCevap": "koşullu"
+  },
+  {
+    "id": 369,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "I2C haberleşmede iki temel pin vardır: __________ (clock) ve __________ (data).",
+    "dogruCevap": "SCL, SDA"
+  },
+  {
+    "id": 370,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Röle modülünde akımı açıp kapatan kısım __________ (switch) elemanıdır.",
+    "dogruCevap": "kontak"
+  },
+  {
+    "id": 371,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "16x2 LCD ekran 2 satırda toplam __________ (16x2) gösterir.",
+    "dogruCevap": "32 karakter"
+  },
+  {
+    "id": 372,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32'de Wi-Fi kütüphanesi __________'dır.",
+    "dogruCevap": "WiFi.h"
+  },
+  {
+    "id": 373,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "RFID okuyucu genellikle __________ frekansında çalışır.",
+    "dogruCevap": "13.56 MHz"
+  },
+  {
+    "id": 374,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "IR kumandalar __________ serisi alıcılar ile kontrol edilir.",
+    "dogruCevap": "TSOP"
+  },
+  {
+    "id": 375,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "NodeMCU kartı ESP8266 tabanlı bir __________ kartıdır.",
+    "dogruCevap": "geliştirme"
+  },
+  {
+    "id": 376,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino UNO'nun mikrodenetleyicisi hangisidir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "ESP32"
+      },
+      {
+        "harf": "B",
+        "metin": "ATmega328P"
+      },
+      {
+        "harf": "C",
+        "metin": "STM32"
+      },
+      {
+        "harf": "D",
+        "metin": "PIC16F84"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki sensörlerden hangisi sıcaklık ve nem ölçebilir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "HC-SR04"
+      },
+      {
+        "harf": "B",
+        "metin": "LDR"
+      },
+      {
+        "harf": "C",
+        "metin": "DHT11"
+      },
+      {
+        "harf": "D",
+        "metin": "MPU6050"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Servo motorlar nasıl kontrol edilir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Analog voltajla"
+      },
+      {
+        "harf": "B",
+        "metin": "PWM sinyali ile"
+      },
+      {
+        "harf": "C",
+        "metin": "Dijital girişle"
+      },
+      {
+        "harf": "D",
+        "metin": "DC akımla"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“digitalRead()” fonksiyonu ne işe yarar?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Dijital çıkışı yazar"
+      },
+      {
+        "harf": "B",
+        "metin": "Analog değeri okur"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM verir"
+      },
+      {
+        "harf": "D",
+        "metin": "Dijital girişi okur"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'nin en önemli farklarından biri nedir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "EEPROM yoktur"
+      },
+      {
+        "harf": "B",
+        "metin": "I2C desteklemez"
+      },
+      {
+        "harf": "C",
+        "metin": "Wi-Fi özelliği vardır"
+      },
+      {
+        "harf": "D",
+        "metin": "Analog pin yoktur"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "tip": "coktan-secmeli",
+    "soruMetni": "HC-SR04 sensörü ne ölçer?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sıcaklık"
+      },
+      {
+        "harf": "B",
+        "metin": "Basınç"
+      },
+      {
+        "harf": "C",
+        "metin": "Mesafe"
+      },
+      {
+        "harf": "D",
+        "metin": "Işık"
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "tip": "coktan-secmeli",
+    "soruMetni": "LDR sensörü hangi veriyi sağlar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Hareket"
+      },
+      {
+        "harf": "B",
+        "metin": "Ses"
+      },
+      {
+        "harf": "C",
+        "metin": "Işık"
+      },
+      {
+        "harf": "D",
+        "metin": "Basınç"
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“analogWrite()” fonksiyonu hangi tür pinlerde çalışır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Dijital giriş"
+      },
+      {
+        "harf": "B",
+        "metin": "Analog giriş"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM çıkışı"
+      },
+      {
+        "harf": "D",
+        "metin": "UART pin"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Breadboard ne için kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Kalıcı devre kurmak için"
+      },
+      {
+        "harf": "B",
+        "metin": "Lehimleme yapmak için"
+      },
+      {
+        "harf": "C",
+        "metin": "Geçici devre kurmak için"
+      },
+      {
+        "harf": "D",
+        "metin": "Voltaj düşürmek için"
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki modüllerden hangisi Bluetooth haberleşmeyi sağlar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "HC-05"
+      },
+      {
+        "harf": "B",
+        "metin": "HC-SR04"
+      },
+      {
+        "harf": "C",
+        "metin": "MPU6050"
+      },
+      {
+        "harf": "D",
+        "metin": "L298N"
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "tip": "coktan-secmeli",
+    "soruMetni": "I2C haberleşmesinde veri iletiminde hangi iki pin kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "TX, RX"
+      },
+      {
+        "harf": "B",
+        "metin": "SCL, SDA"
+      },
+      {
+        "harf": "C",
+        "metin": "MISO, MOSI"
+      },
+      {
+        "harf": "D",
+        "metin": "VCC, GND"
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Servo motorun açısı ne ile belirlenir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Gerilim"
+      },
+      {
+        "harf": "B",
+        "metin": "PWM darbe süresi"
+      },
+      {
+        "harf": "C",
+        "metin": "Analog sinyal"
+      },
+      {
+        "harf": "D",
+        "metin": "Frekans"
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki motor türlerinden hangisi konum kontrolü sağlar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "DC motor"
+      },
+      {
+        "harf": "B",
+        "metin": "Step motor"
+      },
+      {
+        "harf": "C",
+        "metin": "Brushless"
+      },
+      {
+        "harf": "D",
+        "metin": "Vantilatör"
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 hangi kablosuz iletişim teknolojilerini destekler?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Wi-Fi"
+      },
+      {
+        "harf": "B",
+        "metin": "Bluetooth"
+      },
+      {
+        "harf": "C",
+        "metin": "Her ikisi"
+      },
+      {
+        "harf": "D",
+        "metin": "Hiçbiri"
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“delay(1000)” komutu programı kaç saniye bekletir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0.1"
+      },
+      {
+        "harf": "B",
+        "metin": "1"
+      },
+      {
+        "harf": "C",
+        "metin": "10"
+      },
+      {
+        "harf": "D",
+        "metin": "100"
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“loop()” fonksiyonu Arduino'da kaç kez çalışır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sadece bir kez"
+      },
+      {
+        "harf": "B",
+        "metin": "Sürekli"
+      },
+      {
+        "harf": "C",
+        "metin": "Hiç çalışmaz"
+      },
+      {
+        "harf": "D",
+        "metin": "Belirli aralıklarla"
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "tip": "coktan-secmeli",
+    "soruMetni": "DHT11 sensörünün çıkışı nasıldır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Analog"
+      },
+      {
+        "harf": "B",
+        "metin": "Dijital"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM"
+      },
+      {
+        "harf": "D",
+        "metin": "Frekans"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“pinMode(13, OUTPUT);” satırı ne işe yarar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "13. pini giriş yapar"
+      },
+      {
+        "harf": "B",
+        "metin": "13. pini çıkış yapar"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM aktif eder"
+      },
+      {
+        "harf": "D",
+        "metin": "Analog giriş tanımlar"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "tip": "coktan-secmeli",
+    "soruMetni": "LoRa modülü ne sağlar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Yüksek hız"
+      },
+      {
+        "harf": "B",
+        "metin": "Kısa mesafe"
+      },
+      {
+        "harf": "C",
+        "metin": "Uzun mesafe haberleşme"
+      },
+      {
+        "harf": "D",
+        "metin": "Işık kontrolü"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“Serial.begin(9600);” komutu ne yapar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "PWM başlatır"
+      },
+      {
+        "harf": "B",
+        "metin": "Motoru çalıştırır"
+      },
+      {
+        "harf": "C",
+        "metin": "Seri haberleşmeyi başlatır"
+      },
+      {
+        "harf": "D",
+        "metin": "LED yakar"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino’da analog okuma hangi fonksiyonla yapılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "digitalRead"
+      },
+      {
+        "harf": "B",
+        "metin": "analogWrite"
+      },
+      {
+        "harf": "C",
+        "metin": "analogRead"
+      },
+      {
+        "harf": "D",
+        "metin": "tone"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Buzzer ile ses çıkışı için hangi fonksiyon kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "buzz()"
+      },
+      {
+        "harf": "B",
+        "metin": "tone()"
+      },
+      {
+        "harf": "C",
+        "metin": "sound()"
+      },
+      {
+        "harf": "D",
+        "metin": "play()"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PIR sensör ne algılar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Işık"
+      },
+      {
+        "harf": "B",
+        "metin": "Hareket"
+      },
+      {
+        "harf": "C",
+        "metin": "Basınç"
+      },
+      {
+        "harf": "D",
+        "metin": "Ses"
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'nin ADC çözünürlüğü kaç bittir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "8"
+      },
+      {
+        "harf": "B",
+        "metin": "10"
+      },
+      {
+        "harf": "C",
+        "metin": "12"
+      },
+      {
+        "harf": "D",
+        "metin": "16"
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi PWM çıkışı sağlayabilir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "A0"
+      },
+      {
+        "harf": "B",
+        "metin": "D2"
+      },
+      {
+        "harf": "C",
+        "metin": "D5 (~ işareti varsa)"
+      },
+      {
+        "harf": "D",
+        "metin": "GND"
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "tip": "coktan-secmeli",
+    "soruMetni": "I2C cihazlara erişmek için ne gereklidir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "IP adresi"
+      },
+      {
+        "harf": "B",
+        "metin": "MAC adresi"
+      },
+      {
+        "harf": "C",
+        "metin": "Cihaz ID'si"
+      },
+      {
+        "harf": "D",
+        "metin": "PIN kodu"
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'da “HIGH” komutu pin çıkışını ne yapar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0V"
+      },
+      {
+        "harf": "B",
+        "metin": "3.3V"
+      },
+      {
+        "harf": "C",
+        "metin": "5V"
+      },
+      {
+        "harf": "D",
+        "metin": "Analog sinyal"
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PWM sinyali hangi parametreyle ifade edilir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Voltaj"
+      },
+      {
+        "harf": "B",
+        "metin": "Frekans"
+      },
+      {
+        "harf": "C",
+        "metin": "Duty cycle"
+      },
+      {
+        "harf": "D",
+        "metin": "Akım"
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 ile web sunucusu oluşturmak için hangi kütüphane yaygın kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "WiFiClient.h"
+      },
+      {
+        "harf": "B",
+        "metin": "HTTPClient.h"
+      },
+      {
+        "harf": "C",
+        "metin": "ESPAsyncWebServer.h"
+      },
+      {
+        "harf": "D",
+        "metin": "LoRa.h"
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "tip": "coktan-secmeli",
+    "soruMetni": "L298N motor sürücü modülü hangi motorları sürmek için uygundur?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Step motor ve DC motor"
+      },
+      {
+        "harf": "B",
+        "metin": "Servo motor"
+      },
+      {
+        "harf": "C",
+        "metin": "Sadece brushless"
+      },
+      {
+        "harf": "D",
+        "metin": "Ultrasonik motor"
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "tip": "coktan-secmeli",
+    "soruMetni": "RGB LED toplamda kaç ana renk içerir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "2"
+      },
+      {
+        "harf": "B",
+        "metin": "3"
+      },
+      {
+        "harf": "C",
+        "metin": "4"
+      },
+      {
+        "harf": "D",
+        "metin": "1"
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "tip": "coktan-secmeli",
+    "soruMetni": "IR alıcılar hangi dalga boyu aralığında çalışır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Görünür ışık"
+      },
+      {
+        "harf": "B",
+        "metin": "Radyo"
+      },
+      {
+        "harf": "C",
+        "metin": "Kızılötesi"
+      },
+      {
+        "harf": "D",
+        "metin": "UV"
+      }
+    ]
+  },
+  {
+    "id": 408,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'nun resmi yazılım geliştirme ortamı nedir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Atmel Studio"
+      },
+      {
+        "harf": "B",
+        "metin": "VS Code"
+      },
+      {
+        "harf": "C",
+        "metin": "Arduino IDE"
+      },
+      {
+        "harf": "D",
+        "metin": "STM32CubeIDE"
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“setup()” fonksiyonu ne zaman çalışır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Program başında"
+      },
+      {
+        "harf": "B",
+        "metin": "Sürekli"
+      },
+      {
+        "harf": "C",
+        "metin": "Butona basılınca"
+      },
+      {
+        "harf": "D",
+        "metin": "Hiç çalışmaz"
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“millis()” fonksiyonu ne döndürür?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Saat"
+      },
+      {
+        "harf": "B",
+        "metin": "Gün"
+      },
+      {
+        "harf": "C",
+        "metin": "Geçen süre (ms)"
+      },
+      {
+        "harf": "D",
+        "metin": "Tarih"
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“if” yapısı hangi tür yapıdır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Döngü"
+      },
+      {
+        "harf": "B",
+        "metin": "Fonksiyon"
+      },
+      {
+        "harf": "C",
+        "metin": "Koşul kontrol"
+      },
+      {
+        "harf": "D",
+        "metin": "Değişken"
+      }
+    ]
+  },
+  {
+    "id": 412,
+    "tip": "coktan-secmeli",
+    "soruMetni": "LCD ekran ile Arduino iletişimi için hangi protokol sıklıkla kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "SPI"
+      },
+      {
+        "harf": "B",
+        "metin": "UART"
+      },
+      {
+        "harf": "C",
+        "metin": "I2C"
+      },
+      {
+        "harf": "D",
+        "metin": "LoRa"
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'nin çalışma gerilimi nedir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "12V"
+      },
+      {
+        "harf": "B",
+        "metin": "5V"
+      },
+      {
+        "harf": "C",
+        "metin": "3.3V"
+      },
+      {
+        "harf": "D",
+        "metin": "1.8V"
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino UNO üzerinde kaç tane dijital pin bulunur?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "6"
+      },
+      {
+        "harf": "B",
+        "metin": "14"
+      },
+      {
+        "harf": "C",
+        "metin": "8"
+      },
+      {
+        "harf": "D",
+        "metin": "12"
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Potansiyometre neyi ayarlamak için kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Frekans"
+      },
+      {
+        "harf": "B",
+        "metin": "Voltaj"
+      },
+      {
+        "harf": "C",
+        "metin": "Akım"
+      },
+      {
+        "harf": "D",
+        "metin": "Güç"
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi bir tür seri haberleşme değildir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "SPI"
+      },
+      {
+        "harf": "B",
+        "metin": "I2C"
+      },
+      {
+        "harf": "C",
+        "metin": "UART"
+      },
+      {
+        "harf": "D",
+        "metin": "AC"
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "tip": "coktan-secmeli",
+    "soruMetni": "MPU6050 sensörü hangi iki veriyi sağlar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Basınç & sıcaklık"
+      },
+      {
+        "harf": "B",
+        "metin": "İvme & jiroskop"
+      },
+      {
+        "harf": "C",
+        "metin": "Nem & ışık"
+      },
+      {
+        "harf": "D",
+        "metin": "Ses & hareket"
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Röle modülü ne sağlar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Analog voltaj"
+      },
+      {
+        "harf": "B",
+        "metin": "Düşük akım"
+      },
+      {
+        "harf": "C",
+        "metin": "Yüksek gerilim kontrolü"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM"
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32’nin Bluetooth türü nedir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Klasik Bluetooth"
+      },
+      {
+        "harf": "B",
+        "metin": "BLE"
+      },
+      {
+        "harf": "C",
+        "metin": "Her ikisi"
+      },
+      {
+        "harf": "D",
+        "metin": "NFC"
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki motorlardan hangisi sürekli dönmez?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "DC"
+      },
+      {
+        "harf": "B",
+        "metin": "Step"
+      },
+      {
+        "harf": "C",
+        "metin": "Servo"
+      },
+      {
+        "harf": "D",
+        "metin": "Brushless"
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 ile analog okuma yapmak için kullanılan fonksiyon?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "analogWrite()"
+      },
+      {
+        "harf": "B",
+        "metin": "analogRead()"
+      },
+      {
+        "harf": "C",
+        "metin": "digitalRead()"
+      },
+      {
+        "harf": "D",
+        "metin": "analogPin()"
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi Arduino ile uyumlu bir sensördür?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "HC-SR04"
+      },
+      {
+        "harf": "B",
+        "metin": "SIM800"
+      },
+      {
+        "harf": "C",
+        "metin": "SIM9000"
+      },
+      {
+        "harf": "D",
+        "metin": "ESP-NOW"
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Buzzer’dan farklı frekanslarda ses çıkarmak için hangi fonksiyon kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "buzz()"
+      },
+      {
+        "harf": "B",
+        "metin": "tone()"
+      },
+      {
+        "harf": "C",
+        "metin": "delay()"
+      },
+      {
+        "harf": "D",
+        "metin": "beep()"
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“for” döngüsü ne işe yarar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Koşul kontrolü"
+      },
+      {
+        "harf": "B",
+        "metin": "Fonksiyon çağırma"
+      },
+      {
+        "harf": "C",
+        "metin": "Belirli sayıda tekrar"
+      },
+      {
+        "harf": "D",
+        "metin": "Giriş okumak"
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'nin işlemci mimarisi nedir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "AVR"
+      },
+      {
+        "harf": "B",
+        "metin": "ARM"
+      },
+      {
+        "harf": "C",
+        "metin": "Xtensa"
+      },
+      {
+        "harf": "D",
+        "metin": "RISC-V"
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'nun hafızasında kalıcı veri saklamak için ne kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "RAM"
+      },
+      {
+        "harf": "B",
+        "metin": "SRAM"
+      },
+      {
+        "harf": "C",
+        "metin": "EEPROM"
+      },
+      {
+        "harf": "D",
+        "metin": "Flash kart"
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Analog pinler hangi voltaj aralığında çalışır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "0–10V"
+      },
+      {
+        "harf": "B",
+        "metin": "0–12V"
+      },
+      {
+        "harf": "C",
+        "metin": "0–5V"
+      },
+      {
+        "harf": "D",
+        "metin": "0–3V"
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Bir LED devresinde direnç neden kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Akımı artırmak için"
+      },
+      {
+        "harf": "B",
+        "metin": "Voltajı artırmak için"
+      },
+      {
+        "harf": "C",
+        "metin": "LED'i korumak için"
+      },
+      {
+        "harf": "D",
+        "metin": "Isı üretmek için"
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino programları ne olarak kaydedilir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": ".txt"
+      },
+      {
+        "harf": "B",
+        "metin": ".ino"
+      },
+      {
+        "harf": "C",
+        "metin": ".cpp"
+      },
+      {
+        "harf": "D",
+        "metin": ".hex"
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“==” operatörü neyi kontrol eder?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Atama yapar"
+      },
+      {
+        "harf": "B",
+        "metin": "Eşitlik"
+      },
+      {
+        "harf": "C",
+        "metin": "Farklılık"
+      },
+      {
+        "harf": "D",
+        "metin": "Artış"
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PWM çıkışı nerelerde kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sıcaklık ölçümü"
+      },
+      {
+        "harf": "B",
+        "metin": "LED parlaklığı kontrolü"
+      },
+      {
+        "harf": "C",
+        "metin": "Wi-Fi"
+      },
+      {
+        "harf": "D",
+        "metin": "EEPROM"
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“digitalWrite(13, HIGH);” ne yapar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "13. pin LOW olur"
+      },
+      {
+        "harf": "B",
+        "metin": "13. pin PWM olur"
+      },
+      {
+        "harf": "C",
+        "metin": "13. pin HIGH olur"
+      },
+      {
+        "harf": "D",
+        "metin": "Pin iptal edilir"
+      }
+    ]
+  },
+  {
+    "id": 433,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino'ya enerji vermek için hangisi kullanılır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "USB"
+      },
+      {
+        "harf": "B",
+        "metin": "VGA"
+      },
+      {
+        "harf": "C",
+        "metin": "HDMI"
+      },
+      {
+        "harf": "D",
+        "metin": "LAN"
+      }
+    ]
+  },
+  {
+    "id": 434,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi motor değildir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Servo"
+      },
+      {
+        "harf": "B",
+        "metin": "Step"
+      },
+      {
+        "harf": "C",
+        "metin": "Potansiyometre"
+      },
+      {
+        "harf": "D",
+        "metin": "DC"
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "tip": "coktan-secmeli",
+    "soruMetni": "I2C protokolünde her cihazın benzersiz bir… vardır.",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sıcaklık değeri"
+      },
+      {
+        "harf": "B",
+        "metin": "Adresi"
+      },
+      {
+        "harf": "C",
+        "metin": "LED'i"
+      },
+      {
+        "harf": "D",
+        "metin": "Rölesi"
+      }
+    ]
+  },
+  {
+    "id": 436,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdaki komutlardan hangisi analog çıkış sağlar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "digitalRead()"
+      },
+      {
+        "harf": "B",
+        "metin": "analogRead()"
+      },
+      {
+        "harf": "C",
+        "metin": "analogWrite()"
+      },
+      {
+        "harf": "D",
+        "metin": "pinMode()"
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino’da bir LED'i söndürmek için hangi komut kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "digitalWrite(pin, HIGH)"
+      },
+      {
+        "harf": "B",
+        "metin": "digitalWrite(pin, LOW)"
+      },
+      {
+        "harf": "C",
+        "metin": "pinMode(pin, OUTPUT)"
+      },
+      {
+        "harf": "D",
+        "metin": "analogRead(pin)"
+      }
+    ]
+  },
+  {
+    "id": 438,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Servo motorun pozisyonunu belirlemek için hangi kütüphane kullanılır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Servo.h"
+      },
+      {
+        "harf": "B",
+        "metin": "Motor.h"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM.h"
+      },
+      {
+        "harf": "D",
+        "metin": "Analog.h"
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "tip": "coktan-secmeli",
+    "soruMetni": "HC-SR04’te ses dalgasının gidip gelme süresi ölçülerek ne hesaplanır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Işık yoğunluğu"
+      },
+      {
+        "harf": "B",
+        "metin": "Mesafe"
+      },
+      {
+        "harf": "C",
+        "metin": "Basınç"
+      },
+      {
+        "harf": "D",
+        "metin": "Açı"
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32, birden fazla çekirdekli işlemciye sahip midir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Hayır"
+      },
+      {
+        "harf": "B",
+        "metin": "Evet"
+      },
+      {
+        "harf": "C",
+        "metin": "Sadece bazı modeller"
+      },
+      {
+        "harf": "D",
+        "metin": "Kararsız"
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Buzzer ile ses çıkışı üretmek için gereken sinyal tipi nedir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sabit voltaj"
+      },
+      {
+        "harf": "B",
+        "metin": "PWM"
+      },
+      {
+        "harf": "C",
+        "metin": "Analog giriş"
+      },
+      {
+        "harf": "D",
+        "metin": "Dijital okuma"
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“while” döngüsü hangi durumda çalışır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Bir fonksiyon çağrıldığında"
+      },
+      {
+        "harf": "B",
+        "metin": "Belirli koşul sağlandığında"
+      },
+      {
+        "harf": "C",
+        "metin": "Program başladığında"
+      },
+      {
+        "harf": "D",
+        "metin": "Delay süresi dolunca"
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino ile SD kart haberleşmesi için hangi protokol kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "I2C"
+      },
+      {
+        "harf": "B",
+        "metin": "SPI"
+      },
+      {
+        "harf": "C",
+        "metin": "UART"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM"
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 ile Wi-Fi bağlantısı kurmak için kullanılan sınıf nedir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Serial"
+      },
+      {
+        "harf": "B",
+        "metin": "WiFi"
+      },
+      {
+        "harf": "C",
+        "metin": "Ethernet"
+      },
+      {
+        "harf": "D",
+        "metin": "ESP_NOW"
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Step motor kontrolü için hangi modül yaygın olarak kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "L298N"
+      },
+      {
+        "harf": "B",
+        "metin": "A4988"
+      },
+      {
+        "harf": "C",
+        "metin": "NRF24L01"
+      },
+      {
+        "harf": "D",
+        "metin": "BME280"
+      }
+    ]
+  },
+  {
+    "id": 446,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi seri haberleşme portudur?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "I2C"
+      },
+      {
+        "harf": "B",
+        "metin": "SPI"
+      },
+      {
+        "harf": "C",
+        "metin": "UART"
+      },
+      {
+        "harf": "D",
+        "metin": "CAN"
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino ile zamanlayıcı programlamak için hangi komut kullanılır?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "delay()"
+      },
+      {
+        "harf": "B",
+        "metin": "if()"
+      },
+      {
+        "harf": "C",
+        "metin": "switch()"
+      },
+      {
+        "harf": "D",
+        "metin": "digitalWrite()"
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Işık şiddetini ölçen sensör hangisidir?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LDR"
+      },
+      {
+        "harf": "B",
+        "metin": "DHT11"
+      },
+      {
+        "harf": "C",
+        "metin": "PIR"
+      },
+      {
+        "harf": "D",
+        "metin": "HC-05"
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32 ile çoklu analog okuma yapılabilir mi?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Hayır"
+      },
+      {
+        "harf": "B",
+        "metin": "Evet"
+      },
+      {
+        "harf": "C",
+        "metin": "Sadece A0 ile"
+      },
+      {
+        "harf": "D",
+        "metin": "Sadece dijital pinlerle"
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "tip": "coktan-secmeli",
+    "soruMetni": "RGB LED’lerde “G” harfi hangi rengi temsil eder?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Gri"
+      },
+      {
+        "harf": "B",
+        "metin": "Green"
+      },
+      {
+        "harf": "C",
+        "metin": "Gold"
+      },
+      {
+        "harf": "D",
+        "metin": "Gray"
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "tip": "coktan-secmeli",
+    "soruMetni": "5V ile çalışan bir sensörü ESP32'ye doğrudan bağlamak güvenli midir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Evet"
+      },
+      {
+        "harf": "B",
+        "metin": "Hayır"
+      },
+      {
+        "harf": "C",
+        "metin": "Sadece dijital pinlerde"
+      },
+      {
+        "harf": "D",
+        "metin": "GND bağlanırsa olur"
+      }
+    ]
+  },
+  {
+    "id": 452,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32'nin Wi-Fi modülü ile yapılan sunucu türü nedir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Analog sunucu"
+      },
+      {
+        "harf": "B",
+        "metin": "HTTP sunucu"
+      },
+      {
+        "harf": "C",
+        "metin": "LoRa sunucu"
+      },
+      {
+        "harf": "D",
+        "metin": "Analog Web"
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "tip": "coktan-secmeli",
+    "soruMetni": "DC motorun dönüş yönünü değiştirmek için ne kullanılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LED"
+      },
+      {
+        "harf": "B",
+        "metin": "Röle"
+      },
+      {
+        "harf": "C",
+        "metin": "LDR"
+      },
+      {
+        "harf": "D",
+        "metin": "Potansiyometre"
+      }
+    ]
+  },
+  {
+    "id": 454,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi ESP32’ye özgü değildir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Bluetooth"
+      },
+      {
+        "harf": "B",
+        "metin": "Çift çekirdek"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM"
+      },
+      {
+        "harf": "D",
+        "metin": "ATmega328P"
+      }
+    ]
+  },
+  {
+    "id": 455,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“else” yapısı hangi durumda çalışır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "if doğruysa"
+      },
+      {
+        "harf": "B",
+        "metin": "if yanlışsa"
+      },
+      {
+        "harf": "C",
+        "metin": "while bitince"
+      },
+      {
+        "harf": "D",
+        "metin": "for döngüsü sonrası"
+      }
+    ]
+  },
+  {
+    "id": 456,
+    "tip": "coktan-secmeli",
+    "soruMetni": "DHT11 sensörü hangi veri tipini verir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "analog"
+      },
+      {
+        "harf": "B",
+        "metin": "dijital"
+      },
+      {
+        "harf": "C",
+        "metin": "PWM"
+      },
+      {
+        "harf": "D",
+        "metin": "binary"
+      }
+    ]
+  },
+  {
+    "id": 457,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino ile çalışan LCD ekranın yaygın karakter sayısı nedir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "10x2"
+      },
+      {
+        "harf": "B",
+        "metin": "16x2"
+      },
+      {
+        "harf": "C",
+        "metin": "8x1"
+      },
+      {
+        "harf": "D",
+        "metin": "12x4"
+      }
+    ]
+  },
+  {
+    "id": 458,
+    "tip": "coktan-secmeli",
+    "soruMetni": "ESP32’de GPIO kaç volta kadar çalışır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "12V"
+      },
+      {
+        "harf": "B",
+        "metin": "5V"
+      },
+      {
+        "harf": "C",
+        "metin": "3.3V"
+      },
+      {
+        "harf": "D",
+        "metin": "2.5V"
+      }
+    ]
+  },
+  {
+    "id": 459,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino’da bir değeri sürekli artırmak için ne yapılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "delay()"
+      },
+      {
+        "harf": "B",
+        "metin": "if()"
+      },
+      {
+        "harf": "C",
+        "metin": "x++"
+      },
+      {
+        "harf": "D",
+        "metin": "analogRead()"
+      }
+    ]
+  },
+  {
+    "id": 460,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Röle modülü hangi cihazları kontrol edebilir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sadece 5V’luk cihazlar"
+      },
+      {
+        "harf": "B",
+        "metin": "Sadece sensörler"
+      },
+      {
+        "harf": "C",
+        "metin": "Yüksek akım çeken cihazlar"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM sinyalleri"
+      }
+    ]
+  },
+  {
+    "id": 461,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Potansiyometre ile hangi değer okunabilir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "dijital"
+      },
+      {
+        "harf": "B",
+        "metin": "analog"
+      },
+      {
+        "harf": "C",
+        "metin": "sıcaklık"
+      },
+      {
+        "harf": "D",
+        "metin": "konum"
+      }
+    ]
+  },
+  {
+    "id": 462,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PWM sinyalinde duty cycle %100 olursa ne olur?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Sıfır çıkış"
+      },
+      {
+        "harf": "B",
+        "metin": "Maksimum çıkış"
+      },
+      {
+        "harf": "C",
+        "metin": "Yarı çıkış"
+      },
+      {
+        "harf": "D",
+        "metin": "Rastgele çıkış"
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“digitalWrite(pin, LOW)” ne yapar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Pin voltajını düşürür"
+      },
+      {
+        "harf": "B",
+        "metin": "PWM üretir"
+      },
+      {
+        "harf": "C",
+        "metin": "Pin’i okur"
+      },
+      {
+        "harf": "D",
+        "metin": "Analog veri yollar"
+      }
+    ]
+  },
+  {
+    "id": 464,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“Serial.print()” fonksiyonu ne yapar?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LED yakar"
+      },
+      {
+        "harf": "B",
+        "metin": "Motor döndürür"
+      },
+      {
+        "harf": "C",
+        "metin": "Seri porttan veri yazar"
+      },
+      {
+        "harf": "D",
+        "metin": "Delay ekler"
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi dijital sensördür?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LDR"
+      },
+      {
+        "harf": "B",
+        "metin": "DHT11"
+      },
+      {
+        "harf": "C",
+        "metin": "Potansiyometre"
+      },
+      {
+        "harf": "D",
+        "metin": "LM35"
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“tone(pin, 1000)” komutu ne yapar?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "LED yakar"
+      },
+      {
+        "harf": "B",
+        "metin": "1kHz ses üretir"
+      },
+      {
+        "harf": "C",
+        "metin": "Analog veri okur"
+      },
+      {
+        "harf": "D",
+        "metin": "PWM verir"
+      }
+    ]
+  },
+  {
+    "id": 467,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino’da bir değişkeni sıfırlamak için ne yapılır?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "x = 1"
+      },
+      {
+        "harf": "B",
+        "metin": "x = 0"
+      },
+      {
+        "harf": "C",
+        "metin": "x = x + 1"
+      },
+      {
+        "harf": "D",
+        "metin": "x–"
+      }
+    ]
+  },
+  {
+    "id": 468,
+    "tip": "coktan-secmeli",
+    "soruMetni": "L298N motor sürücü modülünde kaç motor kontrol edilebilir?",
+    "dogruCevap": "B",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "1"
+      },
+      {
+        "harf": "B",
+        "metin": "2"
+      },
+      {
+        "harf": "C",
+        "metin": "3"
+      },
+      {
+        "harf": "D",
+        "metin": "4"
+      }
+    ]
+  },
+  {
+    "id": 469,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Bir servoyu 180 derece çevirmek için hangi komut kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "rotate(180)"
+      },
+      {
+        "harf": "B",
+        "metin": "setAngle(180)"
+      },
+      {
+        "harf": "C",
+        "metin": "write(180)"
+      },
+      {
+        "harf": "D",
+        "metin": "drive(180)"
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino’da bir fonksiyon nasıl tanımlanır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "fonksiyon isim;"
+      },
+      {
+        "harf": "B",
+        "metin": "function isim()"
+      },
+      {
+        "harf": "C",
+        "metin": "void isim()"
+      },
+      {
+        "harf": "D",
+        "metin": "define isim"
+      }
+    ]
+  },
+  {
+    "id": 471,
+    "tip": "coktan-secmeli",
+    "soruMetni": "“#include <Servo.h>” ne işe yarar?",
+    "dogruCevap": "A",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Servo motor fonksiyonlarını yükler"
+      },
+      {
+        "harf": "B",
+        "metin": "LED kontrolünü sağlar"
+      },
+      {
+        "harf": "C",
+        "metin": "Motoru döndürür"
+      },
+      {
+        "harf": "D",
+        "metin": "Wi-Fi açar"
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "tip": "coktan-secmeli",
+    "soruMetni": "PIR sensörü neye tepki verir?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Ses"
+      },
+      {
+        "harf": "B",
+        "metin": "Işık"
+      },
+      {
+        "harf": "C",
+        "metin": "Isı değişimi ve hareket"
+      },
+      {
+        "harf": "D",
+        "metin": "Hava basıncı"
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino UNO’nun çalışma voltajı nedir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "9V"
+      },
+      {
+        "harf": "B",
+        "metin": "12V"
+      },
+      {
+        "harf": "C",
+        "metin": "3.3V"
+      },
+      {
+        "harf": "D",
+        "metin": "5V"
+      }
+    ]
+  },
+  {
+    "id": 474,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Aşağıdakilerden hangisi ESP32 ile uyumlu değildir?",
+    "dogruCevap": "D",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "DHT11"
+      },
+      {
+        "harf": "B",
+        "metin": "HC-SR04"
+      },
+      {
+        "harf": "C",
+        "metin": "5V Röle"
+      },
+      {
+        "harf": "D",
+        "metin": "5V doğrudan dijital giriş"
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "tip": "coktan-secmeli",
+    "soruMetni": "Arduino IDE’de programı karta yüklemek için hangi tuş kullanılır?",
+    "dogruCevap": "C",
+    "siklar": [
+      {
+        "harf": "A",
+        "metin": "Derle"
+      },
+      {
+        "harf": "B",
+        "metin": "Aç"
+      },
+      {
+        "harf": "C",
+        "metin": "Yükle"
+      },
+      {
+        "harf": "D",
+        "metin": "Kaydet"
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino'da dijital bir pini çıkış olarak ayarlamak için kullanılan komut: `__________`",
+    "dogruCevap": "pinMode(pin, OUTPUT);"
+  },
+  {
+    "id": 477,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32’nin Wi-Fi bağlantısı kurması için kullanılan kütüphane: `__________`",
+    "dogruCevap": "WiFi.h"
+  },
+  {
+    "id": 478,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "LED yakmak için kullanılan komut: `__________`",
+    "dogruCevap": "digitalWrite()"
+  },
+  {
+    "id": 479,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da analog değer okumak için kullanılan fonksiyon: `__________`",
+    "dogruCevap": "analogRead()"
+  },
+  {
+    "id": 480,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "PWM sinyali, genellikle `__________` fonksiyonu ile üretilir.",
+    "dogruCevap": "analogWrite"
+  },
+  {
+    "id": 481,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` sensörü, sıcaklık ve nem ölçümü yapar.",
+    "dogruCevap": "DHT11"
+  },
+  {
+    "id": 482,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da sürekli çalışan ana döngü fonksiyonu: `__________`",
+    "dogruCevap": "loop()"
+  },
+  {
+    "id": 483,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32, `__________` volt ile çalışır.",
+    "dogruCevap": "3.3V"
+  },
+  {
+    "id": 484,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino UNO’nun işlemcisi `__________` çipidir.",
+    "dogruCevap": "ATmega328P"
+  },
+  {
+    "id": 485,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Servo motorlar, `__________` sinyali ile kontrol edilir.",
+    "dogruCevap": "PWM"
+  },
+  {
+    "id": 486,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino IDE’de program dosyasının uzantısı `__________` şeklindedir.",
+    "dogruCevap": ".ino"
+  },
+  {
+    "id": 487,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` sensörü, ışık seviyesini ölçer.",
+    "dogruCevap": "LDR"
+  },
+  {
+    "id": 488,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` komutu ile seri haberleşme başlatılır.",
+    "dogruCevap": "Serial.begin()"
+  },
+  {
+    "id": 489,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da zaman gecikmesi vermek için `__________` komutu kullanılır.",
+    "dogruCevap": "delay()"
+  },
+  {
+    "id": 490,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` motorlar, açısal adımlarla döner.",
+    "dogruCevap": "Step"
+  },
+  {
+    "id": 491,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Mesafe ölçmek için kullanılan sensör: `__________`",
+    "dogruCevap": "HC-SR04"
+  },
+  {
+    "id": 492,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32’de Bluetooth için kullanılan tür: `__________`",
+    "dogruCevap": "BLE"
+  },
+  {
+    "id": 493,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Röle modülü ile `__________` gerilimli cihazlar kontrol edilebilir.",
+    "dogruCevap": "yüksek"
+  },
+  {
+    "id": 494,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` komutu ile dijital bir pin okunabilir.",
+    "dogruCevap": "digitalRead()"
+  },
+  {
+    "id": 495,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Potansiyometre `__________` çıkış verir.",
+    "dogruCevap": "analog"
+  },
+  {
+    "id": 496,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` modülü kablosuz haberleşme sağlar.",
+    "dogruCevap": "nRF24L01"
+  },
+  {
+    "id": 497,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` fonksiyonu setup() fonksiyonundan önce sadece bir kere çalışır.",
+    "dogruCevap": "setup()"
+  },
+  {
+    "id": 498,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "RGB LED, `__________`, `__________`, `__________` renklerinden oluşur.",
+    "dogruCevap": "Red, Green, Blue"
+  },
+  {
+    "id": 499,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "PWM sinyallerinde, sinyalin açık kalma süresi oranı `__________` olarak adlandırılır.",
+    "dogruCevap": "duty cycle"
+  },
+  {
+    "id": 500,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "A4988 modülü genellikle `__________` motorları sürmek için kullanılır.",
+    "dogruCevap": "stepper"
+  },
+  {
+    "id": 501,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino ile kullanılan I2C adresleri `__________` bitliktir.",
+    "dogruCevap": "7"
+  },
+  {
+    "id": 502,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Ultrasonik sensörlerde sesin gidiş-dönüş süresi ile `__________` hesaplanır.",
+    "dogruCevap": "mesafe"
+  },
+  {
+    "id": 503,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` komutu ile servo motora açı verilir.",
+    "dogruCevap": "write()"
+  },
+  {
+    "id": 504,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Servo motor kütüphanesi: `#include <__________>`",
+    "dogruCevap": "Servo.h"
+  },
+  {
+    "id": 505,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’ya enerji USB dışında `__________` jakı ile de verilebilir.",
+    "dogruCevap": "DC"
+  },
+  {
+    "id": 506,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` yapısı, belirli bir koşul doğru olduğu sürece çalışır.",
+    "dogruCevap": "while"
+  },
+  {
+    "id": 507,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da bir değişkenin değeri bir artırılmak istenirse `__________` ifadesi kullanılır.",
+    "dogruCevap": "x++"
+  },
+  {
+    "id": 508,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` ekranı, genellikle 16x2 boyutlarındadır.",
+    "dogruCevap": "LCD"
+  },
+  {
+    "id": 509,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` değişkenleri sadece loop içinde tanımlandığında her döngüde sıfırlanır.",
+    "dogruCevap": "local"
+  },
+  {
+    "id": 510,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` modülü, ısı ve nem verisi sağlar.",
+    "dogruCevap": "DHT11"
+  },
+  {
+    "id": 511,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` sensörü hareket algılar.",
+    "dogruCevap": "PIR"
+  },
+  {
+    "id": 512,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` sensörü gaz yoğunluğunu algılar.",
+    "dogruCevap": "MQ-2"
+  },
+  {
+    "id": 513,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` komutu, belirli bir süre ses üretmek için kullanılır.",
+    "dogruCevap": "tone()"
+  },
+  {
+    "id": 514,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` hafızası, enerji kesildiğinde bile veri tutar.",
+    "dogruCevap": "EEPROM"
+  },
+  {
+    "id": 515,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32, çift çekirdekli `__________` mimarisi kullanır.",
+    "dogruCevap": "Xtensa"
+  },
+  {
+    "id": 516,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino kartları genellikle `__________` kablosu ile bilgisayara bağlanır.",
+    "dogruCevap": "USB"
+  },
+  {
+    "id": 517,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "L298N motor sürücüsü ile `__________` motor kontrol edilir.",
+    "dogruCevap": "DC"
+  },
+  {
+    "id": 518,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` komutu, bir mesajı seri port üzerinden gönderir.",
+    "dogruCevap": "Serial.print()"
+  },
+  {
+    "id": 519,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da matematiksel işlemler için `__________` kütüphanesi kullanılır.",
+    "dogruCevap": "math.h"
+  },
+  {
+    "id": 520,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Program içinde tekrar eden kodları tanımlamak için `__________` fonksiyonları kullanılır.",
+    "dogruCevap": "user-defined"
+  },
+  {
+    "id": 521,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` ekranlar, dokunmatik özellik de sunabilir.",
+    "dogruCevap": "TFT"
+  },
+  {
+    "id": 522,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Röle modülü genellikle `__________` sinyali ile kontrol edilir.",
+    "dogruCevap": "dijital"
+  },
+  {
+    "id": 523,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` sensörü, yön ve ivmeyi ölçer.",
+    "dogruCevap": "MPU6050"
+  },
+  {
+    "id": 524,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` değeri, analog sinyallerde 0 ile 1023 arasındadır.",
+    "dogruCevap": "ADC"
+  },
+  {
+    "id": 525,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "UART haberleşme, `__________` ve `__________` pinleriyle sağlanır.",
+    "dogruCevap": "TX, RX"
+  },
+  {
+    "id": 526,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino'da bir pinin giriş olarak ayarlanması için `__________` komutu kullanılır.",
+    "dogruCevap": "pinMode(pin, INPUT);"
+  },
+  {
+    "id": 527,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32 üzerinde bulunan analog giriş pinleri genellikle `__________` harfi ile başlar.",
+    "dogruCevap": "A"
+  },
+  {
+    "id": 528,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` sensörü sıcaklık ölçümünde analog veri verir.",
+    "dogruCevap": "LM35"
+  },
+  {
+    "id": 529,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "LCD ekranların iletişimi genellikle `__________` protokolü ile yapılır.",
+    "dogruCevap": "I2C"
+  },
+  {
+    "id": 530,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` döngüsü belirli sayıda tekrar yapılmak istenirse kullanılır.",
+    "dogruCevap": "for"
+  },
+  {
+    "id": 531,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` kartı ile Arduino arasında Wi-Fi üzerinden veri iletilebilir.",
+    "dogruCevap": "ESP32"
+  },
+  {
+    "id": 532,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Step motorlar `__________` sürücü modülü ile hassas açılarla döndürülebilir.",
+    "dogruCevap": "A4988"
+  },
+  {
+    "id": 533,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` kartı, mikrodenetleyici olmayan sadece sensör, motor bağlamak için kullanılır.",
+    "dogruCevap": "breadboard"
+  },
+  {
+    "id": 534,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32, `__________` MHz frekansta çalışır.",
+    "dogruCevap": "240"
+  },
+  {
+    "id": 535,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Analog değerlerin dijital karşılığı `__________` ile elde edilir.",
+    "dogruCevap": "ADC"
+  },
+  {
+    "id": 536,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32, Bluetooth iletişiminde `__________` modunu kullanabilir.",
+    "dogruCevap": "BLE"
+  },
+  {
+    "id": 537,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` sensörü hava kalitesini ölçer.",
+    "dogruCevap": "MQ135"
+  },
+  {
+    "id": 538,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino IDE’de yeni bir proje başlatmak için `__________` menüsü kullanılır.",
+    "dogruCevap": "File > New"
+  },
+  {
+    "id": 539,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` kartı, Arduino’dan farklı olarak Linux tabanlı sistem çalıştırabilir.",
+    "dogruCevap": "Raspberry Pi"
+  },
+  {
+    "id": 540,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "LoRa haberleşmesi, `__________` mesafelerde veri aktarımı için uygundur.",
+    "dogruCevap": "uzun"
+  },
+  {
+    "id": 541,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "HC-SR04’te “Trig” pini `__________` çıkış verir.",
+    "dogruCevap": "dijital"
+  },
+  {
+    "id": 542,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da dış kütüphaneler `#include` komutu ile `__________` edilir.",
+    "dogruCevap": "eklenir"
+  },
+  {
+    "id": 543,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` sensörü, basınç ölçümünde kullanılır.",
+    "dogruCevap": "BMP180"
+  },
+  {
+    "id": 544,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "PWM sinyaller, `__________` pinlerinden elde edilir.",
+    "dogruCevap": "dijital"
+  },
+  {
+    "id": 545,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32, `__________` sayıda ADC kanalı içerir.",
+    "dogruCevap": "18"
+  },
+  {
+    "id": 546,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` ekranlar, görsel bilgi sunumunda kullanılır.",
+    "dogruCevap": "OLED"
+  },
+  {
+    "id": 547,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "I2C iletişimde “SDA” veri hattı, “SCL” ise `__________` hattıdır.",
+    "dogruCevap": "clock"
+  },
+  {
+    "id": 548,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Işık şiddetine göre çalışan sistemlerde genellikle `__________` kullanılır.",
+    "dogruCevap": "LDR"
+  },
+  {
+    "id": 549,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` sensörü su seviyesini ölçebilir.",
+    "dogruCevap": "su seviye sensörü"
+  },
+  {
+    "id": 550,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` devresi motor akımını sınırlamak için kullanılır.",
+    "dogruCevap": "transistör ya da motor sürücü"
+  },
+  {
+    "id": 551,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Buzzer'dan ses almak için `__________` fonksiyonu ve frekans değeri gerekir.",
+    "dogruCevap": "tone"
+  },
+  {
+    "id": 552,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’nun çalışma mantığı `__________` giriş al, işle, çıkış ver prensibine dayanır.",
+    "dogruCevap": "algıla"
+  },
+  {
+    "id": 553,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Bluetooth haberleşmede genellikle `__________` modül kullanılır.",
+    "dogruCevap": "HC-05"
+  },
+  {
+    "id": 554,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` yazılımı Arduino geliştirme ortamıdır.",
+    "dogruCevap": "Arduino IDE"
+  },
+  {
+    "id": 555,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` fonksiyonu programda sadece bir kez çalışır.",
+    "dogruCevap": "setup()"
+  },
+  {
+    "id": 556,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Röle modülü ile `__________` voltajlı cihazlar kontrol edilebilir.",
+    "dogruCevap": "220V"
+  },
+  {
+    "id": 557,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` komutu, bir pinin çıkış durumunu belirler.",
+    "dogruCevap": "digitalWrite"
+  },
+  {
+    "id": 558,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "PWM sinyaller `__________` kontrolünde motor hızı ayarlamak için kullanılır.",
+    "dogruCevap": "duty cycle"
+  },
+  {
+    "id": 559,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino Uno, `__________` dijital pine sahiptir.",
+    "dogruCevap": "14"
+  },
+  {
+    "id": 560,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Servo motorlar genellikle `__________` derece aralığında çalışır.",
+    "dogruCevap": "0–180"
+  },
+  {
+    "id": 561,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` komutu belirli bir karakteri seri monitöre yazdırır.",
+    "dogruCevap": "Serial.print()"
+  },
+  {
+    "id": 562,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` programlama diline çok benzeyen yapıyla çalışır.",
+    "dogruCevap": "C/C++"
+  },
+  {
+    "id": 563,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino’da sıcaklık ölçmek için `__________` sensörü yaygın kullanılır.",
+    "dogruCevap": "DHT11"
+  },
+  {
+    "id": 564,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` gibi değişken türleri sayı tutar.",
+    "dogruCevap": "int"
+  },
+  {
+    "id": 565,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32’de GPIO’lar hem dijital giriş hem de çıkış olarak `__________`.",
+    "dogruCevap": "kullanılabilir"
+  },
+  {
+    "id": 566,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino IDE’de program çalıştırıldığında hata oluşursa, hata bilgisi `__________` kısmında gösterilir.",
+    "dogruCevap": "console/alt panel"
+  },
+  {
+    "id": 567,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "PWM pinleri genellikle `__________` sembolü ile işaretlenir.",
+    "dogruCevap": "~"
+  },
+  {
+    "id": 568,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Kodda tekrarlayan işlemleri azaltmak için `__________` tanımlanabilir.",
+    "dogruCevap": "fonksiyon"
+  },
+  {
+    "id": 569,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "ESP32'nin en önemli avantajlarından biri `__________` bağlantısıdır.",
+    "dogruCevap": "Wi-Fi"
+  },
+  {
+    "id": 570,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "HC-SR04’te yankı süresi mikro saniye olarak `__________` fonksiyonu ile ölçülür.",
+    "dogruCevap": "pulseIn()"
+  },
+  {
+    "id": 571,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino kartları, yazılım yükleme için `__________` tuşu ile programlanır.",
+    "dogruCevap": "Yükle/Upload"
+  },
+  {
+    "id": 572,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "`__________` komutu if yapısıyla birlikte kullanılır.",
+    "dogruCevap": "else"
+  },
+  {
+    "id": 573,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "GPIO, “General Purpose Input Output” ifadesinin `__________` halidir.",
+    "dogruCevap": "kısaltması"
+  },
+  {
+    "id": 574,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Elektronik devrelerde `__________` çizimi devre şeması anlamına gelir.",
+    "dogruCevap": "fritzing"
+  },
+  {
+    "id": 575,
+    "tip": "bosluk-doldurma",
+    "soruMetni": "Arduino projelerinde enerji kaynağı olarak genellikle `__________` veya adaptör kullanılır.",
+    "dogruCevap": "pil"
+  }
+]

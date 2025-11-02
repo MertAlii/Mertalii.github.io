@@ -1,0 +1,2941 @@
+{
+  "bölüm_1_boşluk_doldurma_soruları_50_soru": [
+    {
+      "soru_numarası": 1,
+      "soru_metni": "Arduino programlarında ana döngü sürekli olarak __________ fonksiyonu içerisinde çalışır.",
+      "doğru_cevap": "loop"
+    },
+    {
+      "soru_numarası": 2,
+      "soru_metni": "ESP32, __________ bitlik bir mikrodenetleyici çekirdeğine sahiptir.",
+      "doğru_cevap": "32"
+    },
+    {
+      "soru_numarası": 3,
+      "soru_metni": "Dijital pinler sadece iki değer alabilir: __________ ve __________.",
+      "doğru_cevap": "HIGH, LOW"
+    },
+    {
+      "soru_numarası": 4,
+      "soru_metni": "`analogRead()` fonksiyonu sadece __________ pinlerde çalışır.",
+      "doğru_cevap": "analog"
+    },
+    {
+      "soru_numarası": 5,
+      "soru_metni": "`delay(1000);` komutu programı __________ milisaniye duraklatır.",
+      "doğru_cevap": "1000"
+    },
+    {
+      "soru_numarası": 6,
+      "soru_metni": "Servo motorlar genellikle __________ derecelik açıyla döner.",
+      "doğru_cevap": "180"
+    },
+    {
+      "soru_numarası": 7,
+      "soru_metni": "ESP32 WiFi bağlantısı için kullanılan başlıca kütüphane __________’dir.",
+      "doğru_cevap": "WiFi.h"
+    },
+    {
+      "soru_numarası": 8,
+      "soru_metni": "Arduino'da dış bir kütüphane yüklemek için __________ menüsünü kullanırız.",
+      "doğru_cevap": "Sketch → Include Library"
+    },
+    {
+      "soru_numarası": 9,
+      "soru_metni": "`Serial.begin(9600);` komutu, __________ iletişimini başlatır.",
+      "doğru_cevap": "seri"
+    },
+    {
+      "soru_numarası": 10,
+      "soru_metni": "Bir LDR sensörü ışık seviyesini __________ sinyali olarak gönderir.",
+      "doğru_cevap": "analog"
+    },
+    {
+      "soru_numarası": 11,
+      "soru_metni": "ESP32'nin Bluetooth özelliği, __________ teknolojisini destekler.",
+      "doğru_cevap": "BLE"
+    },
+    {
+      "soru_numarası": 12,
+      "soru_metni": "`digitalWrite(13, HIGH);` komutu pin 13’ü __________ duruma getirir.",
+      "doğru_cevap": "aktif"
+    },
+    {
+      "soru_numarası": 13,
+      "soru_metni": "DC motorların yönünü değiştirmek için genellikle __________ devresi kullanılır.",
+      "doğru_cevap": "H-köprüsü"
+    },
+    {
+      "soru_numarası": 14,
+      "soru_metni": "Arduino Uno'nun mikrokontrolcüsü __________’dir.",
+      "doğru_cevap": "ATmega328P"
+    },
+    {
+      "soru_numarası": 15,
+      "soru_metni": "ESP32'de GPIO pinleri hem giriş hem de __________ olarak kullanılabilir.",
+      "doğru_cevap": "çıkış"
+    },
+    {
+      "soru_numarası": 16,
+      "soru_metni": "`millis()` fonksiyonu, Arduino’nun çalışmaya başlamasından itibaren geçen zamanı __________ cinsinden verir.",
+      "doğru_cevap": "milisaniye"
+    },
+    {
+      "soru_numarası": 17,
+      "soru_metni": "ESP32'nin çalışması için minimum __________ volt gereklidir.",
+      "doğru_cevap": "3.3"
+    },
+    {
+      "soru_numarası": 18,
+      "soru_metni": "Bir röle ile yüksek akım kontrol edilebilir çünkü içinde bir __________ vardır.",
+      "doğru_cevap": "elektromıknatıs"
+    },
+    {
+      "soru_numarası": 19,
+      "soru_metni": "`pinMode(LED_BUILTIN, OUTPUT);` komutu pinin __________ olacağını belirtir.",
+      "doğru_cevap": "çıkış"
+    },
+    {
+      "soru_numarası": 20,
+      "soru_metni": "I2C haberleşmesinde iki ana hat vardır: __________ ve __________.",
+      "doğru_cevap": "SDA, SCL"
+    },
+    {
+      "soru_numarası": 21,
+      "soru_metni": "`map()` fonksiyonu bir değeri bir aralıktan başka bir aralığa __________ için kullanılır.",
+      "doğru_cevap": "dönüştürmek"
+    },
+    {
+      "soru_numarası": 22,
+      "soru_metni": "Arduino’da 0 ve 1 numaralı pinler __________ haberleşme için kullanılır.",
+      "doğru_cevap": "seri"
+    },
+    {
+      "soru_numarası": 23,
+      "soru_metni": "PWM sinyali ile LED’in __________ kontrol edilebilir.",
+      "doğru_cevap": "parlaklığı"
+    },
+    {
+      "soru_numarası": 24,
+      "soru_metni": "HC-SR04 sensörü __________ ölçmek için kullanılır.",
+      "doğru_cevap": "mesafe"
+    },
+    {
+      "soru_numarası": 25,
+      "soru_metni": "`tone(pin, frequency);` komutu pin üzerinden bir __________ sinyali gönderir.",
+      "doğru_cevap": "ses"
+    },
+    {
+      "soru_numarası": 26,
+      "soru_metni": "10K potansiyometre, genellikle __________ girişi için kullanılır.",
+      "doğru_cevap": "analog"
+    },
+    {
+      "soru_numarası": 27,
+      "soru_metni": "ESP32 ile bulut verisi paylaşmak için sıklıkla __________ gibi MQTT tabanlı platformlar kullanılır.",
+      "doğru_cevap": "Thingspeak"
+    },
+    {
+      "soru_numarası": 28,
+      "soru_metni": "IMU sensörleri genellikle __________ ve __________ ölçer.",
+      "doğru_cevap": "ivme, yön"
+    },
+    {
+      "soru_numarası": 29,
+      "soru_metni": "Arduino kodları .ino uzantılı __________ dosyalarıdır.",
+      "doğru_cevap": "kaynak"
+    },
+    {
+      "soru_numarası": 30,
+      "soru_metni": "`if`, `else`, `while` gibi ifadeler programda __________ yapılar oluşturur.",
+      "doğru_cevap": "kontrol"
+    },
+    {
+      "soru_numarası": 31,
+      "soru_metni": "GPS modülleri genellikle __________ haberleşme protokolüyle bağlanır.",
+      "doğru_cevap": "UART"
+    },
+    {
+      "soru_numarası": 32,
+      "soru_metni": "Robot kollarında genellikle __________ motorlar tercih edilir.",
+      "doğru_cevap": "servo"
+    },
+    {
+      "soru_numarası": 33,
+      "soru_metni": "ESP32 için Arduino IDE’de önce __________ eklenmelidir.",
+      "doğru_cevap": "board paketi"
+    },
+    {
+      "soru_numarası": 34,
+      "soru_metni": "PID kontrol algoritmasında \"P\", __________ anlamına gelir.",
+      "doğru_cevap": "orantısal"
+    },
+    {
+      "soru_numarası": 35,
+      "soru_metni": "Bir servo motorun dönüş açısı __________ sinyali ile belirlenir.",
+      "doğru_cevap": "PWM"
+    },
+    {
+      "soru_numarası": 36,
+      "soru_metni": "RFID sistemlerinde kullanılan kartlar __________ frekansında çalışır.",
+      "doğru_cevap": "13.56 MHz"
+    },
+    {
+      "soru_numarası": 37,
+      "soru_metni": "I2C cihazların adresleri genellikle __________ sayı sisteminde ifade edilir.",
+      "doğru_cevap": "onaltılık"
+    },
+    {
+      "soru_numarası": 38,
+      "soru_metni": "`Serial.println()` komutu, veriyi seri porta __________ yollar.",
+      "doğru_cevap": "yeni satırla"
+    },
+    {
+      "soru_numarası": 39,
+      "soru_metni": "IR alıcılar genellikle TV kumandası gibi cihazlardan __________ alır.",
+      "doğru_cevap": "kızılötesi sinyal"
+    },
+    {
+      "soru_numarası": 40,
+      "soru_metni": "DHT11 sensörü __________ ve __________ ölçmek için kullanılır.",
+      "doğru_cevap": "sıcaklık, nem"
+    },
+    {
+      "soru_numarası": 41,
+      "soru_metni": "Arduino’da `setup()` fonksiyonu yalnızca __________ kez çalışır.",
+      "doğru_cevap": "bir"
+    },
+    {
+      "soru_numarası": 42,
+      "soru_metni": "ESP32'nin çift çekirdeği vardır: biri WiFi diğeri __________ içindir.",
+      "doğru_cevap": "uygulama işlemleri"
+    },
+    {
+      "soru_numarası": 43,
+      "soru_metni": "Tekrarlı çalışan görevler için __________ döngüsü kullanılır.",
+      "doğru_cevap": "loop"
+    },
+    {
+      "soru_numarası": 44,
+      "soru_metni": "`attachInterrupt()` fonksiyonu, bir pin değişiminde __________ çağırmak için kullanılır.",
+      "doğru_cevap": "fonksiyon"
+    },
+    {
+      "soru_numarası": 45,
+      "soru_metni": "LCD ekranlar genellikle __________ kütüphanesiyle kullanılır.",
+      "doğru_cevap": "LiquidCrystal"
+    },
+    {
+      "soru_numarası": 46,
+      "soru_metni": "ESP32, Arduino’ya kıyasla daha __________ bir işlemcidir.",
+      "doğru_cevap": "hızlı"
+    },
+    {
+      "soru_numarası": 47,
+      "soru_metni": "Elektronik devrede diyotun görevi __________ geçişi engellemektir.",
+      "doğru_cevap": "ters"
+    },
+    {
+      "soru_numarası": 48,
+      "soru_metni": "Step motorlar __________ adımlarla döner.",
+      "doğru_cevap": "sabit"
+    },
+    {
+      "soru_numarası": 49,
+      "soru_metni": "Prototipleme için kullanılan delikli devre kartına __________ denir.",
+      "doğru_cevap": "breadboard"
+    },
+    {
+      "soru_numarası": 50,
+      "soru_metni": "Robotik uygulamalarda mesafe ölçümünde en yaygın sensör __________’dir.",
+      "doğru_cevap": "ultrasonik"
+    }
+  ],
+  "çoktan_seçmeli_sorular_1_25": [
+    {
+      "soru_numarası": 1,
+      "soru_metni": "Aşağıdaki pinlerden hangisi Arduino Uno’da PWM çıkışı sağlar?",
+      "seçenekler": {
+        "A": "A0",
+        "B": "D2",
+        "C": "D3",
+        "D": "GND"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 2,
+      "soru_metni": "ESP32 ile internete bağlanmak için öncelikle hangi başlık eklenmelidir?",
+      "seçenekler": {
+        "A": "Ethernet.h",
+        "B": "ESP8266WiFi.h",
+        "C": "WiFi.h",
+        "D": "Net.h"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 3,
+      "soru_metni": "`digitalRead(2);` fonksiyonu ne işe yarar?",
+      "seçenekler": {
+        "A": "Pin 2’ye veri yazar",
+        "B": "Pin 2’nin durumunu okur",
+        "C": "Pin 2’yi HIGH yapar",
+        "D": "Pin 2’den analog veri alır"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 4,
+      "soru_metni": "Arduino IDE’de hangi uzantılı dosyalar yazılımı içerir?",
+      "seçenekler": {
+        "A": ".hex",
+        "B": ".bin",
+        "C": ".ino",
+        "D": ".txt"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 5,
+      "soru_metni": "Aşağıdaki sensörlerden hangisi sıcaklık ölçemez?",
+      "seçenekler": {
+        "A": "DHT11",
+        "B": "LM35",
+        "C": "HC-SR04",
+        "D": "DS18B20"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 6,
+      "soru_metni": "ESP32'de GPIO kaç adettir?",
+      "seçenekler": {
+        "A": "10",
+        "B": "20",
+        "C": "30",
+        "D": "40"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 7,
+      "soru_metni": "Arduino Uno'da kaç adet dijital pin vardır?",
+      "seçenekler": {
+        "A": "6",
+        "B": "10",
+        "C": "14",
+        "D": "20"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 8,
+      "soru_metni": "`analogWrite()` fonksiyonu ne işe yarar?",
+      "seçenekler": {
+        "A": "Analog veri okur",
+        "B": "PWM sinyali gönderir",
+        "C": "Dijital sinyali okur",
+        "D": "UART başlatır"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 9,
+      "soru_metni": "I2C haberleşmesinde SDA ve SCL hatları ne için kullanılır?",
+      "seçenekler": {
+        "A": "Güç ve toprak",
+        "B": "Analog sinyal",
+        "C": "Seri veri ve saat",
+        "D": "PWM kontrol"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 10,
+      "soru_metni": "Servo motoru kontrol etmek için hangi kütüphane gereklidir?",
+      "seçenekler": {
+        "A": "Motor.h",
+        "B": "Servo.h",
+        "C": "PWM.h",
+        "D": "Rotate.h"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 11,
+      "soru_metni": "Bluetooth üzerinden haberleşmek için ESP32’de hangi protokol tercih edilir?",
+      "seçenekler": {
+        "A": "TCP",
+        "B": "BLE",
+        "C": "WiFi",
+        "D": "MQTT"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 12,
+      "soru_metni": "ESP32’nin çalışma voltajı kaçtır?",
+      "seçenekler": {
+        "A": "5V",
+        "B": "3.3V",
+        "C": "12V",
+        "D": "9V"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 13,
+      "soru_metni": "PID kontrol algoritmasında \"D\" harfi neyi ifade eder?",
+      "seçenekler": {
+        "A": "Dinamik",
+        "B": "Derivative",
+        "C": "Delay",
+        "D": "Drive"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 14,
+      "soru_metni": "DHT11 sensörünün dezavantajı nedir?",
+      "seçenekler": {
+        "A": "Yüksek doğruluk",
+        "B": "Hızlı ölçüm",
+        "C": "Düşük maliyet",
+        "D": "Düşük hassasiyet"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 15,
+      "soru_metni": "Step motorların avantajı nedir?",
+      "seçenekler": {
+        "A": "Sürekli dönüş",
+        "B": "Yüksek tork",
+        "C": "Kesin konumlama",
+        "D": "Düşük maliyet"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 16,
+      "soru_metni": "ESP32'nin çift çekirdekli yapısı ne sağlar?",
+      "seçenekler": {
+        "A": "WiFi’ye bağlanamaz",
+        "B": "Daha düşük hız",
+        "C": "Paralel işlem",
+        "D": "Daha az bellek"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 17,
+      "soru_metni": "Arduino IDE hangi programlama diline dayanır?",
+      "seçenekler": {
+        "A": "Python",
+        "B": "C/C++",
+        "C": "Java",
+        "D": "Assembly"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 18,
+      "soru_metni": "PWM neyin kısaltmasıdır?",
+      "seçenekler": {
+        "A": "Power With Modem",
+        "B": "Pulse Width Modulation",
+        "C": "Protocol With Measurement",
+        "D": "Pin Wave Motor"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 19,
+      "soru_metni": "ESP32 ile çalışırken 5V yerine 3.3V kullanmak neden önemlidir?",
+      "seçenekler": {
+        "A": "Daha hızlı çalışır",
+        "B": "ESP32 zarar görmesin diye",
+        "C": "Daha düşük akım sağlar",
+        "D": "Kod daha kısa olur"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 20,
+      "soru_metni": "HC-SR04 sensöründe TRIG pini ne işe yarar?",
+      "seçenekler": {
+        "A": "Mesafe ölçer",
+        "B": "Sinyal gönderir",
+        "C": "Sinyal alır",
+        "D": "Enerji verir"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 21,
+      "soru_metni": "Arduino Uno’nun mikrodenetleyicisi nedir?",
+      "seçenekler": {
+        "A": "ESP8266",
+        "B": "ATmega328P",
+        "C": "STM32",
+        "D": "ATtiny85"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 22,
+      "soru_metni": "L298N modülü genellikle ne için kullanılır?",
+      "seçenekler": {
+        "A": "LCD kontrolü",
+        "B": "LED kontrolü",
+        "C": "Motor sürme",
+        "D": "Ses çıkışı"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 23,
+      "soru_metni": "`Serial.begin(9600);` komutu ne işe yarar?",
+      "seçenekler": {
+        "A": "PWM başlatır",
+        "B": "UART haberleşmesini başlatır",
+        "C": "Delay fonksiyonu",
+        "D": "Analog pin tanımlar"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 24,
+      "soru_metni": "Hangi sensör manyetik alanı algılar?",
+      "seçenekler": {
+        "A": "LDR",
+        "B": "DHT11",
+        "C": "Hall",
+        "D": "Ultrasonik"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 25,
+      "soru_metni": "Aşağıdakilerden hangisi bir analog sensördür?",
+      "seçenekler": {
+        "A": "HC-SR04",
+        "B": "LDR",
+        "C": "PIR",
+        "D": "RFID"
+      },
+      "doğru_cevap": "B"
+    }
+  ],
+  "çoktan_seçmeli_sorular_26_50": [
+    {
+      "soru_numarası": 26,
+      "soru_metni": "Aşağıdakilerden hangisi bir dijital sensördür?",
+      "seçenekler": {
+        "A": "LM35",
+        "B": "Potansiyometre",
+        "C": "PIR",
+        "D": "LDR"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 27,
+      "soru_metni": "Arduino'da bir fonksiyonu belirli aralıklarla çalıştırmak için en iyi yöntem hangisidir?",
+      "seçenekler": {
+        "A": "delay()",
+        "B": "millis()",
+        "C": "micros()",
+        "D": "while"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 28,
+      "soru_metni": "ESP32'de dahili olarak bulunmayan özellik hangisidir?",
+      "seçenekler": {
+        "A": "WiFi",
+        "B": "Bluetooth",
+        "C": "Ethernet portu",
+        "D": "Hall sensörü"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 29,
+      "soru_metni": "Aşağıdaki motor tiplerinden hangisi en yüksek hassasiyete sahiptir?",
+      "seçenekler": {
+        "A": "DC motor",
+        "B": "Step motor",
+        "C": "Servo motor",
+        "D": "Fırçasız motor"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 30,
+      "soru_metni": "PID kontrolcüsünde integral teriminin görevi nedir?",
+      "seçenekler": {
+        "A": "Anlık hatayı düzeltmek",
+        "B": "Geçmiş hataları toplamak",
+        "C": "Gelecek hatayı tahmin etmek",
+        "D": "Çıkışı sınırlamak"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 31,
+      "soru_metni": "Arduino'da kesme (interrupt) hangi pinlerde kullanılabilir?",
+      "seçenekler": {
+        "A": "Tüm dijital pinler",
+        "B": "Sadece analog pinler",
+        "C": "Belirli dijital pinler",
+        "D": "Sadece PWM pinleri"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 32,
+      "soru_metni": "Aşağıdaki haberleşme protokollerinden hangisi en yüksek hıza sahiptir?",
+      "seçenekler": {
+        "A": "I2C",
+        "B": "SPI",
+        "C": "UART",
+        "D": "1-Wire"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 33,
+      "soru_metni": "DHT22 sensörü DHT11'e göre hangi avantaja sahiptir?",
+      "seçenekler": {
+        "A": "Daha ucuz",
+        "B": "Daha geniş ölçüm aralığı",
+        "C": "Daha küçük boyut",
+        "D": "Daha az güç tüketir"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 34,
+      "soru_metni": "Aşağıdakilerden hangisi bir mikrodenetleyici değildir?",
+      "seçenekler": {
+        "A": "ATmega328P",
+        "B": "ESP32",
+        "C": "STM32",
+        "D": "L298N"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 35,
+      "soru_metni": "RFID sistemlerinde pasif etiketler nasıl çalışır?",
+      "seçenekler": {
+        "A": "Pil ile",
+        "B": "Radyo sinyallerinden enerji toplayarak",
+        "C": "Güneş enerjisi ile",
+        "D": "Kablolu bağlantı ile"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 36,
+      "soru_metni": "Arduino'da bir değişkenin değerini seri portta görüntülemek için hangi komut kullanılır?",
+      "seçenekler": {
+        "A": "Serial.print()",
+        "B": "Serial.read()",
+        "C": "Serial.available()",
+        "D": "Serial.end()"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 37,
+      "soru_metni": "Aşağıdaki sensörlerden hangisi temas gerektirmez?",
+      "seçenekler": {
+        "A": "Termistör",
+        "B": "Ultrasonik sensör",
+        "C": "Strain gauge",
+        "D": "Load cell"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 38,
+      "soru_metni": "ESP32'nin derin uyku (deep sleep) modundan uyanması için hangi yöntem kullanılabilir?",
+      "seçenekler": {
+        "A": "Timer",
+        "B": "Dokunma sensörü",
+        "C": "Harici kesme",
+        "D": "Hepsi"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 39,
+      "soru_metni": "Aşağıdaki devre elemanlarından hangisi akımı tek yönde geçirir?",
+      "seçenekler": {
+        "A": "Direnç",
+        "B": "Kondansatör",
+        "C": "Diyot",
+        "D": "Transistör"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 40,
+      "soru_metni": "PWM sinyalinin görev döngüsü (duty cycle) neyi ifade eder?",
+      "seçenekler": {
+        "A": "Frekansını",
+        "B": "Yüksek seviyede kalma süresinin yüzdesini",
+        "C": "Voltaj seviyesini",
+        "D": "Akım miktarını"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 41,
+      "soru_metni": "Aşağıdaki platformlardan hangisi IoT projeleri için MQTT broker olarak kullanılabilir?",
+      "seçenekler": {
+        "A": "Thingspeak",
+        "B": "Firebase",
+        "C": "Adafruit IO",
+        "D": "Hepsi"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 42,
+      "soru_metni": "Arduino'da bir dizi (array) boyutu nasıl belirlenir?",
+      "seçenekler": {
+        "A": "malloc() ile",
+        "B": "Köşeli parantezler içinde",
+        "C": "sizeof() ile",
+        "D": "pointer ile"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 43,
+      "soru_metni": "Aşağıdakilerden hangisi bir gömülü sistem işletim sistemi değildir?",
+      "seçenekler": {
+        "A": "FreeRTOS",
+        "B": "Zephyr",
+        "C": "Linux",
+        "D": "Arduino IDE"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 44,
+      "soru_metni": "I2C protokolünde her cihazın neye sahip olması gerekir?",
+      "seçenekler": {
+        "A": "MAC adresi",
+        "B": "IP adresi",
+        "C": "Benzersiz adres",
+        "D": "Seri numara"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 45,
+      "soru_metni": "Aşağıdaki motor kontrol yöntemlerinden hangisi en az gürültü üretir?",
+      "seçenekler": {
+        "A": "PWM",
+        "B": "H-köprüsü",
+        "C": "Sinüs sürüş",
+        "D": "Doğrudan anahtarlama"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 46,
+      "soru_metni": "ESP32'nin flash belleği hangi amaçla kullanılır?",
+      "seçenekler": {
+        "A": "Program depolama",
+        "B": "Veri depolama",
+        "C": "Her ikisi de",
+        "D": "Hiçbiri"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 47,
+      "soru_metni": "Aşağıdaki sensörlerden hangisi mutlak basınç ölçebilir?",
+      "seçenekler": {
+        "A": "BMP180",
+        "B": "MPU6050",
+        "C": "Ultrasonik",
+        "D": "PIR"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 48,
+      "soru_metni": "Arduino'da bir fonksiyondan değer döndürmek için hangi anahtar kelime kullanılır?",
+      "seçenekler": {
+        "A": "void",
+        "B": "return",
+        "C": "int",
+        "D": "break"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 49,
+      "soru_metni": "Aşağıdaki bileşenlerden hangisi bir güç regülatörüdür?",
+      "seçenekler": {
+        "A": "LM317",
+        "B": "L293D",
+        "C": "ULN2003",
+        "D": "MAX7219"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 50,
+      "soru_metni": "ESP32'de Wi-Fi ile birlikte aynı anda kullanılabilen özellik hangisidir?",
+      "seçenekler": {
+        "A": "Bluetooth Classic",
+        "B": "Bluetooth Low Energy",
+        "C": "Ethernet",
+        "D": "Hepsi"
+      },
+      "doğru_cevap": "B"
+    }
+  ],
+  "çoktan_seçmeli_sorular_detaylı_26_50": [
+    {
+      "soru_numarası": 26,
+      "soru_metni": "ESP32 hangi tür bellekleri içerir?",
+      "seçenekler": {
+        "A": "Sadece RAM",
+        "B": "Sadece ROM",
+        "C": "RAM ve Flash",
+        "D": "SRAM ve EEPROM"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 27,
+      "soru_metni": "I2C ile aynı anda birden fazla cihaz bağlanabilmesinin sebebi nedir?",
+      "seçenekler": {
+        "A": "Voltaj farkı olması",
+        "B": "Hızlı olması",
+        "C": "Adresleme yapılabilmesi",
+        "D": "Analog çalışması"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 28,
+      "soru_metni": "LCD ekranlarda karakter konumu hangi iki parametreyle belirtilir?",
+      "seçenekler": {
+        "A": "X ve Y",
+        "B": "Satır ve sütun",
+        "C": "Pin ve port",
+        "D": "Bit ve byte"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 29,
+      "soru_metni": "ESP32 ile MQTT protokolünü kullanmak için en çok kullanılan kütüphane hangisidir?",
+      "seçenekler": {
+        "A": "Ethernet.h",
+        "B": "PubSubClient",
+        "C": "HTTPClient",
+        "D": "MQTThandler"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 30,
+      "soru_metni": "Aşağıdakilerden hangisi PWM sinyali üretilebilecek bir fonksiyondur?",
+      "seçenekler": {
+        "A": "digitalWrite()",
+        "B": "analogRead()",
+        "C": "analogWrite()",
+        "D": "pulseIn()"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 31,
+      "soru_metni": "Aşağıdaki cihazlardan hangisi dijital veri üretir?",
+      "seçenekler": {
+        "A": "Potansiyometre",
+        "B": "LDR",
+        "C": "DHT11",
+        "D": "LM35"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 32,
+      "soru_metni": "ESP32, aşağıdaki protokollerden hangisini desteklemez?",
+      "seçenekler": {
+        "A": "I2C",
+        "B": "UART",
+        "C": "LoRa",
+        "D": "ZigBee"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 33,
+      "soru_metni": "Arduino'da millis() fonksiyonu ne işe yarar?",
+      "seçenekler": {
+        "A": "LED kontrolü",
+        "B": "Zaman ölçümü",
+        "C": "PWM oluşturma",
+        "D": "Ses üretme"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 34,
+      "soru_metni": "Bir servo motorun orta konumu genellikle hangi derecedir?",
+      "seçenekler": {
+        "A": "0°",
+        "B": "45°",
+        "C": "90°",
+        "D": "180°"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 35,
+      "soru_metni": "DHT11 sensörünün sıcaklık ölçüm hassasiyeti yaklaşık olarak nedir?",
+      "seçenekler": {
+        "A": "±0.1°C",
+        "B": "±0.5°C",
+        "C": "±1°C",
+        "D": "±2°C"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 36,
+      "soru_metni": "WiFi sinyal gücünü ölçmek için ESP32’de hangi fonksiyon kullanılır?",
+      "seçenekler": {
+        "A": "getRSSI()",
+        "B": "WiFi.signal()",
+        "C": "WiFi.RSSI()",
+        "D": "signalStrength()"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 37,
+      "soru_metni": "Step motorlar neden tercih edilir?",
+      "seçenekler": {
+        "A": "Sürekli hareket için",
+        "B": "Yavaş dönüş için",
+        "C": "Doğrusal hareket için",
+        "D": "Hassas pozisyon kontrolü için"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 38,
+      "soru_metni": "Arduino’da kaç farklı PWM pin çıkışı vardır (Uno modeli)?",
+      "seçenekler": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "10"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 39,
+      "soru_metni": "ESP32’nin ADC çözünürlüğü varsayılan olarak kaç bittir?",
+      "seçenekler": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "14"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 40,
+      "soru_metni": "Robot kol kontrolünde kullanılan \"inverse kinematics\" kavramı neyle ilgilidir?",
+      "seçenekler": {
+        "A": "Hız kontrolü",
+        "B": "Açı hesaplama",
+        "C": "Mesafe ölçümü",
+        "D": "Geri bildirim"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 41,
+      "soru_metni": "Röle modülünde hangi bileşen yüksek akımı keser veya açar?",
+      "seçenekler": {
+        "A": "Transistör",
+        "B": "Diyot",
+        "C": "Bobin",
+        "D": "Kontak"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 42,
+      "soru_metni": "ESP32 ile yapılabilecek uygulamalardan biri değildir:",
+      "seçenekler": {
+        "A": "WiFi bağlantısı",
+        "B": "Ses sentezi",
+        "C": "RF yayın",
+        "D": "Mesafe ölçümü"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 43,
+      "soru_metni": "Arduino IDE'de kod yükleme için kullanılan port tipi nedir?",
+      "seçenekler": {
+        "A": "Ethernet",
+        "B": "Serial (COM)",
+        "C": "GPIO",
+        "D": "PWM"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 44,
+      "soru_metni": "I2C haberleşmesinde cihaz adresi kaç bitten oluşur?",
+      "seçenekler": {
+        "A": "4",
+        "B": "6",
+        "C": "7",
+        "D": "10"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 45,
+      "soru_metni": "`pinMode(pin, INPUT);` ne işe yarar?",
+      "seçenekler": {
+        "A": "Pini çıkış yapar",
+        "B": "Pini giriş olarak ayarlar",
+        "C": "PWM üretir",
+        "D": "Analog okuma yapar"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 46,
+      "soru_metni": "Breadboard üzerindeki \"+\" ve \"−\" hatları genellikle ne içindir?",
+      "seçenekler": {
+        "A": "PWM sinyali",
+        "B": "Sinyal verisi",
+        "C": "Güç dağıtımı",
+        "D": "UART haberleşmesi"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 47,
+      "soru_metni": "ESP32 ile kullanılan BME280 sensörü hangi üç veriyi sağlar?",
+      "seçenekler": {
+        "A": "Nem, sıcaklık, basınç",
+        "B": "Hız, ivme, sıcaklık",
+        "C": "Nem, manyetik alan, ışık",
+        "D": "Sıcaklık, gaz, ses"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 48,
+      "soru_metni": "PIR sensörü hangi algılama için kullanılır?",
+      "seçenekler": {
+        "A": "Işık",
+        "B": "Hareket",
+        "C": "Isı",
+        "D": "Gaz"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 49,
+      "soru_metni": "`noTone(pin);` komutu ne yapar?",
+      "seçenekler": {
+        "A": "PWM başlatır",
+        "B": "Ses üretir",
+        "C": "Ses durdurur",
+        "D": "Pin'i HIGH yapar"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 50,
+      "soru_metni": "ESP32 projelerinde enerji tasarrufu için hangi mod kullanılır?",
+      "seçenekler": {
+        "A": "Performance mode",
+        "B": "Idle mode",
+        "C": "Sleep mode",
+        "D": "Safe mode"
+      },
+      "doğru_cevap": "C"
+    }
+  ],
+  "boşluk_doldurma_düzenlenmiş_100_soru": [
+    {
+      "soru_numarası": 1,
+      "soru_metni": "Arduino'nun dijital pinleri hem giriş hem de __________ olarak kullanılabilir.",
+      "doğru_cevap": "çıkış"
+    },
+    {
+      "soru_numarası": 2,
+      "soru_metni": "ESP32, Arduino'dan farklı olarak __________ ve __________ bağlantısını destekler.",
+      "doğru_cevap": "Wi-Fi, Bluetooth"
+    },
+    {
+      "soru_numarası": 3,
+      "soru_metni": "Servo motorlar __________ sinyali ile kontrol edilir.",
+      "doğru_cevap": "PWM"
+    },
+    {
+      "soru_numarası": 4,
+      "soru_metni": "HC-SR04 sensörü __________ ölçmek için kullanılır.",
+      "doğru_cevap": "mesafe"
+    },
+    {
+      "soru_numarası": 5,
+      "soru_metni": "I2C protokolünde cihazlar __________ ve __________ olarak çalışabilir.",
+      "doğru_cevap": "master, slave"
+    },
+    {
+      "soru_numarası": 6,
+      "soru_metni": "Arduino IDE'de kodlar __________ diline benzer şekilde yazılır.",
+      "doğru_cevap": "C/C++"
+    },
+    {
+      "soru_numarası": 7,
+      "soru_metni": "5V motorların korunması için __________ veya __________ modülü kullanılır.",
+      "doğru_cevap": "röle, MOSFET"
+    },
+    {
+      "soru_numarası": 8,
+      "soru_metni": "Breadboard, geçici __________ kurmak için kullanılır.",
+      "doğru_cevap": "devre"
+    },
+    {
+      "soru_numarası": 9,
+      "soru_metni": "\"analogWrite()\" fonksiyonu sadece __________ pinlerinde çalışır.",
+      "doğru_cevap": "PWM"
+    },
+    {
+      "soru_numarası": 10,
+      "soru_metni": "Bir LED'i yakmak için pinin __________ seviyesine çekilmesi gerekir.",
+      "doğru_cevap": "HIGH"
+    },
+    {
+      "soru_numarası": 11,
+      "soru_metni": "DHT11 sensörü __________ (±2°C) ve __________ (%5 hassasiyet) ölçümü yapar.",
+      "doğru_cevap": "sıcaklık, nem"
+    },
+    {
+      "soru_numarası": 12,
+      "soru_metni": "Potansiyometre bir __________ giriş elemanıdır.",
+      "doğru_cevap": "analog"
+    },
+    {
+      "soru_numarası": 13,
+      "soru_metni": "LDR sensörü __________ şiddetini ölçer.",
+      "doğru_cevap": "ışık"
+    },
+    {
+      "soru_numarası": 14,
+      "soru_metni": "Arduino'da __________ fonksiyonu sürekli çalışır.",
+      "doğru_cevap": "loop()"
+    },
+    {
+      "soru_numarası": 15,
+      "soru_metni": "ESP32 üzerinde __________ özelliği mevcuttur.",
+      "doğru_cevap": "Bluetooth Low Energy (BLE)"
+    },
+    {
+      "soru_numarası": 16,
+      "soru_metni": "Standart servo motorlar genellikle __________ derece dönebilir.",
+      "doğru_cevap": "180"
+    },
+    {
+      "soru_numarası": 17,
+      "soru_metni": "Buzzer modülü __________ üretmek için kullanılır.",
+      "doğru_cevap": "ses"
+    },
+    {
+      "soru_numarası": 18,
+      "soru_metni": "\"delay()\" komutu zaman gecikmesi için __________ cinsinden değer alır.",
+      "doğru_cevap": "milisaniye"
+    },
+    {
+      "soru_numarası": 19,
+      "soru_metni": "Step motorlar __________ adım döner.",
+      "doğru_cevap": "adım"
+    },
+    {
+      "soru_numarası": 20,
+      "soru_metni": "Arduino Uno'da analog pinler __________ ile __________ arasında numaralandırılır.",
+      "doğru_cevap": "A0, A5"
+    },
+    {
+      "soru_numarası": 21,
+      "soru_metni": "Dijital pinler sadece __________ (1) ya da __________ (0) değerlerini alır.",
+      "doğru_cevap": "HIGH, LOW"
+    },
+    {
+      "soru_numarası": 22,
+      "soru_metni": "\"digitalRead()\" komutu pinin __________ durumunu okur.",
+      "doğru_cevap": "dijital"
+    },
+    {
+      "soru_numarası": 23,
+      "soru_metni": "ESP32 ile web sunucusu yapmak için __________ kütüphanesi kullanılabilir.",
+      "doğru_cevap": "ESPAsyncWebServer"
+    },
+    {
+      "soru_numarası": 24,
+      "soru_metni": "LCD ekranlar genellikle __________ modülle bağlanır.",
+      "doğru_cevap": "I2C"
+    },
+    {
+      "soru_numarası": 25,
+      "soru_metni": "RGB LED'ler üç farklı __________ içerir: kırmızı, yeşil, mavi.",
+      "doğru_cevap": "renk"
+    },
+    {
+      "soru_numarası": 26,
+      "soru_metni": "IR sensörleri __________ (38kHz) algılama yapar.",
+      "doğru_cevap": "kızılötesi"
+    },
+    {
+      "soru_numarası": 27,
+      "soru_metni": "Röle modülü yüksek voltajlı (220V AC) cihazları __________ etmeye yarar.",
+      "doğru_cevap": "kontrol"
+    },
+    {
+      "soru_numarası": 28,
+      "soru_metni": "Servo motorlar belirli bir __________ya (0-180°) döndürülerek pozisyonlanabilir.",
+      "doğru_cevap": "açı"
+    },
+    {
+      "soru_numarası": 29,
+      "soru_metni": "PWM sinyali bir tür __________ sinyaldir.",
+      "doğru_cevap": "dijital"
+    },
+    {
+      "soru_numarası": 30,
+      "soru_metni": "PIR sensörleri __________ algılar.",
+      "doğru_cevap": "hareket"
+    },
+    {
+      "soru_numarası": 31,
+      "soru_metni": "Arduino UNO'nun mikrodenetleyicisi __________'dir.",
+      "doğru_cevap": "ATmega328P"
+    },
+    {
+      "soru_numarası": 32,
+      "soru_metni": "Serial haberleşme __________ (transmit) ve __________ (receive) pinleriyle yapılır.",
+      "doğru_cevap": "TX, RX"
+    },
+    {
+      "soru_numarası": 33,
+      "soru_metni": "\"Serial.begin(9600)\" komutu seri iletişimi __________.",
+      "doğru_cevap": "başlatır"
+    },
+    {
+      "soru_numarası": 34,
+      "soru_metni": "MPU6050 sensörü __________ (accelerometer) ve __________ (jiroskop) verisi üretir.",
+      "doğru_cevap": "ivme, gyro"
+    },
+    {
+      "soru_numarası": 35,
+      "soru_metni": "Arduino kartları USB ile __________.",
+      "doğru_cevap": "beslenebilir"
+    },
+    {
+      "soru_numarası": 36,
+      "soru_metni": "Pushbutton tipi butonlar __________ temas sağlar.",
+      "doğru_cevap": "geçici"
+    },
+    {
+      "soru_numarası": 37,
+      "soru_metni": "Breadboard üzerindeki kırmızı (+) ve mavi (-) çizgili hatlar __________ rail'leridir.",
+      "doğru_cevap": "besleme"
+    },
+    {
+      "soru_numarası": 38,
+      "soru_metni": "ESP32'nin ADC çözünürlüğü __________'tir.",
+      "doğru_cevap": "12 bit"
+    },
+    {
+      "soru_numarası": 39,
+      "soru_metni": "\"millis()\" fonksiyonu __________ (milisaniye) verir.",
+      "doğru_cevap": "geçen süreyi"
+    },
+    {
+      "soru_numarası": 40,
+      "soru_metni": "Step motorlarda her adım belirli bir __________ (step angle) ile döner.",
+      "doğru_cevap": "derece"
+    },
+    {
+      "soru_numarası": 41,
+      "soru_metni": "\"analogRead()\" fonksiyonu analog değerleri __________ arasında döndürür.",
+      "doğru_cevap": "0-1023"
+    },
+    {
+      "soru_numarası": 42,
+      "soru_metni": "Arduino'da PWM sinyali oluşturmak için __________ fonksiyonu kullanılır.",
+      "doğru_cevap": "analogWrite()"
+    },
+    {
+      "soru_numarası": 43,
+      "soru_metni": "\"if\" deyimi __________ yapıları ifade eder.",
+      "doğru_cevap": "koşullu"
+    },
+    {
+      "soru_numarası": 44,
+      "soru_metni": "I2C haberleşmede iki temel pin vardır: __________ (clock) ve __________ (data).",
+      "doğru_cevap": "SCL, SDA"
+    },
+    {
+      "soru_numarası": 45,
+      "soru_metni": "Röle modülünde akımı açıp kapatan kısım __________ (switch) elemanıdır.",
+      "doğru_cevap": "kontak"
+    },
+    {
+      "soru_numarası": 46,
+      "soru_metni": "16x2 LCD ekran 2 satırda toplam __________ (16x2) gösterir.",
+      "doğru_cevap": "32 karakter"
+    },
+    {
+      "soru_numarası": 47,
+      "soru_metni": "ESP32'de Wi-Fi kütüphanesi __________'dır.",
+      "doğru_cevap": "WiFi.h"
+    },
+    {
+      "soru_numarası": 48,
+      "soru_metni": "RFID okuyucu genellikle __________ frekansında çalışır.",
+      "doğru_cevap": "13.56 MHz"
+    },
+    {
+      "soru_numarası": 49,
+      "soru_metni": "IR kumandalar __________ serisi alıcılar ile kontrol edilir.",
+      "doğru_cevap": "TSOP"
+    },
+    {
+      "soru_numarası": 50,
+      "soru_metni": "NodeMCU kartı ESP8266 tabanlı bir __________ kartıdır.",
+      "doğru_cevap": "geliştirme"
+    }
+  ],
+  "bölüm_2_çoktan_seçmeli_100_soru": [
+    {
+      "soru_numarası": 1,
+      "soru_metni": "Arduino UNO'nun mikrodenetleyicisi hangisidir?",
+      "seçenekler": {
+        "A": "ESP32",
+        "B": "ATmega328P",
+        "C": "STM32",
+        "D": "PIC16F84"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 2,
+      "soru_metni": "Aşağıdaki sensörlerden hangisi sıcaklık ve nem ölçebilir?",
+      "seçenekler": {
+        "A": "HC-SR04",
+        "B": "LDR",
+        "C": "DHT11",
+        "D": "MPU6050"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 3,
+      "soru_metni": "Servo motorlar nasıl kontrol edilir?",
+      "seçenekler": {
+        "A": "Analog voltajla",
+        "B": "PWM sinyali ile",
+        "C": "Dijital girişle",
+        "D": "DC akımla"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 4,
+      "soru_metni": "“digitalRead()” fonksiyonu ne işe yarar?",
+      "seçenekler": {
+        "A": "Dijital çıkışı yazar",
+        "B": "Analog değeri okur",
+        "C": "PWM verir",
+        "D": "Dijital girişi okur"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 5,
+      "soru_metni": "ESP32'nin en önemli farklarından biri nedir?",
+      "seçenekler": {
+        "A": "EEPROM yoktur",
+        "B": "I2C desteklemez",
+        "C": "Wi-Fi özelliği vardır",
+        "D": "Analog pin yoktur"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 6,
+      "soru_metni": "HC-SR04 sensörü ne ölçer?",
+      "seçenekler": {
+        "A": "Sıcaklık",
+        "B": "Basınç",
+        "C": "Mesafe",
+        "D": "Işık"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 7,
+      "soru_metni": "LDR sensörü hangi veriyi sağlar?",
+      "seçenekler": {
+        "A": "Hareket",
+        "B": "Ses",
+        "C": "Işık",
+        "D": "Basınç"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 8,
+      "soru_metni": "“analogWrite()” fonksiyonu hangi tür pinlerde çalışır?",
+      "seçenekler": {
+        "A": "Dijital giriş",
+        "B": "Analog giriş",
+        "C": "PWM çıkışı",
+        "D": "UART pin"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 9,
+      "soru_metni": "Breadboard ne için kullanılır?",
+      "seçenekler": {
+        "A": "Kalıcı devre kurmak için",
+        "B": "Lehimleme yapmak için",
+        "C": "Geçici devre kurmak için",
+        "D": "Voltaj düşürmek için"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 10,
+      "soru_metni": "Aşağıdaki modüllerden hangisi Bluetooth haberleşmeyi sağlar?",
+      "seçenekler": {
+        "A": "HC-05",
+        "B": "HC-SR04",
+        "C": "MPU6050",
+        "D": "L298N"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 11,
+      "soru_metni": "I2C haberleşmesinde veri iletiminde hangi iki pin kullanılır?",
+      "seçenekler": {
+        "A": "TX, RX",
+        "B": "SCL, SDA",
+        "C": "MISO, MOSI",
+        "D": "VCC, GND"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 12,
+      "soru_metni": "Servo motorun açısı ne ile belirlenir?",
+      "seçenekler": {
+        "A": "Gerilim",
+        "B": "PWM darbe süresi",
+        "C": "Analog sinyal",
+        "D": "Frekans"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 13,
+      "soru_metni": "Aşağıdaki motor türlerinden hangisi konum kontrolü sağlar?",
+      "seçenekler": {
+        "A": "DC motor",
+        "B": "Step motor",
+        "C": "Brushless",
+        "D": "Vantilatör"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 14,
+      "soru_metni": "ESP32 hangi kablosuz iletişim teknolojilerini destekler?",
+      "seçenekler": {
+        "A": "Wi-Fi",
+        "B": "Bluetooth",
+        "C": "Her ikisi",
+        "D": "Hiçbiri"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 15,
+      "soru_metni": "“delay(1000)” komutu programı kaç saniye bekletir?",
+      "seçenekler": {
+        "A": "0.1",
+        "B": "1",
+        "C": "10",
+        "D": "100"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 16,
+      "soru_metni": "“loop()” fonksiyonu Arduino'da kaç kez çalışır?",
+      "seçenekler": {
+        "A": "Sadece bir kez",
+        "B": "Sürekli",
+        "C": "Hiç çalışmaz",
+        "D": "Belirli aralıklarla"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 17,
+      "soru_metni": "DHT11 sensörünün çıkışı nasıldır?",
+      "seçenekler": {
+        "A": "Analog",
+        "B": "Dijital",
+        "C": "PWM",
+        "D": "Frekans"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 18,
+      "soru_metni": "“pinMode(13, OUTPUT);” satırı ne işe yarar?",
+      "seçenekler": {
+        "A": "13. pini giriş yapar",
+        "B": "13. pini çıkış yapar",
+        "C": "PWM aktif eder",
+        "D": "Analog giriş tanımlar"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 19,
+      "soru_metni": "LoRa modülü ne sağlar?",
+      "seçenekler": {
+        "A": "Yüksek hız",
+        "B": "Kısa mesafe",
+        "C": "Uzun mesafe haberleşme",
+        "D": "Işık kontrolü"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 20,
+      "soru_metni": "“Serial.begin(9600);” komutu ne yapar?",
+      "seçenekler": {
+        "A": "PWM başlatır",
+        "B": "Motoru çalıştırır",
+        "C": "Seri haberleşmeyi başlatır",
+        "D": "LED yakar"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 21,
+      "soru_metni": "Arduino’da analog okuma hangi fonksiyonla yapılır?",
+      "seçenekler": {
+        "A": "digitalRead",
+        "B": "analogWrite",
+        "C": "analogRead",
+        "D": "tone"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 22,
+      "soru_metni": "Buzzer ile ses çıkışı için hangi fonksiyon kullanılır?",
+      "seçenekler": {
+        "A": "buzz()",
+        "B": "tone()",
+        "C": "sound()",
+        "D": "play()"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 23,
+      "soru_metni": "PIR sensör ne algılar?",
+      "seçenekler": {
+        "A": "Işık",
+        "B": "Hareket",
+        "C": "Basınç",
+        "D": "Ses"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 24,
+      "soru_metni": "ESP32'nin ADC çözünürlüğü kaç bittir?",
+      "seçenekler": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "16"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 25,
+      "soru_metni": "Aşağıdakilerden hangisi PWM çıkışı sağlayabilir?",
+      "seçenekler": {
+        "A": "A0",
+        "B": "D2",
+        "C": "D5 (~ işareti varsa)",
+        "D": "GND"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 26,
+      "soru_metni": "I2C cihazlara erişmek için ne gereklidir?",
+      "seçenekler": {
+        "A": "IP adresi",
+        "B": "MAC adresi",
+        "C": "Cihaz ID'si",
+        "D": "PIN kodu"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 27,
+      "soru_metni": "Arduino'da “HIGH” komutu pin çıkışını ne yapar?",
+      "seçenekler": {
+        "A": "0V",
+        "B": "3.3V",
+        "C": "5V",
+        "D": "Analog sinyal"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 28,
+      "soru_metni": "PWM sinyali hangi parametreyle ifade edilir?",
+      "seçenekler": {
+        "A": "Voltaj",
+        "B": "Frekans",
+        "C": "Duty cycle",
+        "D": "Akım"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 29,
+      "soru_metni": "ESP32 ile web sunucusu oluşturmak için hangi kütüphane yaygın kullanılır?",
+      "seçenekler": {
+        "A": "WiFiClient.h",
+        "B": "HTTPClient.h",
+        "C": "ESPAsyncWebServer.h",
+        "D": "LoRa.h"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 30,
+      "soru_metni": "L298N motor sürücü modülü hangi motorları sürmek için uygundur?",
+      "seçenekler": {
+        "A": "Step motor ve DC motor",
+        "B": "Servo motor",
+        "C": "Sadece brushless",
+        "D": "Ultrasonik motor"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 31,
+      "soru_metni": "RGB LED toplamda kaç ana renk içerir?",
+      "seçenekler": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 32,
+      "soru_metni": "IR alıcılar hangi dalga boyu aralığında çalışır?",
+      "seçenekler": {
+        "A": "Görünür ışık",
+        "B": "Radyo",
+        "C": "Kızılötesi",
+        "D": "UV"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 33,
+      "soru_metni": "Arduino'nun resmi yazılım geliştirme ortamı nedir?",
+      "seçenekler": {
+        "A": "Atmel Studio",
+        "B": "VS Code",
+        "C": "Arduino IDE",
+        "D": "STM32CubeIDE"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 34,
+      "soru_metni": "“setup()” fonksiyonu ne zaman çalışır?",
+      "seçenekler": {
+        "A": "Program başında",
+        "B": "Sürekli",
+        "C": "Butona basılınca",
+        "D": "Hiç çalışmaz"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 35,
+      "soru_metni": "“millis()” fonksiyonu ne döndürür?",
+      "seçenekler": {
+        "A": "Saat",
+        "B": "Gün",
+        "C": "Geçen süre (ms)",
+        "D": "Tarih"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 36,
+      "soru_metni": "“if” yapısı hangi tür yapıdır?",
+      "seçenekler": {
+        "A": "Döngü",
+        "B": "Fonksiyon",
+        "C": "Koşul kontrol",
+        "D": "Değişken"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 37,
+      "soru_metni": "LCD ekran ile Arduino iletişimi için hangi protokol sıklıkla kullanılır?",
+      "seçenekler": {
+        "A": "SPI",
+        "B": "UART",
+        "C": "I2C",
+        "D": "LoRa"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 38,
+      "soru_metni": "ESP32'nin çalışma gerilimi nedir?",
+      "seçenekler": {
+        "A": "12V",
+        "B": "5V",
+        "C": "3.3V",
+        "D": "1.8V"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 39,
+      "soru_metni": "Arduino UNO üzerinde kaç tane dijital pin bulunur?",
+      "seçenekler": {
+        "A": "6",
+        "B": "14",
+        "C": "8",
+        "D": "12"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 40,
+      "soru_metni": "Potansiyometre neyi ayarlamak için kullanılır?",
+      "seçenekler": {
+        "A": "Frekans",
+        "B": "Voltaj",
+        "C": "Akım",
+        "D": "Güç"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 41,
+      "soru_metni": "Aşağıdakilerden hangisi bir tür seri haberleşme değildir?",
+      "seçenekler": {
+        "A": "SPI",
+        "B": "I2C",
+        "C": "UART",
+        "D": "AC"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 42,
+      "soru_metni": "MPU6050 sensörü hangi iki veriyi sağlar?",
+      "seçenekler": {
+        "A": "Basınç & sıcaklık",
+        "B": "İvme & jiroskop",
+        "C": "Nem & ışık",
+        "D": "Ses & hareket"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 43,
+      "soru_metni": "Röle modülü ne sağlar?",
+      "seçenekler": {
+        "A": "Analog voltaj",
+        "B": "Düşük akım",
+        "C": "Yüksek gerilim kontrolü",
+        "D": "PWM"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 44,
+      "soru_metni": "ESP32’nin Bluetooth türü nedir?",
+      "seçenekler": {
+        "A": "Klasik Bluetooth",
+        "B": "BLE",
+        "C": "Her ikisi",
+        "D": "NFC"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 45,
+      "soru_metni": "Aşağıdaki motorlardan hangisi sürekli dönmez?",
+      "seçenekler": {
+        "A": "DC",
+        "B": "Step",
+        "C": "Servo",
+        "D": "Brushless"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 46,
+      "soru_metni": "ESP32 ile analog okuma yapmak için kullanılan fonksiyon?",
+      "seçenekler": {
+        "A": "analogWrite()",
+        "B": "analogRead()",
+        "C": "digitalRead()",
+        "D": "analogPin()"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 47,
+      "soru_metni": "Aşağıdakilerden hangisi Arduino ile uyumlu bir sensördür?",
+      "seçenekler": {
+        "A": "HC-SR04",
+        "B": "SIM800",
+        "C": "SIM9000",
+        "D": "ESP-NOW"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 48,
+      "soru_metni": "Buzzer’dan farklı frekanslarda ses çıkarmak için hangi fonksiyon kullanılır?",
+      "seçenekler": {
+        "A": "buzz()",
+        "B": "tone()",
+        "C": "delay()",
+        "D": "beep()"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 49,
+      "soru_metni": "“for” döngüsü ne işe yarar?",
+      "seçenekler": {
+        "A": "Koşul kontrolü",
+        "B": "Fonksiyon çağırma",
+        "C": "Belirli sayıda tekrar",
+        "D": "Giriş okumak"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 50,
+      "soru_metni": "ESP32'nin işlemci mimarisi nedir?",
+      "seçenekler": {
+        "A": "AVR",
+        "B": "ARM",
+        "C": "Xtensa",
+        "D": "RISC-V"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 51,
+      "soru_metni": "Arduino'nun hafızasında kalıcı veri saklamak için ne kullanılır?",
+      "seçenekler": {
+        "A": "RAM",
+        "B": "SRAM",
+        "C": "EEPROM",
+        "D": "Flash kart"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 52,
+      "soru_metni": "Analog pinler hangi voltaj aralığında çalışır?",
+      "seçenekler": {
+        "A": "0–10V",
+        "B": "0–12V",
+        "C": "0–5V",
+        "D": "0–3V"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 53,
+      "soru_metni": "Bir LED devresinde direnç neden kullanılır?",
+      "seçenekler": {
+        "A": "Akımı artırmak için",
+        "B": "Voltajı artırmak için",
+        "C": "LED'i korumak için",
+        "D": "Isı üretmek için"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 54,
+      "soru_metni": "Arduino programları ne olarak kaydedilir?",
+      "seçenekler": {
+        "A": ".txt",
+        "B": ".ino",
+        "C": ".cpp",
+        "D": ".hex"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 55,
+      "soru_metni": "“==” operatörü neyi kontrol eder?",
+      "seçenekler": {
+        "A": "Atama yapar",
+        "B": "Eşitlik",
+        "C": "Farklılık",
+        "D": "Artış"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 56,
+      "soru_metni": "PWM çıkışı nerelerde kullanılır?",
+      "seçenekler": {
+        "A": "Sıcaklık ölçümü",
+        "B": "LED parlaklığı kontrolü",
+        "C": "Wi-Fi",
+        "D": "EEPROM"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 57,
+      "soru_metni": "“digitalWrite(13, HIGH);” ne yapar?",
+      "seçenekler": {
+        "A": "13. pin LOW olur",
+        "B": "13. pin PWM olur",
+        "C": "13. pin HIGH olur",
+        "D": "Pin iptal edilir"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 58,
+      "soru_metni": "Arduino'ya enerji vermek için hangisi kullanılır?",
+      "seçenekler": {
+        "A": "USB",
+        "B": "VGA",
+        "C": "HDMI",
+        "D": "LAN"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 59,
+      "soru_metni": "Aşağıdakilerden hangisi motor değildir?",
+      "seçenekler": {
+        "A": "Servo",
+        "B": "Step",
+        "C": "Potansiyometre",
+        "D": "DC"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 60,
+      "soru_metni": "I2C protokolünde her cihazın benzersiz bir… vardır.",
+      "seçenekler": {
+        "A": "Sıcaklık değeri",
+        "B": "Adresi",
+        "C": "LED'i",
+        "D": "Rölesi"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 61,
+      "soru_metni": "Aşağıdaki komutlardan hangisi analog çıkış sağlar?",
+      "seçenekler": {
+        "A": "digitalRead()",
+        "B": "analogRead()",
+        "C": "analogWrite()",
+        "D": "pinMode()"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 62,
+      "soru_metni": "Arduino’da bir LED'i söndürmek için hangi komut kullanılır?",
+      "seçenekler": {
+        "A": "digitalWrite(pin, HIGH)",
+        "B": "digitalWrite(pin, LOW)",
+        "C": "pinMode(pin, OUTPUT)",
+        "D": "analogRead(pin)"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 63,
+      "soru_metni": "Servo motorun pozisyonunu belirlemek için hangi kütüphane kullanılır?",
+      "seçenekler": {
+        "A": "Servo.h",
+        "B": "Motor.h",
+        "C": "PWM.h",
+        "D": "Analog.h"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 64,
+      "soru_metni": "HC-SR04’te ses dalgasının gidip gelme süresi ölçülerek ne hesaplanır?",
+      "seçenekler": {
+        "A": "Işık yoğunluğu",
+        "B": "Mesafe",
+        "C": "Basınç",
+        "D": "Açı"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 65,
+      "soru_metni": "ESP32, birden fazla çekirdekli işlemciye sahip midir?",
+      "seçenekler": {
+        "A": "Hayır",
+        "B": "Evet",
+        "C": "Sadece bazı modeller",
+        "D": "Kararsız"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 66,
+      "soru_metni": "Buzzer ile ses çıkışı üretmek için gereken sinyal tipi nedir?",
+      "seçenekler": {
+        "A": "Sabit voltaj",
+        "B": "PWM",
+        "C": "Analog giriş",
+        "D": "Dijital okuma"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 67,
+      "soru_metni": "“while” döngüsü hangi durumda çalışır?",
+      "seçenekler": {
+        "A": "Bir fonksiyon çağrıldığında",
+        "B": "Belirli koşul sağlandığında",
+        "C": "Program başladığında",
+        "D": "Delay süresi dolunca"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 68,
+      "soru_metni": "Arduino ile SD kart haberleşmesi için hangi protokol kullanılır?",
+      "seçenekler": {
+        "A": "I2C",
+        "B": "SPI",
+        "C": "UART",
+        "D": "PWM"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 69,
+      "soru_metni": "ESP32 ile Wi-Fi bağlantısı kurmak için kullanılan sınıf nedir?",
+      "seçenekler": {
+        "A": "Serial",
+        "B": "WiFi",
+        "C": "Ethernet",
+        "D": "ESP_NOW"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 70,
+      "soru_metni": "Step motor kontrolü için hangi modül yaygın olarak kullanılır?",
+      "seçenekler": {
+        "A": "L298N",
+        "B": "A4988",
+        "C": "NRF24L01",
+        "D": "BME280"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 71,
+      "soru_metni": "Aşağıdakilerden hangisi seri haberleşme portudur?",
+      "seçenekler": {
+        "A": "I2C",
+        "B": "SPI",
+        "C": "UART",
+        "D": "CAN"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 72,
+      "soru_metni": "Arduino ile zamanlayıcı programlamak için hangi komut kullanılır?",
+      "seçenekler": {
+        "A": "delay()",
+        "B": "if()",
+        "C": "switch()",
+        "D": "digitalWrite()"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 73,
+      "soru_metni": "Işık şiddetini ölçen sensör hangisidir?",
+      "seçenekler": {
+        "A": "LDR",
+        "B": "DHT11",
+        "C": "PIR",
+        "D": "HC-05"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 74,
+      "soru_metni": "ESP32 ile çoklu analog okuma yapılabilir mi?",
+      "seçenekler": {
+        "A": "Hayır",
+        "B": "Evet",
+        "C": "Sadece A0 ile",
+        "D": "Sadece dijital pinlerle"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 75,
+      "soru_metni": "RGB LED’lerde “G” harfi hangi rengi temsil eder?",
+      "seçenekler": {
+        "A": "Gri",
+        "B": "Green",
+        "C": "Gold",
+        "D": "Gray"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 76,
+      "soru_metni": "5V ile çalışan bir sensörü ESP32'ye doğrudan bağlamak güvenli midir?",
+      "seçenekler": {
+        "A": "Evet",
+        "B": "Hayır",
+        "C": "Sadece dijital pinlerde",
+        "D": "GND bağlanırsa olur"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 77,
+      "soru_metni": "ESP32'nin Wi-Fi modülü ile yapılan sunucu türü nedir?",
+      "seçenekler": {
+        "A": "Analog sunucu",
+        "B": "HTTP sunucu",
+        "C": "LoRa sunucu",
+        "D": "Analog Web"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 78,
+      "soru_metni": "DC motorun dönüş yönünü değiştirmek için ne kullanılır?",
+      "seçenekler": {
+        "A": "LED",
+        "B": "Röle",
+        "C": "LDR",
+        "D": "Potansiyometre"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 79,
+      "soru_metni": "Aşağıdakilerden hangisi ESP32’ye özgü değildir?",
+      "seçenekler": {
+        "A": "Bluetooth",
+        "B": "Çift çekirdek",
+        "C": "PWM",
+        "D": "ATmega328P"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 80,
+      "soru_metni": "“else” yapısı hangi durumda çalışır?",
+      "seçenekler": {
+        "A": "if doğruysa",
+        "B": "if yanlışsa",
+        "C": "while bitince",
+        "D": "for döngüsü sonrası"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 81,
+      "soru_metni": "DHT11 sensörü hangi veri tipini verir?",
+      "seçenekler": {
+        "A": "analog",
+        "B": "dijital",
+        "C": "PWM",
+        "D": "binary"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 82,
+      "soru_metni": "Arduino ile çalışan LCD ekranın yaygın karakter sayısı nedir?",
+      "seçenekler": {
+        "A": "10x2",
+        "B": "16x2",
+        "C": "8x1",
+        "D": "12x4"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 83,
+      "soru_metni": "ESP32’de GPIO kaç volta kadar çalışır?",
+      "seçenekler": {
+        "A": "12V",
+        "B": "5V",
+        "C": "3.3V",
+        "D": "2.5V"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 84,
+      "soru_metni": "Arduino’da bir değeri sürekli artırmak için ne yapılır?",
+      "seçenekler": {
+        "A": "delay()",
+        "B": "if()",
+        "C": "x++",
+        "D": "analogRead()"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 85,
+      "soru_metni": "Röle modülü hangi cihazları kontrol edebilir?",
+      "seçenekler": {
+        "A": "Sadece 5V’luk cihazlar",
+        "B": "Sadece sensörler",
+        "C": "Yüksek akım çeken cihazlar",
+        "D": "PWM sinyalleri"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 86,
+      "soru_metni": "Potansiyometre ile hangi değer okunabilir?",
+      "seçenekler": {
+        "A": "dijital",
+        "B": "analog",
+        "C": "sıcaklık",
+        "D": "konum"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 87,
+      "soru_metni": "PWM sinyalinde duty cycle %100 olursa ne olur?",
+      "seçenekler": {
+        "A": "Sıfır çıkış",
+        "B": "Maksimum çıkış",
+        "C": "Yarı çıkış",
+        "D": "Rastgele çıkış"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 88,
+      "soru_metni": "“digitalWrite(pin, LOW)” ne yapar?",
+      "seçenekler": {
+        "A": "Pin voltajını düşürür",
+        "B": "PWM üretir",
+        "C": "Pin’i okur",
+        "D": "Analog veri yollar"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 89,
+      "soru_metni": "“Serial.print()” fonksiyonu ne yapar?",
+      "seçenekler": {
+        "A": "LED yakar",
+        "B": "Motor döndürür",
+        "C": "Seri porttan veri yazar",
+        "D": "Delay ekler"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 90,
+      "soru_metni": "Aşağıdakilerden hangisi dijital sensördür?",
+      "seçenekler": {
+        "A": "LDR",
+        "B": "DHT11",
+        "C": "Potansiyometre",
+        "D": "LM35"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 91,
+      "soru_metni": "“tone(pin, 1000)” komutu ne yapar?",
+      "seçenekler": {
+        "A": "LED yakar",
+        "B": "1kHz ses üretir",
+        "C": "Analog veri okur",
+        "D": "PWM verir"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 92,
+      "soru_metni": "Arduino’da bir değişkeni sıfırlamak için ne yapılır?",
+      "seçenekler": {
+        "A": "x = 1",
+        "B": "x = 0",
+        "C": "x = x + 1",
+        "D": "x–"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 93,
+      "soru_metni": "L298N motor sürücü modülünde kaç motor kontrol edilebilir?",
+      "seçenekler": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "doğru_cevap": "B"
+    },
+    {
+      "soru_numarası": 94,
+      "soru_metni": "Bir servoyu 180 derece çevirmek için hangi komut kullanılır?",
+      "seçenekler": {
+        "A": "rotate(180)",
+        "B": "setAngle(180)",
+        "C": "write(180)",
+        "D": "drive(180)"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 95,
+      "soru_metni": "Arduino’da bir fonksiyon nasıl tanımlanır?",
+      "seçenekler": {
+        "A": "fonksiyon isim;",
+        "B": "function isim()",
+        "C": "void isim()",
+        "D": "define isim"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 96,
+      "soru_metni": "“#include <Servo.h>” ne işe yarar?",
+      "seçenekler": {
+        "A": "Servo motor fonksiyonlarını yükler",
+        "B": "LED kontrolünü sağlar",
+        "C": "Motoru döndürür",
+        "D": "Wi-Fi açar"
+      },
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 97,
+      "soru_metni": "PIR sensörü neye tepki verir?",
+      "seçenekler": {
+        "A": "Ses",
+        "B": "Işık",
+        "C": "Isı değişimi ve hareket",
+        "D": "Hava basıncı"
+      },
+      "doğru_cevap": "C"
+    },
+    {
+      "soru_numarası": 98,
+      "soru_metni": "Arduino UNO’nun çalışma voltajı nedir?",
+      "seçenekler": {
+        "A": "9V",
+        "B": "12V",
+        "C": "3.3V",
+        "D": "5V"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 99,
+      "soru_metni": "Aşağıdakilerden hangisi ESP32 ile uyumlu değildir?",
+      "seçenekler": {
+        "A": "DHT11",
+        "B": "HC-SR04",
+        "C": "5V Röle",
+        "D": "5V doğrudan dijital giriş"
+      },
+      "doğru_cevap": "D"
+    },
+    {
+      "soru_numarası": 100,
+      "soru_metni": "Arduino IDE’de programı karta yüklemek için hangi tuş kullanılır?",
+      "seçenekler": {
+        "A": "Derle",
+        "B": "Aç",
+        "C": "Yükle",
+        "D": "Kaydet"
+      },
+      "doğru_cevap": "C"
+    }
+  ],
+  "boşluk_doldurma_final_100_soru": [
+    {
+      "soru_numarası": 1,
+      "soru_metni": "Arduino'da dijital bir pini çıkış olarak ayarlamak için kullanılan komut: `__________`",
+      "doğru_cevap": "pinMode(pin, OUTPUT);"
+    },
+    {
+      "soru_numarası": 2,
+      "soru_metni": "ESP32’nin Wi-Fi bağlantısı kurması için kullanılan kütüphane: `__________`",
+      "doğru_cevap": "WiFi.h"
+    },
+    {
+      "soru_numarası": 3,
+      "soru_metni": "LED yakmak için kullanılan komut: `__________`",
+      "doğru_cevap": "digitalWrite()"
+    },
+    {
+      "soru_numarası": 4,
+      "soru_metni": "Arduino’da analog değer okumak için kullanılan fonksiyon: `__________`",
+      "doğru_cevap": "analogRead()"
+    },
+    {
+      "soru_numarası": 5,
+      "soru_metni": "PWM sinyali, genellikle `__________` fonksiyonu ile üretilir.",
+      "doğru_cevap": "analogWrite"
+    },
+    {
+      "soru_numarası": 6,
+      "soru_metni": "`__________` sensörü, sıcaklık ve nem ölçümü yapar.",
+      "doğru_cevap": "DHT11"
+    },
+    {
+      "soru_numarası": 7,
+      "soru_metni": "Arduino’da sürekli çalışan ana döngü fonksiyonu: `__________`",
+      "doğru_cevap": "loop()"
+    },
+    {
+      "soru_numarası": 8,
+      "soru_metni": "ESP32, `__________` volt ile çalışır.",
+      "doğru_cevap": "3.3V"
+    },
+    {
+      "soru_numarası": 9,
+      "soru_metni": "Arduino UNO’nun işlemcisi `__________` çipidir.",
+      "doğru_cevap": "ATmega328P"
+    },
+    {
+      "soru_numarası": 10,
+      "soru_metni": "Servo motorlar, `__________` sinyali ile kontrol edilir.",
+      "doğru_cevap": "PWM"
+    },
+    {
+      "soru_numarası": 11,
+      "soru_metni": "Arduino IDE’de program dosyasının uzantısı `__________` şeklindedir.",
+      "doğru_cevap": ".ino"
+    },
+    {
+      "soru_numarası": 12,
+      "soru_metni": "`__________` sensörü, ışık seviyesini ölçer.",
+      "doğru_cevap": "LDR"
+    },
+    {
+      "soru_numarası": 13,
+      "soru_metni": "`__________` komutu ile seri haberleşme başlatılır.",
+      "doğru_cevap": "Serial.begin()"
+    },
+    {
+      "soru_numarası": 14,
+      "soru_metni": "Arduino’da zaman gecikmesi vermek için `__________` komutu kullanılır.",
+      "doğru_cevap": "delay()"
+    },
+    {
+      "soru_numarası": 15,
+      "soru_metni": "`__________` motorlar, açısal adımlarla döner.",
+      "doğru_cevap": "Step"
+    },
+    {
+      "soru_numarası": 16,
+      "soru_metni": "Mesafe ölçmek için kullanılan sensör: `__________`",
+      "doğru_cevap": "HC-SR04"
+    },
+    {
+      "soru_numarası": 17,
+      "soru_metni": "ESP32’de Bluetooth için kullanılan tür: `__________`",
+      "doğru_cevap": "BLE"
+    },
+    {
+      "soru_numarası": 18,
+      "soru_metni": "Röle modülü ile `__________` gerilimli cihazlar kontrol edilebilir.",
+      "doğru_cevap": "yüksek"
+    },
+    {
+      "soru_numarası": 19,
+      "soru_metni": "`__________` komutu ile dijital bir pin okunabilir.",
+      "doğru_cevap": "digitalRead()"
+    },
+    {
+      "soru_numarası": 20,
+      "soru_metni": "Potansiyometre `__________` çıkış verir.",
+      "doğru_cevap": "analog"
+    },
+    {
+      "soru_numarası": 21,
+      "soru_metni": "`__________` modülü kablosuz haberleşme sağlar.",
+      "doğru_cevap": "nRF24L01"
+    },
+    {
+      "soru_numarası": 22,
+      "soru_metni": "`__________` fonksiyonu setup() fonksiyonundan önce sadece bir kere çalışır.",
+      "doğru_cevap": "setup()"
+    },
+    {
+      "soru_numarası": 23,
+      "soru_metni": "RGB LED, `__________`, `__________`, `__________` renklerinden oluşur.",
+      "doğru_cevap": "Red, Green, Blue"
+    },
+    {
+      "soru_numarası": 24,
+      "soru_metni": "PWM sinyallerinde, sinyalin açık kalma süresi oranı `__________` olarak adlandırılır.",
+      "doğru_cevap": "duty cycle"
+    },
+    {
+      "soru_numarası": 25,
+      "soru_metni": "A4988 modülü genellikle `__________` motorları sürmek için kullanılır.",
+      "doğru_cevap": "stepper"
+    },
+    {
+      "soru_numarası": 26,
+      "soru_metni": "Arduino ile kullanılan I2C adresleri `__________` bitliktir.",
+      "doğru_cevap": "7"
+    },
+    {
+      "soru_numarası": 27,
+      "soru_metni": "Ultrasonik sensörlerde sesin gidiş-dönüş süresi ile `__________` hesaplanır.",
+      "doğru_cevap": "mesafe"
+    },
+    {
+      "soru_numarası": 28,
+      "soru_metni": "`__________` komutu ile servo motora açı verilir.",
+      "doğru_cevap": "write()"
+    },
+    {
+      "soru_numarası": 29,
+      "soru_metni": "Servo motor kütüphanesi: `#include <__________>`",
+      "doğru_cevap": "Servo.h"
+    },
+    {
+      "soru_numarası": 30,
+      "soru_metni": "Arduino’ya enerji USB dışında `__________` jakı ile de verilebilir.",
+      "doğru_cevap": "DC"
+    },
+    {
+      "soru_numarası": 31,
+      "soru_metni": "`__________` yapısı, belirli bir koşul doğru olduğu sürece çalışır.",
+      "doğru_cevap": "while"
+    },
+    {
+      "soru_numarası": 32,
+      "soru_metni": "Arduino’da bir değişkenin değeri bir artırılmak istenirse `__________` ifadesi kullanılır.",
+      "doğru_cevap": "x++"
+    },
+    {
+      "soru_numarası": 33,
+      "soru_metni": "`__________` ekranı, genellikle 16x2 boyutlarındadır.",
+      "doğru_cevap": "LCD"
+    },
+    {
+      "soru_numarası": 34,
+      "soru_metni": "`__________` değişkenleri sadece loop içinde tanımlandığında her döngüde sıfırlanır.",
+      "doğru_cevap": "local"
+    },
+    {
+      "soru_numarası": 35,
+      "soru_metni": "`__________` modülü, ısı ve nem verisi sağlar.",
+      "doğru_cevap": "DHT11"
+    },
+    {
+      "soru_numarası": 36,
+      "soru_metni": "`__________` sensörü hareket algılar.",
+      "doğru_cevap": "PIR"
+    },
+    {
+      "soru_numarası": 37,
+      "soru_metni": "`__________` sensörü gaz yoğunluğunu algılar.",
+      "doğru_cevap": "MQ-2"
+    },
+    {
+      "soru_numarası": 38,
+      "soru_metni": "`__________` komutu, belirli bir süre ses üretmek için kullanılır.",
+      "doğru_cevap": "tone()"
+    },
+    {
+      "soru_numarası": 39,
+      "soru_metni": "`__________` hafızası, enerji kesildiğinde bile veri tutar.",
+      "doğru_cevap": "EEPROM"
+    },
+    {
+      "soru_numarası": 40,
+      "soru_metni": "ESP32, çift çekirdekli `__________` mimarisi kullanır.",
+      "doğru_cevap": "Xtensa"
+    },
+    {
+      "soru_numarası": 41,
+      "soru_metni": "Arduino kartları genellikle `__________` kablosu ile bilgisayara bağlanır.",
+      "doğru_cevap": "USB"
+    },
+    {
+      "soru_numarası": 42,
+      "soru_metni": "L298N motor sürücüsü ile `__________` motor kontrol edilir.",
+      "doğru_cevap": "DC"
+    },
+    {
+      "soru_numarası": 43,
+      "soru_metni": "`__________` komutu, bir mesajı seri port üzerinden gönderir.",
+      "doğru_cevap": "Serial.print()"
+    },
+    {
+      "soru_numarası": 44,
+      "soru_metni": "Arduino’da matematiksel işlemler için `__________` kütüphanesi kullanılır.",
+      "doğru_cevap": "math.h"
+    },
+    {
+      "soru_numarası": 45,
+      "soru_metni": "Program içinde tekrar eden kodları tanımlamak için `__________` fonksiyonları kullanılır.",
+      "doğru_cevap": "user-defined"
+    },
+    {
+      "soru_numarası": 46,
+      "soru_metni": "`__________` ekranlar, dokunmatik özellik de sunabilir.",
+      "doğru_cevap": "TFT"
+    },
+    {
+      "soru_numarası": 47,
+      "soru_metni": "Röle modülü genellikle `__________` sinyali ile kontrol edilir.",
+      "doğru_cevap": "dijital"
+    },
+    {
+      "soru_numarası": 48,
+      "soru_metni": "`__________` sensörü, yön ve ivmeyi ölçer.",
+      "doğru_cevap": "MPU6050"
+    },
+    {
+      "soru_numarası": 49,
+      "soru_metni": "`__________` değeri, analog sinyallerde 0 ile 1023 arasındadır.",
+      "doğru_cevap": "ADC"
+    },
+    {
+      "soru_numarası": 50,
+      "soru_metni": "UART haberleşme, `__________` ve `__________` pinleriyle sağlanır.",
+      "doğru_cevap": "TX, RX"
+    },
+    {
+      "soru_numarası": 51,
+      "soru_metni": "Arduino'da bir pinin giriş olarak ayarlanması için `__________` komutu kullanılır.",
+      "doğru_cevap": "pinMode(pin, INPUT);"
+    },
+    {
+      "soru_numarası": 52,
+      "soru_metni": "ESP32 üzerinde bulunan analog giriş pinleri genellikle `__________` harfi ile başlar.",
+      "doğru_cevap": "A"
+    },
+    {
+      "soru_numarası": 53,
+      "soru_metni": "`__________` sensörü sıcaklık ölçümünde analog veri verir.",
+      "doğru_cevap": "LM35"
+    },
+    {
+      "soru_numarası": 54,
+      "soru_metni": "LCD ekranların iletişimi genellikle `__________` protokolü ile yapılır.",
+      "doğru_cevap": "I2C"
+    },
+    {
+      "soru_numarası": 55,
+      "soru_metni": "`__________` döngüsü belirli sayıda tekrar yapılmak istenirse kullanılır.",
+      "doğru_cevap": "for"
+    },
+    {
+      "soru_numarası": 56,
+      "soru_metni": "`__________` kartı ile Arduino arasında Wi-Fi üzerinden veri iletilebilir.",
+      "doğru_cevap": "ESP32"
+    },
+    {
+      "soru_numarası": 57,
+      "soru_metni": "Step motorlar `__________` sürücü modülü ile hassas açılarla döndürülebilir.",
+      "doğru_cevap": "A4988"
+    },
+    {
+      "soru_numarası": 58,
+      "soru_metni": "`__________` kartı, mikrodenetleyici olmayan sadece sensör, motor bağlamak için kullanılır.",
+      "doğru_cevap": "breadboard"
+    },
+    {
+      "soru_numarası": 59,
+      "soru_metni": "ESP32, `__________` MHz frekansta çalışır.",
+      "doğru_cevap": "240"
+    },
+    {
+      "soru_numarası": 60,
+      "soru_metni": "Analog değerlerin dijital karşılığı `__________` ile elde edilir.",
+      "doğru_cevap": "ADC"
+    },
+    {
+      "soru_numarası": 61,
+      "soru_metni": "ESP32, Bluetooth iletişiminde `__________` modunu kullanabilir.",
+      "doğru_cevap": "BLE"
+    },
+    {
+      "soru_numarası": 62,
+      "soru_metni": "`__________` sensörü hava kalitesini ölçer.",
+      "doğru_cevap": "MQ135"
+    },
+    {
+      "soru_numarası": 63,
+      "soru_metni": "Arduino IDE’de yeni bir proje başlatmak için `__________` menüsü kullanılır.",
+      "doğru_cevap": "File > New"
+    },
+    {
+      "soru_numarası": 64,
+      "soru_metni": "`__________` kartı, Arduino’dan farklı olarak Linux tabanlı sistem çalıştırabilir.",
+      "doğru_cevap": "Raspberry Pi"
+    },
+    {
+      "soru_numarası": 65,
+      "soru_metni": "LoRa haberleşmesi, `__________` mesafelerde veri aktarımı için uygundur.",
+      "doğru_cevap": "uzun"
+    },
+    {
+      "soru_numarası": 66,
+      "soru_metni": "HC-SR04’te “Trig” pini `__________` çıkış verir.",
+      "doğru_cevap": "dijital"
+    },
+    {
+      "soru_numarası": 67,
+      "soru_metni": "Arduino’da dış kütüphaneler `#include` komutu ile `__________` edilir.",
+      "doğru_cevap": "eklenir"
+    },
+    {
+      "soru_numarası": 68,
+      "soru_metni": "`__________` sensörü, basınç ölçümünde kullanılır.",
+      "doğru_cevap": "BMP180"
+    },
+    {
+      "soru_numarası": 69,
+      "soru_metni": "PWM sinyaller, `__________` pinlerinden elde edilir.",
+      "doğru_cevap": "dijital"
+    },
+    {
+      "soru_numarası": 70,
+      "soru_metni": "ESP32, `__________` sayıda ADC kanalı içerir.",
+      "doğru_cevap": "18"
+    },
+    {
+      "soru_numarası": 71,
+      "soru_metni": "`__________` ekranlar, görsel bilgi sunumunda kullanılır.",
+      "doğru_cevap": "OLED"
+    },
+    {
+      "soru_numarası": 72,
+      "soru_metni": "I2C iletişimde “SDA” veri hattı, “SCL” ise `__________` hattıdır.",
+      "doğru_cevap": "clock"
+    },
+    {
+      "soru_numarası": 73,
+      "soru_metni": "Işık şiddetine göre çalışan sistemlerde genellikle `__________` kullanılır.",
+      "doğru_cevap": "LDR"
+    },
+    {
+      "soru_numarası": 74,
+      "soru_metni": "`__________` sensörü su seviyesini ölçebilir.",
+      "doğru_cevap": "su seviye sensörü"
+    },
+    {
+      "soru_numarası": 75,
+      "soru_metni": "`__________` devresi motor akımını sınırlamak için kullanılır.",
+      "doğru_cevap": "transistör ya da motor sürücü"
+    },
+    {
+      "soru_numarası": 76,
+      "soru_metni": "Buzzer'dan ses almak için `__________` fonksiyonu ve frekans değeri gerekir.",
+      "doğru_cevap": "tone"
+    },
+    {
+      "soru_numarası": 77,
+      "soru_metni": "Arduino’nun çalışma mantığı `__________` giriş al, işle, çıkış ver prensibine dayanır.",
+      "doğru_cevap": "algıla"
+    },
+    {
+      "soru_numarası": 78,
+      "soru_metni": "Bluetooth haberleşmede genellikle `__________` modül kullanılır.",
+      "doğru_cevap": "HC-05"
+    },
+    {
+      "soru_numarası": 79,
+      "soru_metni": "`__________` yazılımı Arduino geliştirme ortamıdır.",
+      "doğru_cevap": "Arduino IDE"
+    },
+    {
+      "soru_numarası": 80,
+      "soru_metni": "`__________` fonksiyonu programda sadece bir kez çalışır.",
+      "doğru_cevap": "setup()"
+    },
+    {
+      "soru_numarası": 81,
+      "soru_metni": "Röle modülü ile `__________` voltajlı cihazlar kontrol edilebilir.",
+      "doğru_cevap": "220V"
+    },
+    {
+      "soru_numarası": 82,
+      "soru_metni": "`__________` komutu, bir pinin çıkış durumunu belirler.",
+      "doğru_cevap": "digitalWrite"
+    },
+    {
+      "soru_numarası": 83,
+      "soru_metni": "PWM sinyaller `__________` kontrolünde motor hızı ayarlamak için kullanılır.",
+      "doğru_cevap": "duty cycle"
+    },
+    {
+      "soru_numarası": 84,
+      "soru_metni": "Arduino Uno, `__________` dijital pine sahiptir.",
+      "doğru_cevap": "14"
+    },
+    {
+      "soru_numarası": 85,
+      "soru_metni": "Servo motorlar genellikle `__________` derece aralığında çalışır.",
+      "doğru_cevap": "0–180"
+    },
+    {
+      "soru_numarası": 86,
+      "soru_metni": "`__________` komutu belirli bir karakteri seri monitöre yazdırır.",
+      "doğru_cevap": "Serial.print()"
+    },
+    {
+      "soru_numarası": 87,
+      "soru_metni": "`__________` programlama diline çok benzeyen yapıyla çalışır.",
+      "doğru_cevap": "C/C++"
+    },
+    {
+      "soru_numarası": 88,
+      "soru_metni": "Arduino’da sıcaklık ölçmek için `__________` sensörü yaygın kullanılır.",
+      "doğru_cevap": "DHT11"
+    },
+    {
+      "soru_numarası": 89,
+      "soru_metni": "`__________` gibi değişken türleri sayı tutar.",
+      "doğru_cevap": "int"
+    },
+    {
+      "soru_numarası": 90,
+      "soru_metni": "ESP32’de GPIO’lar hem dijital giriş hem de çıkış olarak `__________`.",
+      "doğru_cevap": "kullanılabilir"
+    },
+    {
+      "soru_numarası": 91,
+      "soru_metni": "Arduino IDE’de program çalıştırıldığında hata oluşursa, hata bilgisi `__________` kısmında gösterilir.",
+      "doğru_cevap": "console/alt panel"
+    },
+    {
+      "soru_numarası": 92,
+      "soru_metni": "PWM pinleri genellikle `__________` sembolü ile işaretlenir.",
+      "doğru_cevap": "~"
+    },
+    {
+      "soru_numarası": 93,
+      "soru_metni": "Kodda tekrarlayan işlemleri azaltmak için `__________` tanımlanabilir.",
+      "doğru_cevap": "fonksiyon"
+    },
+    {
+      "soru_numarası": 94,
+      "soru_metni": "ESP32'nin en önemli avantajlarından biri `__________` bağlantısıdır.",
+      "doğru_cevap": "Wi-Fi"
+    },
+    {
+      "soru_numarası": 95,
+      "soru_metni": "HC-SR04’te yankı süresi mikro saniye olarak `__________` fonksiyonu ile ölçülür.",
+      "doğru_cevap": "pulseIn()"
+    },
+    {
+      "soru_numarası": 96,
+      "soru_metni": "Arduino kartları, yazılım yükleme için `__________` tuşu ile programlanır.",
+      "doğru_cevap": "Yükle/Upload"
+    },
+    {
+      "soru_numarası": 97,
+      "soru_metni": "`__________` komutu if yapısıyla birlikte kullanılır.",
+      "doğru_cevap": "else"
+    },
+    {
+      "soru_numarası": 98,
+      "soru_metni": "GPIO, “General Purpose Input Output” ifadesinin `__________` halidir.",
+      "doğru_cevap": "kısaltması"
+    },
+    {
+      "soru_numarası": 99,
+      "soru_metni": "Elektronik devrelerde `__________` çizimi devre şeması anlamına gelir.",
+      "doğru_cevap": "fritzing"
+    },
+    {
+      "soru_numarası": 100,
+      "soru_metni": "Arduino projelerinde enerji kaynağı olarak genellikle `__________` veya adaptör kullanılır.",
+      "doğru_cevap": "pil"
+    }
+  ]
+}
