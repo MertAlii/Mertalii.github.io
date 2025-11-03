@@ -1,6 +1,6 @@
 // API yapılandırması
 // Environment variable'dan API URL'ini al, yoksa varsayılan değeri kullan
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://mil-print-convergence-circulation.trycloudflare.com';
 
 // API helper fonksiyonları
 export const api = {
