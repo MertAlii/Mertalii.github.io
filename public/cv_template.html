@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mert Ali Alkan - CV</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        :root {
+            --primary: #2563eb;
+            --text-dark: #1f2937;
+            --text-gray: #4b5563;
+            --bg-gray: #f3f4f6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.5;
+            background: #fff;
+            max-width: 210mm;
+            /* A4 width */
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        /* Header */
+        header {
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--bg-gray);
+            padding-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.9rem;
+            color: var(--text-gray);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-dark);
+            border-bottom: 1px solid var(--text-dark);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Experience & Education Items */
+        .item {
+            margin-bottom: 1.5rem;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.25rem;
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--text-dark);
+        }
+
+        .date {
+            font-size: 0.9rem;
+            color: var(--text-gray);
+            font-weight: 500;
+        }
+
+        .company {
+            font-weight: 600;
+            color: var(--text-gray);
+            margin-bottom: 0.5rem;
+        }
+
+        .description {
+            font-size: 0.95rem;
+            color: var(--text-gray);
+            text-align: justify;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: var(--bg-gray);
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        /* Summary */
+        .summary {
+            font-size: 1rem;
+            color: var(--text-gray);
+            line-height: 1.6;
+        }
+
+        /* Certifications List */
+        .cert-list {
+            list-style: none;
+        }
+
+        .cert-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.75rem;
+        }
+
+        .cert-name {
+            font-weight: 600;
+        }
+
+        .cert-org {
+            color: var(--text-gray);
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+
+            @page {
+                margin: 15mm;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mert Ali Alkan</h1>
+        <div class="subtitle">Software Developer</div>
+        <div class="contact-info">
+            <div class="contact-item">📍 İstanbul, Türkiye</div>
+            <div class="contact-item">📧 mertali.al5555@gmail.com</div>
+            <div class="contact-item">🔗 linkedin.com/in/mer1alii</div>
+            <div class="contact-item">💻 github.com/MertAlii</div>
+        </div>
+    </header>
+
+    <section>
+        <h2>Hakkımda</h2>
+        <p class="summary">
+            İstanbul'da yaşayan, teknolojiye tutkun genç bir yazılım geliştiriciyim. Sivas Cumhuriyet Üniversitesi
+            <em>Bilişim Sistemleri ve Teknolojileri</em> bölümünde akademik eğitimime devam ediyorum.
+            Yazılım geliştirme sürecinin her aşamasından keyif alıyor, hem Back-end mimarileri hem de kullanıcı
+            deneyimini ön planda tutan Modern Web Teknolojileri ile ilgileniyorum.
+            Karmaşık problemleri analiz etmek, verimli algoritmalar kurmak ve sürdürülebilir sistemler inşa etmek en
+            büyük motivasyonum.
+        </p>
+    </section>
+
+    <section>
+        <h2>Yetenekler</h2>
+        <div class="skills-grid">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">.NET</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Deneyim</h2>
+        <div class="item">
+            <div class="item-header">
+                <span class="title">Software Developer</span>
+                <span class="date">Ağu 2025 - Ara 2025</span>
+            </div>
+            <div class="company">Developer Community · Gönüllü/Tam Zamanlı</div>
+            <p class="description">
+                Birlikte öğrenmek, üretmek ve paylaşmak için güzel bir adım oldu. Kariyerime aşağıda belirtilen
+                teknolojiler üzerine odaklanarak başladım. Gönüllülük çalışmalarında aktif rol aldım.
+                <br>
+                <em>Teknolojiler: C#, .NET, ASP.NET MVC, SQL, Microsoft SQL Server</em>
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Eğitim</h2>
+        <div class="item">
+            <div class="item-header">
+                <span class="title">Bilişim Sistemleri ve Teknolojileri</span>
+                <span class="date">2023 - Devam Ediyor</span>
+            </div>
+            <div class="company">Sivas Cumhuriyet Üniversitesi</div>
+            <p class="description">
+                Faaliyet ve topluluklar: Bilişim sistemleri ve Teknolojiler, Santranç
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Sertifikalar</h2>
+        <ul class="cert-list">
+            <li class="cert-item">
+                <div>
+                    <div class="cert-name">Sıfırdan İleri Seviye Python Programlama</div>
+                    <div class="cert-org">BTK Akademi</div>
+                </div>
+                <div class="date">May 2025</div>
+            </li>
+            <li class="cert-item">
+                <div>
+                    <div class="cert-name">101: HTML</div>
+                    <div class="cert-org">Turkcell Geleceği Yazanlar</div>
+                </div>
+                <div class="date">May 2025</div>
+            </li>
+            <li class="cert-item">
+                <div>
+                    <div class="cert-name">IBM with Kodluyoruz: CyberStart</div>
+                    <div class="cert-org">IBM</div>
+                </div>
+                <div class="date">Haz 2024</div>
+            </li>
+            <li class="cert-item">
+                <div>
+                    <div class="cert-name">Blockchain Öğrenin ve İlk Akıllı Kontratınızı Oluşturun</div>
+                    <div class="cert-org">Udemy</div>
+                </div>
+                <div class="date">May 2024</div>
+            </li>
+            <li class="cert-item">
+                <div>
+                    <div class="cert-name">Eğitim ve Yapay Zeka Atölyesi</div>
+                    <div class="cert-org">Etkin Kampüs</div>
+                </div>
+                <div class="date">May 2024</div>
+            </li>
+            <li class="cert-item">
+                <div>
+                    <div class="cert-name">Java Eğitim Serisi Katılım Sertifikası</div>
+                    <div class="cert-org">DSC HASAN KALYONCU UNIVERSITY</div>
+                </div>
+                <div class="date">Nis 2024</div>
+            </li>
+            <li class="cert-item">
+                <div>
+                    <div class="cert-name">Veri Yapilari ve Algoritmalar: Yazilim Mülakatlari</div>
+                    <div class="cert-org">Udemy</div>
+                </div>
+                <div class="date">Nis 2024</div>
+            </li>
+            <li class="cert-item">
+                <div>
+                    <div class="cert-name">GDSC Figma 101 Eğitim Sertifikası</div>
+                    <div class="cert-org">DSC HASAN KALYONCU UNIVERSITY</div>
+                </div>
+                <div class="date">Mar 2023</div>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
